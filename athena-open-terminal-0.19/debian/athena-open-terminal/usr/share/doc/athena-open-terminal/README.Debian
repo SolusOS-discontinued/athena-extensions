@@ -1,6 +1,0 @@
-athena-open-terminal
-----------------------
-
-After installing athena-open-terminal, you have to
-reload athena: run `killall -HUP athena' or relaunch
-your GNOME session (logout and login).
