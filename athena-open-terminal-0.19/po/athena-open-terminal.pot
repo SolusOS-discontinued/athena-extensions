@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-22 01:15+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/athena-open-terminal.c:360
+msgid "Open in _Remote Terminal"
+msgstr ""
+
+#: ../src/athena-open-terminal.c:362
+msgid "Open in _Local Terminal"
+msgstr ""
+
+#: ../src/athena-open-terminal.c:366 ../src/athena-open-terminal.c:377
+msgid "Open the currently selected folder in a terminal"
+msgstr ""
+
+#: ../src/athena-open-terminal.c:368 ../src/athena-open-terminal.c:379
+#: ../src/athena-open-terminal.c:389
+msgid "Open the currently open folder in a terminal"
+msgstr ""
+
+#: ../src/athena-open-terminal.c:374 ../src/athena-open-terminal.c:388
+msgid "Open in T_erminal"
+msgstr ""
+
+#: ../src/athena-open-terminal.c:385
+msgid "Open T_erminal"
+msgstr ""
+
+#: ../src/athena-open-terminal.c:386
+msgid "Open a terminal"
+msgstr ""
+
+#: ../src/athena-open-terminal.c:401 ../src/athena-open-terminal.c:414
+msgid "Open in _Midnight Commander"
+msgstr ""
+
+#: ../src/athena-open-terminal.c:403
+msgid ""
+"Open the currently selected folder in the terminal file manager Midnight "
+"Commander"
+msgstr ""
+
+#: ../src/athena-open-terminal.c:405 ../src/athena-open-terminal.c:415
+msgid ""
+"Open the currently open folder in the terminal file manager Midnight "
+"Commander"
+msgstr ""
+
+#: ../src/athena-open-terminal.c:411
+msgid "Open _Midnight Commander"
+msgstr ""
+
+#: ../src/athena-open-terminal.c:412
+msgid "Open the terminal file manager Midnight Commander"
+msgstr ""
+
+#: ../athena-open-terminal.schemas.in.h:1
+msgid ""
+"Whether opening a terminal on the desktop opens a terminal in the home "
+"directory"
+msgstr ""
+
+#: ../athena-open-terminal.schemas.in.h:2
+msgid ""
+"If set to true, then opening a terminal on the desktop will open a terminal "
+"in the home directory. Otherwise, it will be opened in the desktop "
+"directory. Note that this key is irrelevant if the desktop directory is "
+"identical to the home directory."
+msgstr ""
+
+#: ../athena-open-terminal.schemas.in.h:3
+msgid "Whether a Midnight Commander menu item should be displayed"
+msgstr ""
+
+#: ../athena-open-terminal.schemas.in.h:4
+msgid ""
+"If set to true, and if the terminal file manager \"Midnight Commander\" is "
+"installed, then an \"Open in Midnight Commander\" menu item will be "
+"displayed in the context menu."
+msgstr ""

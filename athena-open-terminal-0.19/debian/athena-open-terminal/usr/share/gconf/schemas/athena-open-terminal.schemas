@@ -1,0 +1,463 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/athena-open-terminal/desktop_opens_home_dir</key>
+      <applyto>/apps/athena-open-terminal/desktop_opens_home_dir</applyto>
+      <owner>athena-open-terminal</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+         <short>Whether opening a terminal on the desktop opens a terminal in the home directory</short>
+         <long>
+          If set to true, then opening a terminal on the desktop will open a terminal in
+	  the home directory. Otherwise, it will be opened in the desktop directory.
+	  Note that this key is irrelevant if the desktop directory is identical to the home directory.
+         </long>
+      </locale>
+
+      <locale name="as">
+         <short>ডেস্কট&apos;পত টাৰ্মিনেল খোলাৰ ফলত ব্যক্তিগত পঞ্জিকা প্ৰদৰ্শন কৰি টাৰ্মিনেল আৰম্ভ কৰা হ&apos;ব নে নহয়</short>
+         <long>মান true হ&apos;লে, ডেস্কটপেত টাৰ্মিনেল খোলা হ&apos;লে, ব্যক্তিগত পঞ্জিকা প্ৰদৰ্শন কৰি টাৰ্মিনেল আৰম্ভ কৰা হ&apos;ব । অন্যথা, টাৰ্মিনেল ডেস্কটপ প্ৰদৰ্শন কৰি খোলা হ&apos;ব । উল্লেখ্য, ডেস্কটপ আৰু ব্যক্তিগত পঞ্জিকা একেই হ&apos;লে এই চাবিৰ ব্যবহাৰ অমূলক ।</long>
+      </locale>
+
+      <locale name="be">
+         <short>Ці трэба адчыняць у тэрінале, уключаным з працоўнага стала, хатнюю тэчку</short>
+         <long>Калі ўключана, тады адчыненьне тэрміналу з працоўнага стала будзе зробленае ў хатняй тэчцы. Інакш, тэрмінал адчыніцца ў тэчцы працоўнага стала. Зважай, што гэты ключ ня мае сэнсу, калі тэчка працоўнага стала ёсьць хатняй тэчкаю.</long>
+      </locale>
+
+      <locale name="be@latin">
+         <short>Ci terminał dla Stała adčyniajecca ŭ chatnim katalohu</short>
+         <long>Kali ŭklučana, tady terminał dla Stała budzie adčyniacca ŭ chatnim katalohu. Inakš jon budzie adčyniacca ŭ katalohu Stała. Zaŭvaž, što hety kluč ničoha nia robić, kali kataloh Stała źjaŭlajecca chatnim.</long>
+      </locale>
+
+      <locale name="bn_IN">
+         <short>ডেস্কটপের মধ্যে টার্মিন্যাল খোলার ফলে ব্যক্তিগত ডিরেক্টরি প্রদর্শন করে টার্মিন্যাল আরম্ভ করা হবে কি না</short>
+         <long>মান true (সত্য) হলে, ডেস্কটপের মধ্যে টার্মিন্যাল খোলা হলে, ব্যক্তিগত ডিরেক্টরি প্রদর্শন করে টার্মিন্যাল আরম্ভ করা হবে। অন্যথা, টার্মিন্যালটি ডেস্কটপ প্রদর্শন করে খোলা হবে। উল্লেখ্য, ডেস্কটপ ও ব্যক্তিগত ডিরেক্টরিটি একই হলে এই কি-র ব্যবহার অমূলক।</long>
+      </locale>
+
+      <locale name="ca">
+         <short>Si en obrir un terminal a l&apos;escriptori s&apos;obrirà un terminal al directori personal</short>
+         <long>Si s&apos;estableix a «True» (cert), llavors en obrir un terminal a l&apos;escriptori s&apos;obrirà al directori personal. En cas contrari, s&apos;obrirà al directori de l&apos;escriptori. Fixeu-vos que la clau és irrellevant si el directori de l&apos;escriptori és idèntic al directori personal.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+         <short>Si en obrir un terminal a l&apos;escriptori s&apos;obrirà un terminal al directori personal</short>
+         <long>Si s&apos;estableix a «True» (cert), llavors en obrir un terminal a l&apos;escriptori s&apos;obrirà al directori personal. En cas contrari, s&apos;obrirà al directori de l&apos;escriptori. Fixeu-vos que la clau és irrellevant si el directori de l&apos;escriptori és idèntic al directori personal.</long>
+      </locale>
+
+      <locale name="cs">
+         <short>Zda otevření terminálu na ploše otvírá terminál v domovském adresáři</short>
+         <long>Pokud aktivní, tak otevření terminálu na ploše otevře terminál v domovském adresáři. V opačném případě jej otevře v adresáři plochy. Vězte, že tento klíč nemá žádný vliv, pokud adresář plochy je shodný s domovským adresářem.</long>
+      </locale>
+
+      <locale name="da">
+         <short>Hvorvidt åbning af en terminal på skrivebordet åbner en terminal i hjemmemappen</short>
+         <long>Hvis angivet som sand, så vil åbning af en terminal på skrivebordet åbne en terminal i hjemmemappen. Ellers vil den blive åbnet i skrivebordsmappen. Bemærk at denne indstilling er irrelevant hvis skrivebordsmappen er identisk med hjemmemappen.</long>
+      </locale>
+
+      <locale name="de">
+         <short>Legt fest, ob das Öffnen eines Terminals auf der Arbeitsfläche ein Terminal im persönlichen Ordner öffnet</short>
+         <long>Falls dieser Schlüssel wahr ist, führt das Öffnen eines Terminals auf der Arbeitsfläche dazu, dass ein Terminal im persönlichen Ordner geöffnet wird. Andernfalls wird es im Arbeitsflächen-Ordner öffnet. Hinweis: Dieser Schlüssel wird ignoriert, falls der Arbeitsflächenordner mit dem persönlichen Ordner übereinstimmt.</long>
+      </locale>
+
+      <locale name="el">
+         <short>Αν θα ανοίγει τερματικό στον αρχικό κατάλογο όποτε ανοίγετε τερματικό στην επιφάνεια εργασίας</short>
+         <long>Αν είναι αληθές, όποτε ανοίγετε τερματικό στην επιφάνεια εργασίας, θα ανοίγει τερματικό στον αρχικό κατάλογο. Διαφορετικά, το τερματικό θα ανοίγει στον κατάλογο της επιφάνειας εργασίας. Σημειώστε ότι αυτή η επιλογή έχει νόημα μόνο αν ο κατάλογος της επιφάνειας εργασίας δεν είναι ο αρχικός κατάλογος.</long>
+      </locale>
+
+      <locale name="en_GB">
+         <short>Whether opening a terminal on the desktop opens a terminal in the home directory</short>
+         <long>If set to true, then opening a terminal on the desktop will open a terminal in the home directory. Otherwise, it will be opened in the desktop directory. Note that this key is irrelevant if the desktop directory is identical to the home directory.</long>
+      </locale>
+
+      <locale name="es">
+         <short>Indica si al abrir un terminal en el escritorio se abre el terminal en el directorio personal</short>
+         <long>Si está a «true» al abrir un terminal en el escritorio se abrirá en el directorio personal. De otra manera se abrirá en el directorio del escritorio. Note que esta clave es irrelevante si el directorio del escritorio es idéntico al directorio personal.</long>
+      </locale>
+
+      <locale name="et">
+         <short>Kui terminal avada töölaual, avab see kodukataloogis</short>
+         <long>Kui tõene, siis töölaual terminali avamine avab selle kodukataloogis. Muul juhul avatakse see töölaua kataloogis. See valik on tähendusetu, kui töölaud ja kodukataloogi kattuvad.</long>
+      </locale>
+
+      <locale name="eu">
+         <short>Mahaigainean terminal bat irekitzean erabiltzailearen direktorio nagusian terminala irekiko den ala ez adierazten du.</short>
+         <long>TRUE (Egia) gisa ezartzen bada, mahaigainean terminal bat irekitzean erabiltzailearen direktorio nagusian irekiko da terminala. Bestela, erabiltzailearen mahaigaineko direktorioan irekiko da terminala. Jakin ezazu gako honek ez duela garrantzirik baldin eta mahaigaineko direktorioa erabiltzailearen direktorio nagusiaren berdina bada.</long>
+      </locale>
+
+      <locale name="fi">
+         <short>Käynnistetään työpöydältä avattu pääte kotikansioon</short>
+         <long>Jos tosi, päätteen avaaminen työpöydältä avaa päätteen kotikansiossa. Muussa tapauksessa pääte avataan työpöytäkansiosta. Huomaa, että tämä avain on merkityksetön, jos kotikansio ja työpöytä ovat sama kansio.</long>
+      </locale>
+
+      <locale name="fr">
+         <short>Indique si l&apos;ouverture d&apos;un terminal sur le bureau ouvre un terminal dans le dossier personnel</short>
+         <long>Si vrai, l&apos;ouverture d&apos;un terminal sur le bureau ouvrira un terminal dans le dossier personnel. Dans le cas contraire, il sera ouvert dans le dossier bureau. Notez que cette option est inutile dans le cas où le dossier bureau est identique au dossier personnel.</long>
+      </locale>
+
+      <locale name="gl">
+         <short>Indica se ao abrir unha terminal no escritorio abre unha terminal no cartafol persoal</short>
+         <long>Se é verdadeiro, ao abrir unha terminal no escritorio abrirase no directorio persoal. Doutra maneira abrirase no directorio do escritorio. Note que esta clave é irrelevante se o directorio do escritorio é o mesmo que o cartafol persoal.</long>
+      </locale>
+
+      <locale name="gu">
+         <short>ક્યાંતો ઘર પાનાંમાં ડેસ્કટોપ ટર્મિનલને ખોલે છે તે પર ટર્મિનલને ખોલી રહ્યા છે</short>
+         <long>જો true તરીકે સુયોજિત હોયતો, પછી ડેસ્કટોપર પર ટર્મિનલને ખોલવા દરમ્યાન ઘર ડિરેક્ટરીમાં ટર્મિનલને ખોલશો. નહિં તો, તે ડેસ્કટોપ ડિરેક્ટરીમાં ખોલેલ હશે. નોંધો કે જે આ કી એ અસુસંગત છે જો ડેસ્કટોપ ડિરેક્ટરી એ ઘર ડિરેક્ટરીમાં સરખી હોય તો.</long>
+      </locale>
+
+      <locale name="he">
+         <short>Whether opening a terminal on the desktop opens a terminal in the home directory</short>
+         <long>If set to true, then opening a terminal on the desktop will open a terminal in the home directory. Otherwise, it will be opened in the desktop directory. Note that this key is irrelevant if the desktop directory is identical to the home directory.</long>
+      </locale>
+
+      <locale name="hu">
+         <short>A terminál megnyitása az asztalon a saját mappában nyitja-e a terminált</short>
+         <long>Ha ez igaz, akkor egy terminál megnyitása az asztalon a saját könyvtárában nyit meg egy terminált. Ellenkező esetben az asztal mappájában nyílik meg. A kulcsnak nincs jelentősége, ha az asztal könyvtára a saját könyvtár.</long>
+      </locale>
+
+      <locale name="id">
+         <short>Apakah membuka terminal pada desktop berarti akan membuka terminal dalam direktori asal</short>
+         <long>Jika disetel ke benar, maka membuka terminal pada desktop berarti akan membuka terminal dalam direktori asal. Jika tidak, maka terminal akan dibuka dalam direktori desktop. Perhatikan bahwa kunci ini tidak relevan jika direktori desktop sama dengan direktori asal.</long>
+      </locale>
+
+      <locale name="it">
+         <short>Indica se aprendo un terminale sulla scrivania si apre un terminale nella directory home</short>
+         <long>Se impostata a vero, aprendo un terminale sulla scrivania si aprirà la directory home. In caso contrario, si aprirà la directory della scrivania. Nota che questa voce è irrilevante se la directory della scrivania è equivalente a quella della home.</long>
+      </locale>
+
+      <locale name="ja">
+         <short>デスクトップではなくホーム・フォルダで端末を開くかどうか</short>
+         <long>TRUE にした場合、たとえデスクトップ上で端末を開いても実際にはホーム・フォルダから端末を開きます。それ以外は、デスクトップのフォルダから開きます。デスクトップ・フォルダがホーム・フォルダの場合、このキーによる効果はありません。</long>
+      </locale>
+
+      <locale name="ka">
+         <short>&quot;სამუშაო მაგიდაზე&quot; გაშვებული ტერმინალი &quot;სახლის დასტას&quot; აჩვენებს</short>
+         <long>თუ მონიშნულია, &quot;სამუშაო მაგიდაზე&quot; გაშვებისას ტერმინალში გაიხსნება &quot;სახლის დასტა&quot;, სხვაგვარად გაიხსნება სამუშაო მაგიდის დასტა. ამ გასაღებს არ აქვს მნიშვნელობა თუ &quot;სამუშაო მაგიდის&quot; დასტა შეესაბამება &quot;სახლის დასტას&quot;.</long>
+      </locale>
+
+      <locale name="kn">
+         <short>ಗಣಕತೆರೆಯಲ್ಲಿ ಒಂದು ಟರ್ಮಿನಲ್ ಅನ್ನು ತೆರೆಯುವುದರಿಂದ ಅದು ನೆಲೆ (ಹೋಮ್) ಕಡತಕೋಶದಲ್ಲಿ ಒಂದು ಟರ್ಮಿನಲ್ ಅನ್ನು ತೆರೆಯುತ್ತದೆಯೆ</short>
+         <long>true ಗೆ ಬದಲಾಯಿಸಿದರೆ, ಗಣಕತೆರೆಯಲ್ಲಿ ಒಂದು ಟರ್ಮಿನಲ್ ಅನ್ನು ತೆರೆಯುವುದರಿಂದ ಅದು ನೆಲೆ (ಹೋಮ್) ಕಡತಕೋಶದಲ್ಲಿ ಒಂದು ಟರ್ಮಿನಲ್ ಅನ್ನು ತೆರೆಯುತ್ತದೆ. ಇಲ್ಲದೆ ಹೋದಲ್ಲಿ ಅದು ಗಣಕತೆರೆ ಕೋಶದಲ್ಲಿ ತೆರೆಯಲ್ಪಡುತ್ತದೆ. ಗಣಕತೆರೆ ಕಡತಕೋಶ ಹಾಗು ನೆಲೆ ಕಡತಕೋಶ ಎರಡೂ ಒಂದೇ ಆಗಿದ್ದಲ್ಲಿ ಈ ಕೀಲಿಯ ಉಪಯೋಗವಿರುವುದಿಲ್ಲ.</long>
+      </locale>
+
+      <locale name="ko">
+         <short>바탕화면에서 터미널을 열 때 홈 디렉터리에서 열 것인지 여부</short>
+         <long>참으로 설정하면, 바탕화면에서 터미널을 열면 터미널에서 홈 디렉터리가 열립니다. 참으로 설정하지 않으면, 바탕화면 디렉터리가 열립니다. 홈 디렉터리를 바탕화면 디렉터리로 사용한다면 이 키는 반영되지 않습니다.</long>
+      </locale>
+
+      <locale name="lt">
+         <short>Ar atveriant terminalą darbastalyje atverti terminalą namų aplanke</short>
+         <long>Jei pasirinkta, terminalo atvėrimas darbastalyje atvers terminalą namų aplanke. Kitaip terminalas bus atvertas darbastalio aplanke. Šis raktas nereikšmingas, jei darbastalio aplankas identiškas namų aplankui.</long>
+      </locale>
+
+      <locale name="mr">
+         <short>डेस्कटॉपवर टर्मिनल उघडल्यास मुख्य डिरेक्ट्री अंतर्गत टर्मिनल उघडले जाते का</short>
+         <long>true निश्चित केल्यास, व डेस्कटॉपवर टर्मिनल उघडल्यावर मुख्य डिरेक्ट्री अंतर्गत टर्मिनल उघडेल. नाहीतर, डेस्कटॉप डिरेक्ट्री अंतर्गत उघडले जाईल. लक्षात ठेवा डेस्कटॉप डिरेक्ट्री मुख्य डिरेक्ट्री नुरूप असल्यास ही कि अनुपयोगी ठरते.</long>
+      </locale>
+
+      <locale name="ne">
+         <short>डेस्कटपमा टर्मिनल खोल्नाले गृह डाइरेक्टरीमा टर्मिनल खुल्छ या खुल्दैन</short>
+         <long>यदि सही सेट भएको छ भने, डेस्कटपमा टर्मिनल खोल्नाले गृह डाइरेक्टरीमा टर्मिनल खुल्नेछ । अन्यथा, यो डेस्कटप डाइरेक्टरीमा खुल्नेछ । याद गर्नुहोस् कि यदि डेस्कटप डाइरेक्टरी गृह डाइरेक्टरीमा पहिचानयोग्य छ भने यो कुञ्जी सान्दर्भिक हुन्छ ।</long>
+      </locale>
+
+      <locale name="nl">
+         <short>Of een terminalvenster dat geopend wordt vanaf het bureaublad opent in de persoonlijke map</short>
+         <long>Indien ingeschakeld opent een terminalvenster dat vanaf het bureaublad wordt geopend in de persoonlijke map. Indien uitgeschakeld wordt de bureaubladmap geopend in het terminalvenster. Deze instelling is niet van belang als de persoonlijke map dezelfde map is als het bureaublad.</long>
+      </locale>
+
+      <locale name="or">
+         <short>ଡେସ୍କଟପରେ ଗୋଟିଏ ଟର୍ମିନାଲ ଖୋଲିବା ଦ୍ୱାରା ମୂଳ ସ୍ଥାନ ପଞ୍ଜିକାରେ ଟର୍ମିନାଲ ଖୋଲିଥାଏ କି ନାହିଁ</short>
+         <long>ଯଦି true ସେଟ କରାଯାଇଥାଏ, ତେବେ ଡେସ୍କଟପରେ ଗୋଟିଏ ଟର୍ମିନାଲ ଖୋଲିବା ଦ୍ୱାରା ମୂଳ ସ୍ଥାନ ପଞ୍ଜିକାରେ ଟର୍ମିନାଲ ଖୋଲିଥାଏ। ଅନ୍ୟଥା, ଏହାକୁ ଡେସ୍କଟପ ଡିରେକ୍ଟୋରୀରେ ଖୋଲାଯାଇଥାଏ। ମନେରଖନ୍ତୁ ଯେ ଏହି କିଟି ଅସଙ୍ଗତ ଯଦି ଡେସ୍କଟପ ଡିରେକ୍ଟୋରୀ ମୂଳସ୍ଥାନ ପଞ୍ଜିକା ସହିତ ସମାନ ହୋଇଥାଏ।</long>
+      </locale>
+
+      <locale name="pa">
+         <short>ਕੀ ਡੈਸਕਟਾਪ ਉੱਤੇ ਟਰਮੀਨਲ ਖੋਲ੍ਹਣ ਨਾਲ ਘਰ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਟਰਮੀਨਲ ਖੁੱਲ੍ਹੇ</short>
+         <long>ਜੇ ਸਹੀਂ ਕੀਤਾ ਤਾਂ ਡੈਸਕਟਾਪ ਉੱਤੇ ਟਰਮੀਨਲ ਖੋਲ੍ਹਣ ਨਾਲ ਘਰ ਡਾਇਰੈਕਟਰੀ ਵਿੱਚ ਟਰਮੀਨਲ ਖੁੱਲ੍ਹੇਗਾ। ਨਹੀਂ ਤਾਂ, ਇਹ ਡੈਸਕਟਾਪ ਡਾਇਰੈਕਟਰੀ ਖੋਲ੍ਹੋਗਾ। ਯਾਦ ਰੱਖੋ ਕਿ ਇਹ ਕੁੰਜੀ ਤਾਂ ਹੀ ਕੰਮ ਕਰਦੀ ਹੈ, ਜੇ ਡੈਸਕਟਾਪ ਡਾਇਰੈਕਟਰੀ ਘਰ ਡਾਇਰੈਕਟਰੀ ਦੇ ਅਨੁਰੂਪ ਹੀ ਹੈ।</long>
+      </locale>
+
+      <locale name="pl">
+         <short>Określa, czy otwieranie terminalu na pulpicie otwiera terminal w katalogu domowym</short>
+         <long>Gdy ustawione na &quot;true&quot;, otwieranie terminalu na pulpicie spowoduje otwarcie terminalu w katalogu domowym. W przeciwnym razie zostanie otwarty katalog pulpitu. Uwaga - ten klucz jest bezużyteczny, gdy katalog pulpitu jest identyczny jak katalog domowy.</long>
+      </locale>
+
+      <locale name="pt">
+         <short>Se abrir uma consola no ambiente de trabalho abre uma consola na pasta pessoal do utilizador</short>
+         <long>Se definido como verdadeiro, abrir uma consola no ambiente de trabalho irá abrir uma consola na pasta pessoal do utilizador. Caso contrário, a consola será aberta no directório do ambiente de trabalho. Note que esta chave é irrelevante caso o directório do ambiente de trabalho seja o mesmo que a pasta pessoal do utilizador.</long>
+      </locale>
+
+      <locale name="pt_BR">
+         <short>Abrir um terminal na área de trabalho abre-o na pasta pessoal</short>
+         <long>Abrir um terminal na área de trabalho o abrirá na pasta pessoal. Caso contrário, será aberto no diretório da área de trabalho. Observe que esta chave é irrelevante se o diretório da área de trabalho for idêntico ao diretório da pasta pessoal.</long>
+      </locale>
+
+      <locale name="ro">
+         <short>Dacă deschiderea unui terminal pe desktop va deschide terminalul în dosarul personal</short>
+         <long>La activare, deschiderea unui terminal pe desktop va deschide terminalul în dosarul personal. Altfel, va fi deschis în dosarul Desktop. Această cheie este irelevantă în cazul în care dosarul personal este același cu dosarul Desktop.</long>
+      </locale>
+
+      <locale name="ru">
+         <short>Открывать ли терминал в домашнем каталоге при выборе меню &quot;Открыть в Терминале&quot; на Рабочем столе</short>
+         <long>Если выбран этот ключ,то открытие терминала на Рабочем столе откроет терминал в домашнем каталоге. Иначе, он будет открыт к каталоге Рабочего стола. Обратите внимание на то, что если домашний каталог является каталогом Рабочего стола, то этот ключ является бессмысленным.</long>
+      </locale>
+
+      <locale name="sl">
+         <short>Ali odpiranje terminala na namizju, odpre terminal v domači mapi uporabnika.</short>
+         <long>Izbrana možnost omogoča, da se pri odpiranju terminala na namizju, ta odpre v domači mapi uporabnika. Druga možnost je, da se terminal odpre v mapi namizja. Nastavitev je mogoče izpustiti, kadar je mapa namizja enaka domači mapi.</long>
+      </locale>
+
+      <locale name="sv">
+         <short>Huruvida öppnandet av en terminal på skrivbordet öppnar en terminal i hemkatalogen</short>
+         <long>Om inställd till sant kommer öppnandet av en terminal på skrivbordet att öppna en terminal i hemkatalogen. Om inte kommer det att öppnas i skrivbordskatalogen. Observera att den här nyckeln är irrelevant om skrivbordskatalogen är identisk med hemkatalogen.</long>
+      </locale>
+
+      <locale name="ta">
+         <short> திரையில் இருந்து முனையத்தை திறந்தால் முனையம் இல்ல அடைவில் இருந்து திறக்குமா</short>
+         <long>நிபந்தனை சரி என்றால், திரையில் இருந்து முனையத்தை திறந்தால் முனையம், இல்ல அடைவில் இருந்து திறக்கும்,  தவறு என்றால் முனையம் திரையில் உள்ள அடைவில் இருந்து திறக்கும்குறிப்பு செய்க, சாவி தொடர்பு சரியில்லை என்றால், இல்ல அடைவும் திரை அடைவும் ஒன்றே </long>
+      </locale>
+
+      <locale name="te">
+         <short>డెస్కుటాపు నందు టెర్మినల్ తెరిస్తే టెర్మినల్ నివాస సంచయంనందు తెరువబడాలా.</short>
+         <long>సత్యానికి అమర్చితే, డెస్కుటాపునందు టెర్మినల్‌ను తెరిస్తే టెర్మినల్‌ను నివాస సంచయంనందు తెరుస్తుంది. లేకపోతే, అది డెస్కటాపు సంచయంనందు తెరుస్తుంది. డెస్కుటాపు డెరెక్టరీ అనునది నివాస సంచయంకు సారూప్యంగా వుంటే ఈ కీ అసంభర్దమౌతుంది.</long>
+      </locale>
+
+      <locale name="th">
+         <short>การเปิดเทอร์มินัลบนพื้นโต๊ะจะเปิดในไดเรกทอรีบ้านหรือไม่</short>
+         <long>หากกำหนดเป็นจริง การเปิดเทอร์มินัลบนพื้นโต๊ะจะเป็นการเปิดเทอร์มินัลในไดเรกทอรีบ้าน มิฉะนั้น ก็จะเปิดในไดเรกทอรีพื้นโต๊ะ สังเกตว่า ค่านี้จะไม่มีผลหากไดเรกทอรีพื้นโต๊ะกับไดเรกทอรีบ้านเป็นที่เดียวกัน</long>
+      </locale>
+
+      <locale name="uk">
+         <short>Чи відкривання терміналу на робочому столі призводить до відкривання терміналу у домашньому каталозі</short>
+         <long>Якщо встановлено, при відкриванні терміналу на робочому столі відкривається термінал із домашнім каталогом. У іншому разі, він відкривається у каталозі із робочим столом. цей ключ не чутливий до того чи є ідентичним каталог робочого столу домашньому каталогу.</long>
+      </locale>
+
+      <locale name="zh_CN">
+         <short>在桌面上打开终端时是否设置为打开在主目录</short>
+         <long>如果设为真，在桌面上打开终端将会设为打开在主目录。否则，它将会被打开在 桌面目录。注意此键跟桌面目录是否同于主目录不相关。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/athena-open-terminal/display_mc_item</key>
+      <applyto>/apps/athena-open-terminal/display_mc_item</applyto>
+      <owner>athena-open-terminal</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+         <short>Whether a Midnight Commander menu item should be displayed</short>
+         <long>
+          If set to true, and if the terminal file manager "Midnight Commander" is installed,
+	  then an "Open in Midnight Commander" menu item will be displayed in the context menu.
+         </long>
+      </locale>
+
+      <locale name="as">
+         <short>Midnight Commander-ৰ বাবে তালিকাত নিবেশ প্ৰদৰ্শিত হ&apos;ব নে নহয়</short>
+         <long>মান true হ&apos;লে, আৰু &quot;Midnight Commander&quot; নামক টাৰ্মিনেল নথিপত্ৰ পৰিচালন ব্যবস্থা ইনস্টল কৰা থাকলে, প্ৰাসঙ্গিক তালিকাত &quot;Midnight Commander-ত খোলক&quot; শীৰ্ষক এটা তালিকাৰ নিবেশ প্ৰদৰ্শিত হ&apos;ব ।</long>
+      </locale>
+
+      <locale name="be">
+         <short>Ці паказваць элемэнт мэню &quot;Midnight Commander&quot;</short>
+         <long>Калі ўключана і калі ўсталяваны тэрмінальны кіраўнік файлаў &quot;Midnight Commander&quot;, тады ў кантэкстным мэню будзе элемэнт &quot;Адчыніць у Midnight Commander&quot;.</long>
+      </locale>
+
+      <locale name="be@latin">
+         <short>Ci pakazvać menu dla „Midnight Commander”</short>
+         
+      </locale>
+
+      <locale name="bn_IN">
+         <short>Midnight Commander-র জন্য মেনুর মধ্যে এনট্রি প্রদর্শিত হবে কি না</short>
+         <long>মান true (সত্য) হলে, ও &quot;Midnight Commander&quot; নামক টার্মিন্যাল ফাইল পরিচালন ব্যবস্থা ইনস্টল করা থাকলে, প্রাসঙ্গিক মেনুর মধ্যে &quot;Midnight Commander-র মধ্যে খুলুন&quot; শীর্ষক একটি মেনুর এনট্রি প্রদর্শিত হবে।</long>
+      </locale>
+
+      <locale name="ca">
+         <short>Si s&apos;hauria de mostrar l&apos;element de menú Midnight Commander</short>
+         <long>Si s&apos;estableix a «True» (cert), i el gestor de fitxers basat en terminal «Midnight Commander» està instal·lat, llavors la icona de menú «Obre amb Midnight Commander» es mostrarà al menú contextual.</long>
+      </locale>
+
+      <locale name="ca@valencia">
+         <short>Si s&apos;hauria de mostrar l&apos;element de menú Midnight Commander</short>
+         <long>Si s&apos;estableix a «True» (cert), i el gestor de fitxers basat en terminal «Midnight Commander» està instal·lat, llavors la icona de menú «Obri amb Midnight Commander» es mostrarà al menú contextual.</long>
+      </locale>
+
+      <locale name="cs">
+         <short>Zda má být položka Midnight Commanderu zobrazena v nabídce</short>
+         <long>Pokud je povoleno a pokud je terminálový správce souborů &quot;Midnight Commander&quot; nainstalován, pak bude položka &quot;Otevřít v Midnight Commander&quot; zobrazena v kontextové nabídce.</long>
+      </locale>
+
+      <locale name="da">
+         <short>Hvorvidt et menupunkt fra Midnight Commander skal vises</short>
+         <long>Hvis angivet som sand, og hvis terminalfilhåndteringen &quot;Midnight Commander&quot; er installeret, så vil menupunktet &quot;Åbn i Midnight Commander&quot; blive vist i kontekstmenuen.</long>
+      </locale>
+
+      <locale name="de">
+         <short>Legt fest, 0b ein Midnight Commander-Menüeintrag angezeigt werden soll</short>
+         <long>Falls dieser Schlüssel wahr ist, und falls der Terminal-Dateimanager »Midnight Commander« installiert ist, wird ein »Im Midnight Commander öffnen«-Menüeintrag im Kontextmenü angezeigt.</long>
+      </locale>
+
+      <locale name="el">
+         <short>Αν θα εμφανίζεται επιλογή για το Midnight Commander στο μενού</short>
+         <long>Αν είναι αληθές, και είναι εγκατεστημένος ο διαχειριστής αρχείων  &quot;Midnight Commander&quot;, θα εμφανίζεται στο μενού περιεχομένων η επιλογή &quot;Άνοιγμα στο Midnight Commander&quot;.</long>
+      </locale>
+
+      <locale name="en_GB">
+         <short>Whether a Midnight Commander menu item should be displayed</short>
+         <long>If set to true, and if the terminal file manager &quot;Midnight Commander&quot; is installed, then an &quot;Open in Midnight Commander&quot; menu item will be displayed in the context menu.</long>
+      </locale>
+
+      <locale name="es">
+         <short>Indica si se debería mostrar un elemento del menú para Midnight Commander</short>
+         <long>Si está a «true», y el gestor de archivos de la terminal «Midnight Commander&quot; está instalado, entonces se mostrará un icono de menú «Abrir en Midnight Commander» en el menú contextual.</long>
+      </locale>
+
+      <locale name="et">
+         <short>Kas Midnight Commanderi menüükirjet näidatakse</short>
+         <long>Kui märgitud ja kui terminali failihaldur &quot;Midnight Commander&quot; on paigaldatud, näidatakse hüpikmenüüs kirjet &quot;Ava Midnight Commanderis&quot;.</long>
+      </locale>
+
+      <locale name="eu">
+         <short>Midnight Commander menuko elementua bistaratu behar den edo ez</short>
+         <long>True (egia) gisa ezartzen bada eta terminaleko Midnight Commander fitxategi-kudeatzailea instalatuta badago, orduan &quot;Ireki Midnight Commander-en&quot; menuko elementua bistaratuko da testuinguruko menuan.</long>
+      </locale>
+
+      <locale name="fi">
+         <short>Näytetäänkö valikon kohta Midnight Commanderille</short>
+         <long>Jos tosi ja jos ohjelma &quot;Midnight Commander&quot; on asennettu, lisätään ponnahdusvalikkoon kohta &quot;Avaa Midnight Commanderissa&quot;.</long>
+      </locale>
+
+      <locale name="fr">
+         <short>Indique si un élément de menu Midnight Commander doit être affiché</short>
+         <long>Si vrai et si le gestionnaire de fichiers en mode terminal « Midnight Commander » est installé, un élément de menu « Ouvrir dans Midnight Commander » apparaîtra dans le menu contextuel.</long>
+      </locale>
+
+      <locale name="gl">
+         <short>Indica se o elemento de menú Midnight Commander mostrarase</short>
+         <long>Se está definido a verdadeiro, e o xestor de ficheiros de terminal &quot;Midnight Commander&quot; está instalado mostrarase un elemento do menú &quot;Abrir en Midnight Commander&quot; no menú contextual.</long>
+      </locale>
+
+      <locale name="gu">
+         <short>ક્યાંતો Midnight Commander મેનુ વસ્તુને દર્શાવવી જોઇએ કે નહિં</short>
+         <long>જો true તરીકે સુયોજિત હોય તો, અને જો ટર્મિનલ ફાઇલ વ્યવસ્થાપક &quot;Midnight Commander&quot; એ સ્થાપિત થયેલ હોય તો, પછી &quot;Midnight Commander માં ખોલો&quot; મેનુ વસ્તુ એ સંદર્ભ મેનુમાં દર્શાવેલ હશે.</long>
+      </locale>
+
+      <locale name="he">
+         <short>Whether a Midnight Commander menu item should be displayed</short>
+         <long>If set to true, and if the terminal file manager &quot;Midnight Commander&quot; is installed, then an &quot;Open in Midnight Commander&quot; menu item will be displayed in the context menu.</long>
+      </locale>
+
+      <locale name="hu">
+         <short>Megjelenjen-e a Midnight Commander menüelem</short>
+         <long>Ha ez igazra van állítva és a „Midnight Commander” karakteres fájlkezelő telepítve van, akkor a helyi menübe bekerül egy „Megnyitás a Midnight Commanderben” menüpont.</long>
+      </locale>
+
+      <locale name="id">
+         <short>Apakah item menu Midnight Commander harus ditampilkan</short>
+         <long>Jika disetel ke benar, dan jika manajer file terminal &quot;Midnight Commander&quot; telah diinstal, maka item menu &quot;Buka di Midnight Commander&quot; akan ditampilkan dalam menu konteks.</long>
+      </locale>
+
+      <locale name="it">
+         <short>Indica se una voce di Midnight Commander deve visualizzata nel menù</short>
+         <long>Se impostata a vero, e il terminale del file manager &quot;Midnight Commander&quot; è installato, apparirà una voce nel menù contestuale &quot;Apri con Midnight Commander&quot;.</long>
+      </locale>
+
+      <locale name="ja">
+         <short>Midnight Commander のメニュー項目を表示するかどうか</short>
+         <long>TRUE にした場合、端末型ファイル・マネージャの &quot;Midnight Commander&quot; がシステムにインストールされているならば、&quot;Midnight Commander で開く&quot; というメニュー項目をコンテキスト・メニューに表示します</long>
+      </locale>
+
+      <locale name="kn">
+         <short>ಒಂದು ಮಿಡ್‌ನೈಟ್ ಕಮಾಂಡರ್ ಮೆನು ಅನ್ನು ತೋರಿಸಬೇಕೆ</short>
+         <long>true ಗೆ ಬದಲಾಯಿಸಿದಲ್ಲಿ, ಹಾಗು ಟರ್ಮಿನಲ್ ಕಡತವ್ಯವಸ್ಥಾಪಕ &quot;ಮಿಡ್‌ನೈಟ್ ಕಮಾಂಡರ್&quot; ಅನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗಿದ್ದಲ್ಲಿ, ಒಂದು &quot;ಮಿಡ್‌ನೈಟ್ ಕಮಾಂಡರಿನಲ್ಲಿ ತೆರೆ&quot; ಮೆನು ಅಂಶವನ್ನು ಸನ್ನಿವೇಶ ಮೆನುವನ್ನು ತೋರಿಸಲಾಗುತ್ತದೆ.</long>
+      </locale>
+
+      <locale name="ko">
+         <short>Midnight Commander 메뉴 항목 표시 여부</short>
+         <long>참으로 설정하고 &quot;Midnight Commander&quot; 터미널 파일 관리자가 설치되어 있다면 문맥 메뉴에 &quot;Midnight Commander로 열기&quot; 항목이 표시됩니다.</long>
+      </locale>
+
+      <locale name="lt">
+         <short>Ar Midnight Commander meniu punktas turėtų būti rodomas</short>
+         <long>Jei pasirinkta ir terminalinė failų tvarkyklė &quot;Midnight Commander&quot; yra įdiegta, meniu punktas &quot;Atverti Midnight Commanderyje&quot; bus rodomas kontekstiniame meniu.</long>
+      </locale>
+
+      <locale name="mr">
+         <short>Midnight Commander मेन्यू घटक दर्शवायला हवे का</short>
+         <long>true निश्चित केल्यास, व टर्मिनल फाइल व्यवस्थापक &quot;Midnight Commander&quot; प्रतिष्ठापीत असल्यास, &quot;Open in Midnight Commander&quot; मेन्यू घटक संदर्भ मेन्यू अंतर्गत दर्शविले जाईल.</long>
+      </locale>
+
+      <locale name="nl">
+         <short>Of er een menu-item voor Midnight Commander getoond moet worden</short>
+         <long>Indien ingeschakeld, en indien ‘Midnight Commander’ geïnstalleerd is, wordt een menu-item ‘Openen in Midnight Commander’ getoond in het contextmenu.</long>
+      </locale>
+
+      <locale name="or">
+         <short>ମଧ୍ଯରାତ୍ର କମାଣ୍ଡର ତାଲିକା ବସ୍ତୁକୁ ଦର୍ଶାଯିବା ଉଚିତ କି ନୁହଁ</short>
+         <long>ଯଦି true ସେଟକରାଯାଏ, ଏବଂ ଯଦି ଟର୍ମିନାଲ ଫାଇଲ ପରିଚାଳକ &quot;Midnight Commander&quot; ସ୍ଥାପିତ ହୋଇଥାଏ, ତେବେ ଗୋଟିଏ &quot;Open in Midnight Commander&quot; ତାଲିକା ବସ୍ତୁକୁ ପ୍ରସଙ୍ଗ ତାଲିକାରେ ଦର୍ଶାଯିବ।</long>
+      </locale>
+
+      <locale name="pa">
+         <short>ਕੀ ਮਿਡਨਾਈਟ ਕਮਾਂਡਰ ਮੇਨੂ ਆਈਟਮ ਵੇਖਾਈ ਜਾਵੇ</short>
+         <long>ਜੇ ਸਹੀਂ ਸੈੱਟ ਕੀਤਾ ਅਤੇ ਟਰਮੀਨਲ ਫਾਇਲ ਮੈਨੇਜਰ &quot;Midnight Commander&quot; ਇੰਸਟਾਲ ਹੋਵੇ ਤਾਂ ਪਰਸੰਗ ਮੇਨੂ ਵਿੱਚ &quot;ਮਿਡਨਾਈਟ ਕਮਾਂਡਰ ਵਿੱਚ ਖੋਲ੍ਹੋ (Open in Midnight Commander)&quot; ਮੇਨੂ ਆਈਟਮ ਵੇਖਾਈ ਜਾਵੇਗੀ।</long>
+      </locale>
+
+      <locale name="pl">
+         <short>Określa, czy wyświetlać pozycję menu Midnight Commander</short>
+         <long>Gdy ustawione na &quot;true&quot; i terminalowy menedżer plików &quot;Midnight Commander&quot; jest zainstalowany, pozycja menu &quot;Otwórz za pomocą Midnight Commander&quot; będzie wyświetlona w menu podręcznym.</long>
+      </locale>
+
+      <locale name="pt">
+         <short>Se um item de menu para o Midnight Commander deve ser apresentado</short>
+         <long>Se definido como verdadeiro, e se o gestor de ficheiros da consola &quot;Midnight Commander&quot; se encontrar instalado, um menu &quot;Abrir no Midnight Commander&quot; será apresentado no menu de contexto.</long>
+      </locale>
+
+      <locale name="pt_BR">
+         <short>Mostrar um item de menu do Midnight Commander</short>
+         <long>Se o gerenciador de arquivos por terminal &quot;Midnight Commander&quot; estiver instalado, então um item de menu &quot;Abrir no Midnight Commander&quot; será exibido no menu de contexto.</long>
+      </locale>
+
+      <locale name="ro">
+         <short>Dacă să fie afișat un element Midnight Commander în meniu</short>
+         <long>La activare, dacă administratorul de fișiere în mod text „Midnight Commander” este instalat, se va afișa un element „Deschide în Midnight Commander” în meniul contextual.</long>
+      </locale>
+
+      <locale name="ru">
+         <short>Показывать ли меню &quot;Открыть в Midnight Commander&quot;</short>
+         <long>Если этот ключ выбран и установлен терминальный файловый менеджер &quot;Midnight Commander&quot;, то &quot;Открыть в _Midnight Commander&quot; будет отображаться в контекстном меню</long>
+      </locale>
+
+      <locale name="sl">
+         <short>Ali naj se pokaže povezava do programa Midnight Commander med predmeti menija</short>
+         <long>Izbrana možnost omogoča, da se nameščeni program &quot;Midnight Commander&quot; pojavi v vsebinskem meniju kot &quot;Odpri s programom Midnight Commander&quot;.</long>
+      </locale>
+
+      <locale name="sv">
+         <short>Huruvida ett menyobjekt för Midnight Commander ska visas</short>
+         <long>Om inställd till sant, och om terminalfilhanteraren &quot;Midnight Commander&quot; är installerad, kommer ett menyobjekt för &quot;Öppna i Midnight Commander&quot; att visas i sammanhangsmenyn.</long>
+      </locale>
+
+      <locale name="ta">
+         <short>ஒரு நடுஇரவு கமெண்டர் மெனு உருப்படி காட்டப்பட வேண்டுமா</short>
+         <long>If set to true, and if the terminal file manager &quot;Midnight Commander&quot; is installed, then an &quot;Open in Midnight Commander&quot; menu item will be displayed in the context menu.</long>
+      </locale>
+
+      <locale name="te">
+         <short>మిడ్‌నైట్ కమాండర్ మెనూ అంశము ప్రదర్శించబడాలా</short>
+         <long>సత్యానికి అమర్చబడివుంటే, మరియు టెర్మినల్ దస్త్ర నిర్వాహిక &quot;మిడ్‌నైట్ కమాండర్&quot; సంస్థాపించబడివుంటే, అప్పుడు &quot;మిడ్‌నైట్ కమాండర్ నందు తెరువుము&quot; మెనూ అంశము కాంటెస్టు మెనూనందు ప్రదర్శించబడుతుంది.</long>
+      </locale>
+
+      <locale name="th">
+         <short>แสดงเมนู Midnight Commander หรือไม่</short>
+         <long>หากกำหนดเป็นจริง และโปรแกรมจัดการแฟ้มสำหรับเทอร์มินัล &quot;Midnight Commander&quot; ถูกติดตั้งอยู่ ก็จะแสดงรายการ &quot;เปิดใน Midnight Commander&quot; ในเมนูคลิกขวา</long>
+      </locale>
+
+      <locale name="uk">
+         <short>Чи показувати пункт меню Midnight Commander</short>
+         <long>Якщо встановлено, і якщо встановлено менеджер файлів &quot;Midnight Commander&quot;, тоді у контекстному меню буде виводитись пункт &quot;Відкрити у Midnight Commander&quot;.</long>
+      </locale>
+
+      <locale name="zh_CN">
+         <short>Midnight Commander 项目菜单是否被显示</short>
+         <long>若设为真，并且如果终端文件管理器“Midnight Commander”已安装，在目录菜单中会显示“在 Midnight Commander 中打开”菜单项。</long>
+      </locale>
+    </schema>
+  </schemalist>  
+</gconfschemafile>

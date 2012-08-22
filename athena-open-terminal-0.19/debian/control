@@ -1,0 +1,28 @@
+Source: athena-open-terminal
+Section: gnome
+Priority: optional
+Maintainer: Ikey Doherty <ikey@solusos.com>
+Uploaders: Ikey Doherty <ikey@solusos.com>
+Build-Depends: debhelper (>= 8),
+               libathena-extension-dev (>= 1.0),
+               libglib2.0-dev (>= 2.16.0),
+               dh-autoreconf (>= 4),
+               pkg-config,
+               libtool,
+               intltool (>= 0.35),
+               libxml-parser-perl,
+               libgnome-desktop-3-dev(>= 2.91.90),
+               libgconf2-dev,
+               gnome-pkg-tools (>= 0.7)
+Standards-Version: 3.9.2
+Vcs-Git: git://git.kirya.net/debian/athena-open-terminal.git
+Vcs-Browser: http://git.kirya.net/?p=debian/athena-open-terminal.git;a=summary
+
+Package: athena-open-terminal
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: athena plugin for opening terminals in arbitrary paths
+ athena-open-terminal is an Athena extension which allows you to
+ open a terminal in arbitrary local or distant folders.
+ It provides a right-click "Open Terminal" option in any Athena
+ window.
