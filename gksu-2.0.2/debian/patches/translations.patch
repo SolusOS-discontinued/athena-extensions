@@ -1,0 +1,50 @@
+Description: Auto Generated Translations
+ Auto Generated Translations
+ .
+ gksu (2.0.2-6.1) two; urgency=low
+ .
+   * Re-enable athena-gksu extension
+Author: Ikey Doherty <ikey@solusos.com>
+
+---
+Reviewed-By: Ikey Doherty <ikey@solusos.com>
+Last-Update: <2012-06-14>
+
+--- gksu-2.0.2.orig/gksu.desktop
++++ gksu-2.0.2/gksu.desktop
+@@ -5,7 +5,6 @@ Name[ca]=Terminal root
+ Name[cs]=Terminál uživatele root
+ Name[da]=Root-terminal
+ Name[es]=Terminal de «Root»
+-Name[eu]=Root terminala
+ Name[fr]=Terminal administrateur
+ Name[gl]=Terminal de root
+ Name[hu]=Rendszergazda terminál
+@@ -15,7 +14,8 @@ Name[ko]=루트 터미널
+ Name[lt]=Administratoriaus terminalas
+ Name[nl]=Terminal als root
+ Name[pl]=Terminal użytkownika root
+-Name[pt_BR]=Terminal como Root
++Name[pt_BR]=Terminal de Root
++Name[ru]=Терминал суперпользователя
+ Name[sv]=Root-terminal
+ Name[th]=เทอร์มินัลดูแลระบบ
+ Name[zh_CN]=Root 终端
+@@ -26,7 +26,6 @@ Comment[cs]=Otevře terminál pod uživa
+ Comment[da]=Åbner en terminal som brugeren root, og bruger gksu til at spørge om adgangskoden. 
+ Comment[de]=Öffnet ein Terminal als Benutzer 'root' unter Verwendung von gksu zur Passwortabfrage
+ Comment[es]=Abre un terminal como el usuario «root» utilizando gksu para preguntar la contraseña.
+-Comment[eu]=Root erabiltzaile gisa terminal bat irekitzen du pasahitza eskatzeko gksu erabiliaz
+ Comment[fr]=Ouvrir un terminal en tant qu'administrateur, en utilisant gksu pour demander le mot de passe
+ Comment[gl]=Abre un terminal como usuario root, usando gksu para preguntar polo contrasinal
+ Comment[hu]=Megnyit egy rendszergazda terminált, a gksu-t használva a jelszó bekérésére
+@@ -36,7 +35,8 @@ Comment[ko]=루트 사용자로 터미�
+ Comment[lt]=Atveria terminalą 'root' naudotojo teisėmis, naudojant gksu slaptažodžiui įvesti
+ Comment[nl]=Start een terminal als de root-gebruiker waarbij gksu gebruikt wordt om het wachtwoord te vragen.
+ Comment[pl]=Uruchamia terminal użytkownika root, używając gksu do wczytania hasła
+-Comment[pt_BR]=Abre um terminal como usuário root, usando o gksu para pedir a senha
++Comment[pt_BR]=Abre um terminal como o utilizador root, usando o gksu para pedir a palavra-passe
++Comment[ru]=Открыть терминал для суперпользователя, используя gksu для запроса пароля
+ Comment[sv]=Öppnar en terminal som root-användaren och använder gksu för att fråga efter lösenordet
+ Comment[th]=เปิดเทอร์มินัลในนามผู้ใช้ root โดยใช้ gksu ถามรหัสผ่าน
+ Comment[zh_CN]=以 root 用户身份打开一个终端，使用 gksu 询问密码

@@ -1,0 +1,34 @@
+Description: Fix athena extension directory location
+ Fix the extensions directory to "3.0" to "2.0" to work for GNOME 3
+ .
+ gksu (2.0.2-6.1) two; urgency=low
+ .
+   * Re-enable athena-gksu extension
+Author: Ikey Doherty <ikey@solusos.com>
+
+---
+Reviewed-By: Ikey Doherty <ikey@solusos.com>
+Last-Update: <2012-06-14>
+
+--- gksu-2.0.2.orig/athena-gksu/Makefile.am
++++ gksu-2.0.2/athena-gksu/Makefile.am
+@@ -2,7 +2,7 @@ AM_CFLAGS = -g -O2 -Wall
+ INCLUDES = ${ATHENA_CFLAGS}
+ AM_CPPFLAGS = -DLOCALEDIR=\"$(datadir)/locale\" -DDATA_DIR=\"$(datadir)\" -DPREFIX=\"$(prefix)\"
+ 
+-athena_extensiondir=$(libdir)/athena/extensions-2.0
++athena_extensiondir=$(libdir)/athena/extensions-3.0
+ athena_extension_LTLIBRARIES = libathena-gksu.la
+ libathena_gksu_la_SOURCES = libathena-gksu.c
+ libathena_gksu_la_LDFLAGS = LDFLAGS = -module -avoid-version -no-undefined
+--- gksu-2.0.2.orig/athena-gksu/Makefile.in
++++ gksu-2.0.2/athena-gksu/Makefile.in
+@@ -243,7 +243,7 @@ target_alias = @target_alias@
+ AM_CFLAGS = -g -O2 -Wall
+ INCLUDES = ${ATHENA_CFLAGS}
+ AM_CPPFLAGS = -DLOCALEDIR=\"$(datadir)/locale\" -DDATA_DIR=\"$(datadir)\" -DPREFIX=\"$(prefix)\"
+-athena_extensiondir = $(libdir)/athena/extensions-2.0
++athena_extensiondir = $(libdir)/athena/extensions-3.0
+ athena_extension_LTLIBRARIES = libathena-gksu.la
+ libathena_gksu_la_SOURCES = libathena-gksu.c
+ libathena_gksu_la_LDFLAGS = LDFLAGS = -module -avoid-version -no-undefined

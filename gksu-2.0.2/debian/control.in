@@ -1,0 +1,35 @@
+Source: gksu
+Section: admin
+Priority: optional
+Maintainer: Gustavo Noronha Silva <kov@debian.org>
+Uploaders: @GNOME_TEAM@
+Build-Depends: cdbs,
+               debhelper (>= 8),
+               intltool,
+               autotools-dev,
+               gnome-pkg-tools,
+               libgtk2.0-dev (>= 2.4.0),
+               libgksu2-dev (>= 2.0.8),
+               libglib2.0-dev (>= 2.16),
+               libgconf2-dev
+Standards-Version: 3.9.2
+Homepage: http://www.nongnu.org/gksu
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-gnome/desktop/unstable/gksu/
+Vcs-Svn: svn://svn.debian.org/svn/pkg-gnome/desktop/unstable/gksu/
+
+Package: gksu
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         sudo
+Recommends: gnome-keyring
+Replaces: gnome-sudo,
+          libgksu0
+Provides: gnome-sudo
+Conflicts: gnome-sudo (<= 0.3-1.1)
+Description: graphical frontend to su
+ gksu is a Gtk+ frontend to /bin/su. It supports login shells
+ and preserving environment when acting as a su frontend. It
+ is useful to menu items or other graphical programs that need
+ to ask a user's password to run another program as another user.
+

@@ -1,0 +1,1072 @@
+gksu (2.0.2-6.1) two; urgency=low
+
+  * Re-enable athena-gksu extension
+
+ -- Ikey Doherty <ikey@solusos.com>  Thu, 14 Jun 2012 20:05:33 +0000
+
+gksu (2.0.2-6) unstable; urgency=low
+
+  * Drop the athena-gksu package. It won't be ported to GNOME 3 and is
+    blocking the athena 3 transition. Closes: #637325
+  * Switch to dpkg source format 3.0 (quilt)
+    - Add debian/source/format.
+    - Remove simple-patchsys.mk include from debian/rules.
+    - Drop Build-Depends on sng and replace debian/gksu-root-terminal.sng by
+      the final .png file. We no longer need to create it during build time.
+    - Add debian/source/include-binaries for debian/gksu-root-terminal.png.
+  * Bump debhelper compatibility level to 8.
+  * Remove pre-lenny upgrade code, drop debian/gksu.postinst.
+  * Bump Standards-Version to 3.9.2.
+  * debian/patches/02_format_security.patch
+    - Fix possible format string vulnerabilities. Closes: #643389
+  * debian/copyright
+    - Refer to GPL-2 not the versionless GPL license file.
+  * Updated Russian translation by Sergey Alyoshin. Closes: #547448
+  * Updated Portuguese translation by Américo Monteiro. Closes: #567587
+
+ -- Michael Biebl <biebl@debian.org>  Mon, 10 Oct 2011 18:51:46 +0200
+
+gksu (2.0.2-5) unstable; urgency=low
+
+  * 01_desktop_in.patch: new patch. Ship gksu.desktop.in since it was 
+    forgot in the upstream tarball. Closes: #601257.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 06 Nov 2010 22:34:18 +0100
+
+gksu (2.0.2-4) unstable; urgency=low
+
+  * New Brazilian Portuguese translation by Sérgio Cipolla. 
+    Closes: #585484.
+  * 99_intltool.patch: update po/Makefile.in.in with a working intltool
+    version. Closes: #599424.
+
+ -- Josselin Mouette <joss@debian.org>  Tue, 19 Oct 2010 23:23:24 +0200
+
+gksu (2.0.2-3) unstable; urgency=low
+
+  * Only recommend gnome-keyring, gksu works fine without it (especially 
+    in sudo mode).
+  * Move the symlink to athena-gksu. Closes: #583647.
+  * Add a Replaces this time to avoid running into the same bug the 
+    other way round.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 29 May 2010 10:28:04 +0200
+
+gksu (2.0.2-2) unstable; urgency=high
+
+  * debian/gksu.links:
+  - add link to the extension-1.0 ABI directory, to make athena-gksu
+    available to the previous version as well; we use a small enough part
+    of the ABI that it works for boths, from my testing (Closes: #520511)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Wed, 01 Apr 2009 23:55:30 -0300
+
+gksu (2.0.2-1) unstable; urgency=low
+
+  * New upstream bug fix release
+  - reverts bogus change that breaks mode configuration through gconf
+    (Closes: #517474)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Wed, 04 Mar 2009 16:32:42 -0300
+
+gksu (2.0.1-1) unstable; urgency=low
+
+  * Long awaited new upstream release
+  - athena-gksu supports newer versions of athena, and ported to GIO
+  * debian/control.in:
+  - added Homepage, Vcs-* headers, and upgraded Standards-Version to 3.8.1
+  * debian/patches/{00_all_linguas,02_fr.po}.diff, 01_athena_crash.diff:
+  - removed; applied upstream
+  * debian/patches/03_dbus_address.diff:
+  - removed; a slightly different approach has been adopted upstream
+  * debian/control.in:
+  - require libgksu2.0-dev >= 2.0.8, since we use new API from it
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sun, 22 Feb 2009 23:36:09 -0300
+
+gksu (2.0.0-8) unstable; urgency=low
+
+  * Brown paper bag release.
+  * 03_dbus_address.diff: remove the ORBIT_SOCKETDIR environment 
+    variable instead of the D-Bus one. Really closes: #512803.
+  * debian/pos/th.po: Thai translation of gksu by Theppitak 
+    Karoonboonyanan. Closes: #513358.
+
+ -- Josselin Mouette <joss@debian.org>  Wed, 04 Feb 2009 17:06:08 +0100
+
+gksu (2.0.0-7) unstable; urgency=low
+
+  [ Emilio Pozuelo Monfort ]
+  * debian/control.in: Wrap dependencies.
+
+  [ Loic Minier ]
+  * Clean up postinst and use lt-nl instead of checking $2.
+  * Add depends on {misc:Depends} to the athena package as well.
+  * Drop Debian revision from libgksu build-dep.
+
+  [ Josselin Mouette ]
+  * 03_dbus_address.diff: new patch. Remove the D-Bus session bus 
+    address from the environment to work around a bug in libbonobo when 
+    launching the root terminal. Closes: #512803.
+
+ -- Josselin Mouette <joss@debian.org>  Mon, 26 Jan 2009 18:01:17 +0100
+
+gksu (2.0.0-6) unstable; urgency=low
+
+  * debian/pos/ja.po: updated Japanese translation by Hideki Yamane.
+    Closes: #503365.
+  * gksu-root-terminal.sng: new root terminal icon from Armin Fuerst. 
+    Closes: #467037.
+  * Build-depend on sng, run it in build, clean the icon in clean, 
+    install it.
+
+ -- Josselin Mouette <joss@debian.org>  Mon, 10 Nov 2008 17:30:47 +0100
+
+gksu (2.0.0-5) unstable; urgency=low
+
+  * debian/patches/01_athena_crash.diff: new patch; fix segmentation
+    fault in the athena extension. Closes: #452491.
+  * rules: don't run dh_makeshlibs on athena-gksu.
+  * menu: make section fit to the new policy.
+  * debian/patches/02_fr.po.diff: fix French translation.
+
+ -- Josselin Mouette <joss@debian.org>  Fri, 23 Nov 2007 11:41:55 +0100
+
+gksu (2.0.0-4) unstable; urgency=low
+
+  * debian/patches/00_all_linguas.diff,
+    debian/pos/{ar,ja}.po:
+  - adding ja (Japanese) and ar (Arabic) as translations
+    thanks to Fujiwara and Khaled Hosny <khaledhosny@eglug.org>,
+    respectively
+  * debian/pos/ko.po:
+  - updating Korean translation, thanks to
+    Changwoo Ryu <cwryu@debian.org> (Closes: #416188)
+  * debian/pos/de.po:
+  - updating German translation, thanks to
+    David Ayers <ayers@fsfe.org> (Closes: #415329)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sun, 25 Mar 2007 15:28:55 -0300
+
+gksu (2.0.0-3) unstable; urgency=low
+
+  * Add a get-orig-source target to retrieve the upstream tarball.
+  * Fix bashism.
+  * Fix watch file, thanks Chris Lamb; closes: #415922.
+
+ -- Loic Minier <lool@dooz.org>  Fri, 23 Mar 2007 08:51:21 +0100
+
+gksu (2.0.0-2) unstable; urgency=high
+
+  * debian/rules, debian/pos/{ca,hu}.po:
+  - sync some translations with upstream
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue,  2 Jan 2007 14:34:30 -0200
+
+gksu (2.0.0-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control.in:
+  - build-depend on libgksu2-dev >= 2.0.0 to build with latest
+    stable version
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 23 Sep 2006 17:32:04 -0300
+
+gksu (1.9.4-1) unstable; urgency=low
+
+  * New upstream version
+  - contains the updated es translation (Closes: #382972)
+  - enhanced manpage available (Closes: #383477)
+  * debian/control.in, debian/gksu.install,
+    debian/athena-gksu.install, debian/rules:
+  - accepted patch by Gauvain Pocentek <gauvainpocentek@gmail.com>
+    with minor modifications to split the athena extension in its
+    own package (Closes: #382655)
+  * debian/patches/01_exceptions_handling.diff:
+  - removed; applied upstream
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 19 Aug 2006 15:31:58 -0300
+
+gksu (1.9.3-2) unstable; urgency=low
+
+  * debian/patches/01_exceptions_handling.diff:
+  - stolen from upstream's svn; handles special desktop items
+    differently (by not adding the menu item =P)
+    (Closes: #380407)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Wed,  9 Aug 2006 23:43:23 -0300
+
+gksu (1.9.3-1) unstable; urgency=low
+
+  * New upstream release
+  - no longer displays the 'open as administrator' menu item
+    when running with root powers (Closes: #380708)
+  - fixes typo in the manpage (Closes: #379186)
+  - includes the Korean translation by Changwoo Ryu <cwryu@debian.org>
+    (Closes: #379427)
+  * debian/control.in:
+  - require libgksu >= 1.9.8 for building, since the startup
+    notification functionality moved there;
+  - for that reason, remove the startup notification library
+    from the build dependencies
+  * debian/patches/01_locale.patch:
+  - removed; included upstream
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sun,  6 Aug 2006 16:57:26 -0300
+
+gksu (1.9.2-2) UNRELEASED; urgency=low
+
+  [ Oystein Gisnas ]
+  * Add watch file
+
+  [ Josselin Mouette ]
+  * 01_locale.patch: correctly include locale.h.
+
+ -- Josselin Mouette <joss@debian.org>  Thu,  3 Aug 2006 22:16:11 +0200
+
+gksu (1.9.2-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control.in:
+  - need libgksu2 >= 1.9.6, so build-depend on it
+  - builds a athena extension, so build-depend on libathena-extension-dev
+  * debian/rules:
+  - remove the .la and .a files installed in the athena extensions directory
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Mon, 17 Jul 2006 21:56:58 -0300
+
+gksu (1.9.1-2) unstable; urgency=low
+
+  * Releasing to unstable
+  - gksuexec is gone for the time being (does it need to come back?
+    I don't know), so this bug should no longer applly (Closes: #364467)
+  - can no longer reproduce the problem with capslock reporting making
+    the window mess with the background (Closes: #367233)
+  * debian/control.in:
+  - added dependency on gnome-keyring (Closes: #345747)
+  - updated gtk+ build-dep to >= 2.4.0
+  - added build-dep on libstartup-notification0-dev
+  - added build-dep on libgconf2-dev
+  * debian/rules:
+  - make gksu-migrate-conf.sh executable
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 10 Jun 2006 14:40:45 -0300
+
+gksu (1.9.1-1) experimental; urgency=low
+
+  * New upstream development release
+  * debian/control.in:
+  - need libgksu2 >= 1.9.2
+  - updated Standards-Version to 3.7.2, with no changes
+  * debian/menu:
+  - removed the entry for gksuexec; it may never be back (or maybe
+    it will soon)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat,  3 Jun 2006 12:07:58 -0300
+
+gksu (1.9.0-1) UNRELEASED; urgency=low
+
+  * New upstream development release
+  * debian/control.in:
+  - updated build-dependencies; no longer need libgksuui, no
+    longer uses gnome-keyring, nor gconf, but needs a newer
+    libgksu
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Mon, 24 Apr 2006 08:04:43 -0300
+
+gksu (1.3.7-1) unstable; urgency=low
+
+  * New upstream release
+  - includes new translations (Closes: #342006, #340137, #347442, #350374)
+  - includes typo fix on manpage (Closes: #349598)
+  * debian/patches/migrate-conf.diff:
+  - removed, included upstream (Closes: #353254)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue,  4 Apr 2006 00:01:50 -0300
+
+gksu (1.3.6-2) UNRELEASED; urgency=low
+
+  * debian/patches/migrate-conf.diff:
+  - fix bash3.0isms and make it more robust
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Wed, 29 Mar 2006 00:30:45 -0300
+
+gksu (1.3.6-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Wed, 26 Oct 2005 11:20:12 -0200
+
+gksu (1.3.5-2) unstable; urgency=low
+
+  * debian/control.in:
+  - added missing Depends on ${misc:Depends} - thanks to Josselin
+    Mouette for pointing out it was missing (Closes: #330892)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Fri, 30 Sep 2005 09:08:34 -0300
+
+gksu (1.3.5-1) unstable; urgency=low
+
+  * New upstream release
+  - should fix lockup with focus-stealing stuff - thanks to
+    Michael Vogt! (Closes: #310951)
+  * debian/copyright:
+  - updated FSF's address
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Thu, 29 Sep 2005 22:31:03 -0300
+
+gksu (1.3.4-2) UNRELEASED; urgency=low
+
+  * debian/copyright:
+  - no need to talk about LGPL, so removed reference to it
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 30 Aug 2005 16:39:41 -0300
+
+gksu (1.3.4-1) unstable; urgency=low
+
+  * New upstream release
+  - fixes segfault when a non-existant user is given (Closes: #323836)
+  - includes the updated fr and de translations (Closes: #323817, #323588)
+  * debian/patches/00_fix_logic_problem_with_disable_grab.diff:
+  - removed, fixed in this upstream release
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 20 Aug 2005 11:14:32 -0300
+
+gksu (1.3.3-2) unstable; urgency=low
+
+  * debian/rules:
+  - include gnome.mk so that dh_gconf and dh_desktop will be called
+    making both the desktop and the schemas file be installed correctly
+  * debian/patches/00_fix_logic_problem_with_disable_grab.diff:
+  - obtained from upstream SVN fixes the way gksu interprets disable-grab
+    (Closes: #323461)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 16 Aug 2005 21:45:54 -0300
+
+gksu (1.3.3-1) unstable; urgency=low
+
+  * New upstream release
+  - fixes schema file which was leading to an unexpected NULL
+    in a variable resulting in SIGSEV (Closes: #322070, #322280)
+  * debian/patches/01_migrate_conf.diff
+  - integrated upstream, so removed
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Wed, 10 Aug 2005 09:07:44 -0300
+
+gksu (1.3.2-3) unstable; urgency=low
+
+  * debian/gksu.postinst:
+  - checking for which one was last configured is not enough;
+    need to check if the file exists (Closes: #322127)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue,  9 Aug 2005 09:39:57 -0300
+
+gksu (1.3.2-2) unstable; urgency=low
+
+  * debian/gksu.postinst:
+  - run the gksu.conf to gconf migration script
+  * debian/patches/01_migrate_conf.diff:
+  - added with a small fix to the parsing code
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Mon,  8 Aug 2005 14:26:08 -0300
+
+gksu (1.3.2-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control.in:
+  - Build-Depend on libgksu1.2-dev >= 1.3.3, libgconf2-dev and 
+    libgnome-keyring-dev
+  * debian/rules:
+  - do the po/ magic only if there is a debian/pos directory
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sun,  7 Aug 2005 20:07:12 -0300
+
+gksu (1.3.1-2) unstable; urgency=low
+
+  * debian/control.in:
+  - replaced gettext with intltool as a Build-Dep (Closes: #319241)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 26 Jul 2005 07:51:31 -0300
+
+gksu (1.3.1-1) unstable; urgency=low
+
+  * New upstream release
+  - uses new libgksuui1.0 and libgksu functionality that allows it to set
+    the prompt according to the one su prints (Closes: #246652)
+  * debian/control.in:
+  - increase Build-Depends version of libgksu to 1.3.2 and of libgksuui
+    to 1.0.6 because of the new functions gksu uses
+  * debian/control.in, rules, gnome-sudo.sh:
+  - increased Standards-Version to 3.6.2 with no changes
+  - drop gnome-sudo (thanks Erinn Clark for reminding me)
+  * debian/gksu.install:
+  - remove most of the lines since we don't have debian/tmp anymore
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 16 Jul 2005 23:21:55 +0300
+
+gksu (1.3.0-1) unstable; urgency=low
+
+  * New upstream release
+  - includes the Romanian translation (Closes: #309531)
+  - works better with sudo not needing the password (Closes: #312937)
+  - features a --always-ask-password (-a) to bypass
+    trying to get password automatically (Closes: #314477)
+  - will handle cases in which su does not need a password, too
+    (Closes: #304047)
+  * debian/control.in:
+  - updated Build-Depends to have libgksu1.2 >= 1.3.1 because this
+    version is using a new API function
+  * debian/gksu.conffiles:
+  - removed; lintian is reporting duplicate conffile, meaning that
+    debhelper might be being able to take care of this itself
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 18 Jun 2005 15:17:10 -0300
+
+gksu (1.2.6-2) unstable; urgency=low
+
+  * debian/control.in:
+  - build-depend on at least 1.3.0-2 version of libgksu1.2-dev
+    so we get correct Depends and no FTBFS =) (Closes: #313475)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 14 Jun 2005 14:35:59 -0300
+
+gksu (1.2.6-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/patches/01_prompt_fix.diff, debian/patches/02_new_translations.diff,
+    debian/pos:
+  - removed, no longer needed
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Mon, 13 Jun 2005 12:06:58 -0300
+
+gksu (1.2.5-3) unstable; urgency=medium
+
+  * debian/pos/ca.po:
+  - translation updated
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Mon, 16 May 2005 22:59:54 -0300
+
+gksu (1.2.5-2) unstable; urgency=medium
+
+  * debian/patches/01_prompt_fix.diff:
+  - make the yes/no dialog for grabing actually work (thanks to
+    Gabor Kelemen <kelemeng@gnome.hu> for noticing this problem)
+  * debian/patches/02_new_translations.diff, pos/*:
+  - added to provide new and updated translations to gksu
+  * debian/rules:
+  - provide that the .gmo files are rebuilt at build time with
+    the new pofiles
+  * debian/gksu.conffiles:
+  - explicitely say /etc/gksu.conf is a conffile
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sun, 15 May 2005 17:39:40 -0300
+
+gksu (1.2.5-1) unstable; urgency=medium
+
+  * New upstream release
+  - includes Loïc Minier <lool@dooz.org>'s patch for the manpage
+    (Closes: #298170)
+  - basically a new translation
+  * small and fairly high impact changes for some; urgency medium
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue,  5 Apr 2005 11:58:11 -0300
+
+gksu (1.2.4-1) unstable; urgency=low
+
+  * New upstream release
+  - includes better locking support, thanks to Michael Vogt
+  - better documentation for sudo functionality added
+    (Closes: #265270)
+  * debian/patches/*:
+  - removed, included upstream
+  * debian/menu:
+  - added missing quotes
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue,  1 Mar 2005 23:57:57 -0300
+
+gksu (1.2.3-2) unstable; urgency=low
+
+  * debian/patches: grabbed from the svn
+  - 00_da_translation_update.diff:
+   + updated danish translation
+  - 01_fadeout.diff, 02_locking.diff:
+   + fadeout the screen, do not show window decorations, use
+     a simple lock file to avoid duplicate gksu's running
+     (Closes: #293214)
+  - 03_fix_prompt_and_sudo-mode_behavior.diff:
+   + fixes to the configuration interpretation and conffile
+     documentation (Closes: 293236)
+  - 04_window_or_popup.diff:
+   + shows a window or a popup, depending on whether we're
+     grabbing or not
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Mon,  7 Feb 2005 18:33:43 -0200
+
+gksu (1.2.3-1) unstable; urgency=low
+
+  * New upstream release
+  - has a conffile to set up some default options, which
+    will help working around problems related on bugs
+    #271567, #277723
+  - adds patch by Michael Vogt <mvogt@acm.org> to return
+    different error codes on different failures, which
+    (Closes: #266832)
+  - include pt translation by Luis Matos <gass@otiliamatos.ath.cx>
+    (Closes: #284000)
+  * debian/copyright:
+  - applied patch by Guilherme de S. Pastore (fatalerror)
+    <gpastore@colband.com.br> (Closes: #290166)
+  * debian/gksu.menu:
+  - removed; (Closes: #291475, #284596)
+  * debian/gksu.install:
+  - distribute /etc/gksu.conf
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sun, 30 Jan 2005 18:10:16 -0200
+
+gksu (1.2.2-2) UNRELEASED; urgency=low
+
+  * debian/rules, debian/control.in:
+  - GNOME team upload, finally (!!)
+  * debian/control.in:
+  - Depends on sudo, for gksudo (Closes: #280316)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Wed,  8 Dec 2004 00:27:36 -0200
+
+gksu (1.2.2-1) unstable; urgency=low
+
+  * New upstream release
+  - fixes blocking problem on gksuexec (Closes: #276535)
+  - fixes typo in help and manpage (Closes: #262561)
+  - checks if we're target user before trying to su/sudo
+    (Closes: #276432)
+  - converts password to system locale before using it
+    (Closes: #276089)
+  * debian/menu:
+  - use 'longtitle' instead of 'hints' (Closes: #257776)
+  * debian/patches/00args_parsing.diff:
+  - no longer needed, applied upstream
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sun, 17 Oct 2004 19:54:53 -0300
+
+gksu (1.2.1-3) unstable; urgency=low
+
+  * rebuilt with unstable packages (duh) (Closes: #272816)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Wed, 22 Sep 2004 14:42:28 -0300
+
+gksu (1.2.1-2) unstable; urgency=low
+
+  * debian/patches/00args_parsing:
+  - patch from svn to fix handling of -- and quoted strings
+    (Closes: #271301)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 21 Sep 2004 00:19:04 -0300
+
+gksu (1.2.1-1) unstable; urgency=low
+
+  * New upstream release
+  - reimplemented X keyboard and mouse grabing
+    copying code from libgksuui (Closes: #254949)
+  - includes Catalan translation by Jordi Mallach <jordi@sindominio.net> 
+    (Closes: #263305)
+  * debian/patches/01_desktop_files_fix.diff:
+  - removed because this release contains this fix
+  * debian/gksu.install:
+  - gksu now installs locales
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat,  7 Aug 2004 22:56:24 -0300
+
+gksu (1.2.0-2) unstable; urgency=low
+
+  * debian/patches/01_desktop_files_fix.diff:
+  - added patch to fix .desktop files which are
+    incorrect in upstream distribution, patch grabbed
+    from upstream's SVN (Closes: #252334, 252576)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue,  8 Jun 2004 01:40:55 -0300
+
+gksu (1.2.0-1) unstable; urgency=low
+
+  * New upstream version
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sun, 30 May 2004 02:40:03 -0300
+
+gksu (1.1.1-2) experimental; urgency=low
+
+  * debian/control:
+  - changed gnome-sudo's Section to gnome
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Thu,  6 May 2004 18:18:49 -0300
+
+gksu (1.1.1-1) experimental; urgency=low
+
+  * New upstream release
+  * debian/control, debian/libgksu*:
+  - remove libgksu and libgksu-dev packages, which
+    have been split off this source package
+  - added build-depends for them: libgksu1.2-dev and
+    libgksuui1.0-dev
+  * debian/rules:
+  - remove libgksu* stuff
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Thu, 25 Mar 2004 20:52:06 -0300
+
+gksu (1.1.0-1) unstable; urgency=low
+
+  * New release
+  - removes all patches, applied upstream
+  * debian/gksu.install, debian/libgksu1.install:
+  - moved the gksu-the-app-specific images to the gksu
+    package
+  * debian/control:
+  - gksu Replaces libgksu0, because of the new files it received
+    from libgksu1 (gksu.png and gksu-terminal.png)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Mon,  2 Feb 2004 17:05:10 -0200
+
+gksu (1.0.3-3) unstable; urgency=low
+
+  * debian/control, debian/rules, debian/gnome-sudo:
+  - add a gnome-sudo script to call gksudo
+  - add a package gnome-sudo to provide smooth
+    upgrade for users of this package
+  - make gksu provide, replace and conflict gnome-sudo
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Mon,  2 Feb 2004 17:09:39 -0200
+
+gksu (1.0.3-2) unstable; urgency=low
+ 
+  * debian/patches/00gksu_disappear.diff:
+  - new patch to have the dialog disapear on window closing
+    or when the cancel button is clicked (Closes: #230456)
+  * debian/patches/01cpp_capable_headers.diff:
+  - new patch to apply G_BEGIN_DECLS and G_END_DECLS to the
+    headers so that they are usable in C++ (Closes: #230314)
+ 
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 31 Jan 2004 00:28:04 -0200
+
+gksu (1.0.3-1) unstable; urgency=low
+
+  * New release
+  - fixes a segfault when xauth returns nothing, thanks to
+    Doug Holland <meldroc@frii.com> (Closes: #228292)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sun, 18 Jan 2004 01:55:34 -0200
+
+gksu (1.0.2-1) unstable; urgency=low
+
+  * debian/control:
+  - libgksu0 Replaces and Conflicts with gksu << 1.0.0, thanks
+    to Adrian Bunk <bunk@fs.tum.de> (Closes: #227888)
+  * libgksu/Makefile.am:
+  - build the library with -fPIC, to allow prelinking
+    (Closes: #227924)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Fri, 16 Jan 2004 01:46:49 -0200
+
+gksu (1.0.1-3) unstable; urgency=low
+
+  * debian/libgksu-dev.install:
+  - actually install the .pc file to /usr/lib/pkgconfig
+  * debian/rules:
+  - add post-install rule to install the html/devhelp
+    docs for the libgksu-dev package
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Thu, 15 Jan 2004 04:17:24 -0200
+
+gksu (1.0.1-2) unstable; urgency=low
+
+  * debian/rules:
+  - removed the clean addition, no longer removing the
+    po/stamp-po file
+  - disabled gtk-doc on configure
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Wed, 14 Jan 2004 21:20:49 -0200
+
+gksu (1.0.1-1) unstable; urgency=low
+
+  * debian/rules:
+  - ask debhelper to look for dependency libraries on
+    libgksu0 places (Closes: #227478, 227438)
+  - will make gksu a no longer Debian native package
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 13 Jan 2004 19:12:06 -0200
+
+gksu (1.0.0) unstable; urgency=low
+
+  * New release: "Obviously you're not a kover", or
+    something.
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Fri, 19 Dec 2003 04:37:43 -0200
+
+gksu (0.9.18.lib.3) UNRELEASED; urgency=low
+
+  * New test release
+  * gksu/Makefile.am, gksu/gksuexec.c:
+  - readding gksuexec
+  * debian/gksu.install:
+  - install gksuexec, the .desktop files, etc
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Fri, 19 Dec 2003 04:12:58 -0200
+
+gksu (0.9.18.lib.2) UNRELEASED; urgency=low
+
+  * New test release
+  * libgksu/Makefile.am, debian/libgksu-dev.install:
+  - install the gksu.h header file for using the library
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sun,  7 Dec 2003 09:22:16 -0200
+
+gksu (0.9.18.lib.1) UNRELEASED; urgency=low
+
+  * New test release
+  * debian/control:
+  - libgksu0 depends on xbase-clients (xauth)
+	
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 22 Nov 2003 10:47:20 -0200
+
+gksu (0.9.18.lib) UNRELEASED; urgency=low
+
+  * Turning gksu into a library
+  * debian/control:
+  - new packages libgksu0 and libgksu-dev
+  - improved gksu's short description
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 22 Nov 2003 10:47:20 -0200
+
+gksu (0.9.18) unstable; urgency=low
+
+  * New release
+  * src/gksu-run-helper.c:
+  - remove a bashism when calling the program (Closes: #221179).
+  * po/de.po:
+  - small fix, thanks to Michael Vogt <mvogt@acm.org>
+   (Closes: #221030)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 18 Nov 2003 21:22:54 -0200
+
+gksu (0.9.17) unstable; urgency=medium
+
+  * New release
+  - fixes problem with xauth token being visible through ps auxwww
+  - urgency medium because this is a potential security problem,
+    so it's better it is fixed in testing soon
+  * man/gksu.1:
+  - do not mention gksudo (Closes: #207843)
+  
+ -- Gustavo Noronha Silva <kov@debian.org>  Fri, 14 Nov 2003 00:42:48 -0200
+
+gksu (0.9.16) unstable; urgency=high
+
+  * New release
+  - fixes problem with XDM-AUTH being passed together with
+    MIT-MAGIC-COOKIE-1's auth token
+  - urgency high because no features were modified/added, just
+    a quick fix
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Thu, 28 Aug 2003 13:46:55 -0300
+
+gksu (0.9.15) unstable; urgency=low
+
+  * New release
+   - new German translation
+   - developer documentation on source package created
+     with gtk-doc
+ -- Gustavo Noronha Silva <kov@debian.org>  Fri,  8 Aug 2003 05:12:01 -0300
+
+gksu (0.9.14) unstable; urgency=low
+
+  * New release
+  - fixes problems with non-bash shells (Closes: #203386)
+  - the -u for root problem seemed to be related to the
+    non-bash shells stuff, I cannot reproduce it anymore
+    (Closes: #203387)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 29 Jul 2003 19:24:49 -0300
+
+gksu (0.9.13) unstable; urgency=low
+
+  * New release
+  - minor cosmetic enhancements on the dialog
+  - new option (--ssh-fwd) was added to work-around problem
+    with ssh X11 forwarding (Closes: #202532)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Thu, 24 Jul 2003 00:53:00 -0300
+
+gksu (0.9.12) unstable; urgency=low
+
+  * New release
+  - lots of small fixes/modifications to the authentication
+    stuff
+  - added debug code, to help fix bugs
+  * the --icon position on the man page has been fixed
+    (Closes: #195122)
+  * debian/gksu{,exec}-debian.xpm:
+  - recreated from the images available to not conform anymore
+    with the braindead policy that mandated 24 colors
+  * debian/compat:
+  - new file
+  * debian/rules:
+  - using cdbs
+  * debian/control:
+  - build-depends on cdbs, debhelper >= 4.1.0
+  - Standards-Version to 3.6.0
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Wed, 23 Jul 2003 00:46:47 -0300
+
+gksu (0.9.11) unstable; urgency=low
+
+  * New release
+  - see entry below, thanks to Álvaro
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 14 Jun 2003 22:29:22 -0300
+
+gksu (0.9.10-1) unstable; urgency=low
+
+  * Apply HIG to the authoritation dialog
+
+ -- Álvaro Peña <apg@esware.com>  Wed, 11 Jun 2003 10:44:25 +0200
+
+gksu (0.9.10) unstable; urgency=low
+
+  * New release
+  - no more auto-background
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 24 May 2003 15:00:06 -0300
+
+gksu (0.9.9) unstable; urgency=low
+
+  * New release
+  - fixes some problems some users had running programs with
+    arguments
+  - includes translations for spanish (es) and russian (ru),
+    thanks to Enrique Rodriguez <krm@futurnet.es> and
+    Aleksander <murygin@aitoc.com> respectively.
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 10 May 2003 03:23:17 -0300
+
+gksu (0.9.8) unstable; urgency=low
+
+  * New release
+  - initializes xauth string before fread'ing into it, thanks
+    to: Alex Stewart <am2stewa@uwaterloo.ca> (Closes: #187299)
+  - waits a bit longer for the grab (Closes: #181342)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat,  5 Apr 2003 00:24:12 -0300
+
+gksu (0.9.7) unstable; urgency=low
+
+  * New release
+  - changed the way Xauth is done (Closes: #182018)
+  - no more sudo support
+  * debian/control:
+  - remove mention of sudo, remove sudo from Suggests
+  * debian/rules:
+  - doesn't link gksu to gksudo anymore
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 29 Mar 2003 01:47:58 -0300
+
+gksu (0.9.1) unstable; urgency=low
+
+  * New release
+  - supports the new --icon command line option (Closes: #178910)
+  * debian/rules:
+  - no need to install manpages anymore
+  * debian/copyright:
+  - added Alan Douglaz as developer
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Fri, 31 Jan 2003 02:14:56 -0200
+
+gksu (0.9.0) unstable; urgency=low
+
+  * New release
+  * debian/menu:
+  - added menu entry for gksuexec, the new program used
+    as a wrapper to gksu's command line options
+  * debian/gksuexec-debian.xpm:
+  - Debian icon for gksuexec's menu entry, based on gksu.png
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Wed, 29 Jan 2003 15:34:46 -0200
+
+gksu (0.8.5) unstable; urgency=low
+
+  * New release
+  - doesn't ask for password when ran as root user
+    (Closes: #178675)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 28 Jan 2003 17:28:36 -0200
+
+gksu (0.8.4) unstable; urgency=low
+
+  * New release
+  * debian/control:
+  - build-depends on libgtk2.0-dev >= 2.2.0, as gksu is using
+    API calls specific to Gtk+2.2
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 14 Jan 2003 21:13:28 -0200
+
+gksu (0.8.3) unstable; urgency=low
+
+  * New release
+  - mostly fixes to the build system
+  * debian/rules:
+  - installs ChangeLog as /usr/share/doc/gksu/changelog.src
+  * debian/copyright:
+  - fixed downloaded from URL
+  - fixed 'Author(s)' stuff
+  * debian/gksu-debian.xpm:
+  - icon for gksu
+  * debian/menu:
+  - changed icon
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 14 Jan 2003 13:41:12 -0200
+
+gksu (0.8.2-1) unstable; urgency=low
+
+  * New release
+  - basicaly fixes some bugs about environment that were causing
+    problems for synaptic, for example
+  * debian/docs:
+  - added ChageLog, I'm now using the upstream changelog too
+  * debian/control:
+  - Standards-Version to 3.5.8
+  - depends on autotools-dev
+  * debian/rules:
+  - supports nostrip for DEB_BUILD_OPTIONS
+  - uses config.sub and config.guess from autotools-dev
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 14 Jan 2003 02:45:37 -0200
+
+gksu (0.8.0-2) unstable; urgency=low
+
+  * Using new gettext version (0.11.5) (Closes: #156993)
+  * libpng (Gtk2.0) transition already done (Closes: #156822)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 20 Aug 2002 11:16:03 -0300
+
+gksu (0.8.0-1) unstable; urgency=low
+
+  * build against libgtk2.0-0png3
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 13 Aug 2002 09:45:43 -0300
+
+gksu (0.8.0) unstable; urgency=low
+
+  * src/gksu.{c,h}, src/gui.{c,h}, src/su.{c,h}, src/sudo.{c,h}:
+  - added the --title (-t) option to set the window title
+  - changed the way arguments are passed to su_do and sudo_do...
+    now they receive a GkConf, which is a struct containing all
+    config variables
+  * src/gksu.c:
+  - --print-pass no longer requires an argument (why should it?)
+  - documented the changes on --help output
+  * src/gksu.c, src/util.c:
+  - new function to convert to utf8
+  - converts message and title given by the user to UTF8
+  * src/gui.c:
+  - some little tweaks on the GUI
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Thu, 11 Jul 2002 11:31:56 -0300
+
+gksu (0.7.2) unstable; urgency=low
+
+  * man/gksu.1:
+  - remove mention to -k (deprecated option) (Closes: #148864)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Tue, 18 Jun 2002 22:00:14 -0300
+
+gksu (0.7.1) unstable; urgency=low
+
+  * src/gui.c:
+  - ungrab server in case pointer grabing fails
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sun,  9 Jun 2002 23:44:08 -0300
+
+gksu (0.7) unstable; urgency=low
+
+  * Ported to Gtk2
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Mon, 11 Mar 2002 17:26:08 -0300
+
+gksu (0.6) unstable; urgency=low
+
+  * src/xauth.c, src/gksu.c: better error and temporary
+    directory handling
+  * src/sudo.c,src/su.c:
+  - improved the wording of the password dialog
+  * Added support for --print-pass and --message.
+  * Removed -k, -keep-env, keep_env is now TRUE by
+    default and added --reset-env... the env must
+    be kept for the Xauthority trick to work
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Fri,  8 Mar 2002 22:49:55 -0300
+
+gksu (0.5) unstable; urgency=low
+
+  * debian/control:
+  - made some fixes
+  * src/xauth.c:
+  - small typo fixed
+  * po/pt_BR.po:
+  - updated translation
+  * configure.in:
+  - removed check for Gnome
+  * removed links for automake stuff copied real files from
+    /usr/share/automake (Closes: #135395)
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Sat, 23 Feb 2002 19:25:10 -0300
+
+gksu (0.4) unstable; urgency=low
+
+  * First Debian release (Closes: #135088)
+  * debian/rules:
+  - really fixes dh_link call
+  - added manpage installation
+  * man/gksu.1:
+  - wrote manpage
+  * debian/menu:
+  - fixed gkdebconf->gksu issue
+  * debian/control:
+  - better (not so good, but better =)) description
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Thu, 21 Feb 2002 17:55:26 -0300
+
+gksu (0.3) unstable; urgency=low
+
+  * su.c, sudo.c:
+  - a lot more error checking (for fork() and execv, for example)
+  * debian/rules:
+  - fixed the call to dh_link to create the right link
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Wed, 20 Feb 2002 17:36:47 -0300
+
+gksu (0.2) unstable; urgency=low
+
+  * gksu.c:
+  - new free_pass function to clean the variables used
+    to store the password
+  * gksu.c, su.c, gui.c:
+  - always call free_pass on password variables before
+    we exit!
+  * sudo.c:
+  - added, now sudo is an option for gksu =)
+  - double-fork to quit 
+  - added a while loop to keep printf'inf program's
+    stderr and stdout some programs have problems with this.
+  * gksu.c:
+  - added -S to call gksudo, added -H to support
+    setting the target user's home
+  * su.c:
+  - added a while loop to keep printf'inf program's
+    stderr and stdout some programs have problems with this.
+  * debian/rules:
+  - creates the /usr/bin/gksudo link
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Wed, 20 Feb 2002 05:53:47 -0300
+
+gksu (0.1) unstable; urgency=low
+
+  * First version.
+
+ -- Gustavo Noronha Silva <kov@debian.org>  Mon, 18 Feb 2002 20:16:41 -0300
+
