@@ -1,0 +1,194 @@
+athena-python (1.1-4) two; urgency=low
+
+  * Build for SolusOS 2
+
+ -- Ikey Doherty <ikey@solusos.com>  Sun, 13 Jan 2013 13:02:20 +0000
+
+athena-python (1.1-3) unstable; urgency=low
+
+  * Bump debhelper compatibility to 8.
+  * Set pkg-gnome-maintainers@lists.alioth.debian.org as Maintainer.
+  * Tighten dependency on python-gi to ensure it has dynamic bindings support.
+    Closes: #652109
+
+ -- Michael Biebl <biebl@debian.org>  Thu, 15 Dec 2011 01:00:58 +0100
+
+athena-python (1.1-2) unstable; urgency=low
+
+  [ Josselin Mouette ]
+  * Replace python-gobject by python-gi.
+
+  [ Martin Pitt ]
+  * Add 00git_open_terminal_example_GI.patch: Use GI GConf bindings in open
+    terminal example. Patch taken from upstream git.
+  * Add 01_port_examples_to_GI.patch: Port remaining examples to GI
+    bindings/GSettings. (Closes: #649910, LP: #898959)
+
+ -- Martin Pitt <mpitt@debian.org>  Fri, 02 Dec 2011 07:40:34 +0100
+
+athena-python (1.1-1) unstable; urgency=low
+
+  * New upstream release.
+    - Transition to athena 3 (Closes: #637315)
+  * debian/control.in:
+    - Adjusts {build-}dependencies
+    - Bump Standards-Version to 3.9.2 (no further changes)
+    - Add Vcs-* fields
+  * Switch to dpkg-source 3.0 (quilt) format
+  * debian/dirs: Create system-wide extensions directory to new location
+  * debian/watch: Switch to .xz tarballs
+  * debian/README.Debian: Update to new locations
+  * debian/lintian-overrides: Add an override for the empty system-wide
+    extensions directory
+  * debian/copyright: Add missing copyright statements
+
+ -- Laurent Bigonville <bigon@debian.org>  Wed, 19 Oct 2011 22:04:10 +0200
+
+athena-python (0.6.1-1) unstable; urgency=low
+
+  [ Josselin Mouette ]
+  * Require python-gconf instead of python-gnome2. Closes: #541582.
+  * Add missing dependency on python-gtk2.
+  * Drop useless .la files.
+
+  [ Emilio Pozuelo Monfort ]
+  * New upstream release.
+  * debian/patches/02_libeel.patch,
+    debian/patches/10_dlopen-nasty.patch,
+    debian/patches/50_CVE-2009-0317.patch,
+    debian/patches/70_missing_m4.patch,
+    debian/patches/90_relibtoolize.patch:
+    - Removed, no longer needed / applied upstream.
+  * debian/control.in:
+    - Remove libgnomevfs-dev from build depends, add python-gobject-dev.
+    - Standards-Version is 3.8.4, no changes needed.
+  * debian/watch:
+    - Don't uupdate.
+  * debian/control.in,
+    debian/rules:
+    - Remove quilt support, no longer needed.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Sat, 30 Jan 2010 14:12:47 +0100
+
+athena-python (0.5.1-2) unstable; urgency=low
+
+  * Remove useless libeel build-dependency.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 25 Apr 2009 12:51:34 +0200
+
+athena-python (0.5.1-1) unstable; urgency=low
+
+  * New upstream release.
+  * Switch to quilt; build-depend on quilt.
+  * Rename un-numbered patches.
+  * 01_fix-extension-directory.patch: removed, fixed upstream.
+  * 02_libeel.patch: drop eel requirement.
+  * update.patch: removed, merged upstream.
+  * 70_missing_m4.patch: add missing m4 macros to acinclude.m4.
+  * 90_relibtoolize.patch: as the name says.
+  * Use debhelper compatibility mode 7.
+  * Refer to versioned GPL in the copyright.
+
+ -- Josselin Mouette <joss@debian.org>  Thu, 16 Apr 2009 18:30:58 +0200
+
+athena-python (0.5.0-2) unstable; urgency=low
+
+  [ Loic Minier ]
+  * Section is gnome says ftpmasters.
+  * Wrap build-deps and deps.
+  * Add ${misc:Depends}.
+
+  [ Emilio Pozuelo Monfort ]
+  * Change section back to python, override has been fixed.
+  * Do not duplicate the section in the binary package stanza.
+
+  [ Josselin Mouette ]
+  * 50_CVE-2009-0317.patch: fix CVE-2009-0317: untrusted search path 
+    vulnerability. Closes: #513419
+  * Standards version is 3.8.1.
+  * Upload to unstable.
+  * Pass --no-act to dh_makeshlibs.
+
+ -- Josselin Mouette <joss@debian.org>  Tue, 07 Apr 2009 15:51:10 +0200
+
+athena-python (0.5.0-1) experimental; urgency=low
+
+  * New upstream release, depends on Athena 2.22 so target experimental
+  * Add watch file, and patches from Ubuntu
+  * Also add nasty patch to load libpython2.5.so.1. Ugly.
+
+ -- Ross Burton <ross@debian.org>  Sun, 20 Apr 2008 16:33:37 +0100
+
+athena-python (0.4.3-2) unstable; urgency=low
+
+  [ Ross Burton ]
+  * Acknowledge NMU.
+  * Add to pkg-gnome team maintainership.
+  * Bump Standards.
+  * Fix FSF address.
+  
+  [ Loic Minier ]
+  * Add a get-orig-source target to retrieve the upstream tarball.
+
+ -- Ross Burton <ross@debian.org>  Thu, 26 Apr 2007 11:12:37 +0100
+
+athena-python (0.4.3-1.1) unstable; urgency=low
+
+  * NMU.
+  * Upload to unstable.
+  * Drop dependency on python2.3, lowering severity of #373465.
+
+ -- Matthias Klose <doko@debian.org>  Mon,  1 Jan 2007 11:36:59 +0100
+
+athena-python (0.4.3-1) experimental; urgency=low
+
+  * New upstream releases.
+    - Should not cause athena to crash anymore. (Closes: #304370)
+  * Add CDBS' utils.
+    [debian/rules]
+  * Add CDBS' simple patch system.
+    [debian/patches, debian/rules]
+  * Merge patch by Sam Morris to ease use of the package:
+    - Add a README.Debian file containing notes on usage.
+      [debian/README.Debian]
+    - Create an empty /usr/lib/athena/extensions-1.0/python directory for
+      plugins to be installed into.
+      [debian/dirs]
+    - Add missing libeel2-dev (>= 2.6.0) build-dep.
+      [debian/control]
+
+ -- Loic Minier <lool@dooz.org>  Wed,  1 Mar 2006 20:36:33 +0100
+
+athena-python (0.4.1-1) experimental; urgency=low
+
+  [ Ross Burton ]
+  * New upstream release (closes: #314297)
+    - Threading fixes (closes: #304019)
+    - Examples are not installed by default (closes: #309653)
+  * Change build-dep to athena-extension (closes: #323743)
+  * Tighten build-deps
+    
+  [Sebastien Bacher ]
+  * debian/control:
+    - build with the current gnome-python packages.
+  
+ -- Ross Burton <ross@debian.org>  Wed, 12 Oct 2005 21:03:53 +0100
+
+athena-python (0.3.0-3) unstable; urgency=low
+
+  * Add Depends on python-gnome2
+
+ -- Ross Burton <ross@debian.org>  Tue,  8 Mar 2005 13:44:23 +0000
+
+athena-python (0.3.0-2) unstable; urgency=low
+
+  * Build-Dep on python-gnome2-dev (closes: #283026)
+
+ -- Ross Burton <ross@debian.org>  Mon, 29 Nov 2004 10:46:07 +0000
+
+athena-python (0.3.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Ross Burton <ross@debian.org>  Wed,  6 Oct 2004 18:02:08 +0100
+

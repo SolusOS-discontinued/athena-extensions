@@ -1,0 +1,25 @@
+Source: athena-python
+Section: python
+Priority: optional
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: @GNOME_TEAM@
+Build-Depends: debhelper (>= 8),
+               cdbs,
+               gnome-pkg-tools,
+               python-dev,
+               python-gi-dev,
+               libathena-extension-dev (>= 1.0)
+Standards-Version: 3.9.2
+Vcs-Svn: svn://anonscm.debian.org/svn/pkg-gnome/packages/unstable/athena-python
+Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/packages/unstable/athena-python/
+
+Package: python-athena
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         ${python:Depends},
+         python-gi (>= 3.0),
+         gir1.2-athena-3.0
+Description: Python binding for Athena components
+ Python binding for Athena, to allow Athena property page and menu item
+ extensions to be written in Python.

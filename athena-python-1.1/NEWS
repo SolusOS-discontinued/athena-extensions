@@ -1,0 +1,99 @@
+1.1:
+    - Added pygobject3 compatibility.  Retained pygobject 2.28.x compatibility.
+        Updated extension examples to support pygobject3.
+    - Fixed bug #660290. Updated the FSF address
+    - Fixed bug #660288. Fix autogen warnings with additional macro ACLOCAL_AMFLAGS
+    - Fixed bug #660287. Make the docdir not hard-coded
+    - Fixed bug #660286. Fixes m4 underquoting warning
+    - Fixed bug #660283. Fixes html docs installation issue
+    - Fixed bug #653169. Upated the COPYING file with the most recent GPLv2 license
+
+1.0.0:
+    - Use the gobject instrospection dynamic bindings, breaks compatibility
+        for existing extensions.
+    - For Athena3, the get_toolbar_items methods have been removed. (Only reporting
+        that change, it isn't up to us).  Should still work with Athena 2.x annotations.
+    - No longer look in the old ~/.athena/python-extensions or /usr/lib/athena/extensions2.0/python
+        folders for extensions.  Now look in ~/.local/share/athena-python/extensions or
+        $XDG_DATA_DIR/athena-python/extensions.  Extensions should be arch-independent now.
+    - General clean up of the repository, removed old .cvsignore files
+    - Updated the gtk-doc documentation and examples to work with new dynamic bindings.
+
+0.7.2:
+    - Fix to get the PyCapsule patch to work even if there is no PyCapsule 
+        object set up for pygtk.
+
+0.7.1:
+    - Fixed AM_CHECK_PYTHON_LIBS usage of test (GNOME bug #619440)
+    - Cleaned up the docs Makefile.am to make it more consistent
+    - Fix some python3 syntax issues in the python.m4 script
+    - Add python 2.7 support (GNOME bug #633171)
+
+0.7.0:
+    - Added methods:
+        athena.InfoProvider.update_file_info_full
+        athena.InfoProvider.update_complete_invoke
+        athena.InfoProvider.cancel_update
+        athena.MenuProvider.get_file_items_full
+        athena.MenuProvider.get_background_items_full
+        athena.MenuProvider.get_toolbar_items_full
+        athena.MenuProvider.emit_items_updated_signal
+    - Added complete gtk-doc documentation: tutorial and reference.  Enable
+        by adding the --enable-gtk-doc argument to ./configure or ./autogen.sh
+    - Updated the autogen.sh file so it is not a copied-over obsolete version
+        of gnome-autogen.sh, but a shell that calls the user's installed
+        gnome-autogen.sh.
+    - Removed obsolete .spec file
+    - Removed obsolete examples/documentation.py file
+    - Added an example plugin for the LocationWidgetProvider
+    - Look for python plugins in $XDG_DATA_DIR/athena-python/extensions.  This
+        includes ~/.local/share and /usr/share (or whatever $XDG_DATA_DIR is set
+        to)
+
+0.6.1:
+    - Look for libpython2.6.so.1.0 instead of libpython2.6.so, the latter 
+	is general available from -devel packages only.
+    - Re-added the missing spec and pc files
+    - Free pygobject data directly after using file objects.  Stops seg 
+	faults from occurring when athena wants to free pygobject data
+	after Py_Finalize() is called.
+
+0.6.0:
+    - Remove eel dependency (Vincent Untz)
+    - Sanitize python search path (Mark Lee)
+    - Remove gnomevfs dependency and unused code (Daniel Holbach)
+    - Load python from lib64 in 64 bit multilib distributions (Ted Toth)
+    - Fix segfault when a plugin doesn't implement the __init__ method
+    - Added the can_write, get_mount, get_file_type, get_location, 
+        and get_parent_location methods to the AthenaFileInfo object
+    - Added the AthenaMenu.get_items method
+    - Updated some example plugins
+    - Bug fix for some PyThreadState_New segmentation faults
+    - Use the athena prefix by default for distfiles, rather than /usr
+    - Require athena-2.22 and pygobject-2.16 now that we support GIO
+
+0.5.1:
+    - Add support for location widgets (Tim Cole)
+
+0.5.0:
+	- Add support for submenus (Lukáš Lalinský, Sylvain Baubeau, Erik Wien)
+	- Make it work with athena 2.22 (Brian Pepple)
+	- Initialize gnomevfs explicitly (Scott Tsai)
+	- Compilable with Python 2.5 (Jonathan Rogers)
+	- Shutdown Python (Gustavo Carneiro)
+	- Initialize PyGObject/PyGTK/PyGNOMEVFS on demand (Gustavo Carneiro)
+
+0.4.3:
+        - Make debugging messages a run-time option
+        - Fix bug in loading extensions from system extensions dir
+        - Fix crash when no extensions were loaded
+
+0.4.2:
+	- Make it work again with athena >= 2.13.4
+        - Minor bug fixes
+
+0.4.1:
+	(missing)
+
+0.4.0:
+	First public release

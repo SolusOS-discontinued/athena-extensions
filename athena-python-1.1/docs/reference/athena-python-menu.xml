@@ -1,0 +1,123 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+
+<refentry id="class-athena-python-menu">
+  <refnamediv>
+    <refname>Athena.Menu</refname>
+    <refpurpose>Athena.Menu Reference</refpurpose>
+  </refnamediv>
+
+<!-- ******************************* -->
+<!-- BEGIN OF ATHENA-PYTHON SYNOPSIS -->
+<!-- ******************************* -->
+
+  <refsect1>
+    <title>Synopsis</title>
+
+    <classsynopsis language="python">
+        <ooclass><classname>Athena.Menu</classname></ooclass>
+        <ooclass><classname><link linkend="class-gobject">gobject.GObject</link></classname></ooclass>
+
+        <constructorsynopsis language="python">
+            <methodname><link linkend="constructor-athena-menu">Athena.Menu</link></methodname>
+        </constructorsynopsis>
+
+        <methodsynopsis language="python">
+            <methodname><link linkend="method-athena-python-menu--append_item">append_item</link></methodname>
+            <methodparam><parameter role="keyword">item</parameter></methodparam>
+        </methodsynopsis>
+
+        <methodsynopsis language="python">
+            <methodname><link linkend="method-athena-python-menu--get_items">get_items</link></methodname>
+        </methodsynopsis>
+
+    </classsynopsis>
+  </refsect1>
+
+<!-- ********************************* -->
+<!-- BEGIN OF ANCESTRY -->
+<!-- ********************************* -->
+
+<refsect1>
+    <title>Ancestry</title>
+
+<synopsis>+-- <link linkend="class-gobject">gobject.GObject</link>
+    +-- <link linkend="class-athena-python-menu">Athena.Menu</link>
+</synopsis>
+</refsect1>
+
+
+<!-- ********************************** -->
+<!-- BEGIN OF DESCRIPTION -->
+<!-- ********************************** -->
+
+  <refsect1 id="description-menu">
+    <title>Description</title>
+
+      <para>
+      A Athena.Menu object allows an extension to create sub-menus.
+      </para>
+
+  </refsect1>
+
+
+
+<!-- ************************************ -->
+<!-- BEGIN OF CONSTRUCTOR -->
+<!-- ************************************ -->
+
+<refsect1 id="constructor-athena-menu">
+  <title>Constructor</title>
+
+  <programlisting><constructorsynopsis language="python">
+        <methodname>Athena.Menu</methodname>
+  </constructorsynopsis></programlisting>
+    
+  <para>
+    Creates a new <link linkend="class-athena-python-menu"><classname>Athena.Menu</classname></link> object.
+  </para>
+</refsect1>
+
+
+
+<!-- ******************************** -->
+<!-- BEGIN OF METHODS -->
+<!-- ******************************** -->
+
+<refsect1>
+    <title>Public Methods</title>
+
+  <refsect2 id="method-athena-python-menu--append_item">
+    <title>Athena.Menu.append_item</title>
+    <programlisting><methodsynopsis language="python">
+	  <methodname>append_item</methodname>
+      <methodparam><parameter role="keyword">item</parameter></methodparam>
+    </methodsynopsis></programlisting>
+    <variablelist>
+      <varlistentry>
+        <term><parameter role="keyword">item</parameter>&nbsp;:</term>
+        <listitem><simpara>a <link linkend="class-athena-python-menu-item"><classname>Athena.MenuItem</classname></link></simpara></listitem>
+      </varlistentry>
+    </variablelist>
+
+    <para>
+      Append a <link linkend="class-athena-python-menu-item"><classname>Athena.MenuItem</classname></link> to a <link linkend="class-athena-python-menu"><classname>Athena.Menu</classname></link>.
+    </para>
+  </refsect2>
+
+  <refsect2 id="method-athena-python-menu--get_items">
+    <title>Athena.Menu.get_items</title>
+    <programlisting><methodsynopsis language="python">
+	  <methodname>get_items</methodname>
+    </methodsynopsis></programlisting>
+    <para>
+      Returns a list of <link linkend="class-athena-python-menu-item"><classname>Athena.MenuItem</classname></link> objects attached to the <link linkend="class-athena-python-menu"><classname>Athena.Menu</classname></link>.
+    </para>
+  </refsect2>
+</refsect1>
+
+
+
+</refentry>
+

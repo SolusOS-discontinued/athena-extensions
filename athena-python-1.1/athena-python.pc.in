@@ -1,0 +1,7 @@
+Name: Athena-Python
+Description: Athena-Python Components
+Version: @VERSION@
+
+prefix=@prefix@
+libdir=${prefix}/lib
+pythondir=@datadir@/athena-python/extensions

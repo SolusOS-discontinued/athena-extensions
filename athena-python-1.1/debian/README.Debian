@@ -1,0 +1,12 @@
+athena-python for Debian
+--------------------------
+
+Plugins are loaded by default from two locations:
+
+ /usr/share/athena-python/extensions - all-user plugin directory
+ ~/.local/share/athena-python/extensions - per-user plugin directory
+
+Sample plugins can be found in /usr/share/doc/python-athena/examples. To use
+them, copy them to one of the locations above and restart athena--this can
+be done gracefully by running 'athena --quit'.
+
