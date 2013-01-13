@@ -1,0 +1,19 @@
+Description: Remove unnecessary version variable in python file
+ Since the Debian package doesn't ship the version file, this
+ unnecessary variable was preventing the extension from loading.
+Forwarded: yes
+Author: Francois Marier <francois@debian.ogr>
+Last-Update: 2012-06-08
+
+--- a/emblems.py	2012-06-07 03:27:02.000000000 +1000
++++ b/emblems.py	2012-06-08 19:24:48.897824062 +1000
+@@ -1,9 +1,6 @@
+ import os
+ from gi.repository import Gtk, GdkPixbuf, Athena, GObject
+ 
+-__version__ = open(
+-        os.path.join(os.path.dirname(__file__), 'VERSION')).read()[0:-1]
+-
+ 
+ class Emblems(GObject.GObject, Athena.PropertyPageProvider):
+     def __init__(self):

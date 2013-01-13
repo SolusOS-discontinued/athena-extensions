@@ -1,0 +1,18 @@
+gnome3-emblems (1:0.1.0-3) two; urgency=low
+
+  * Remade for Athena
+
+ -- Ikey Doherty <ikey@solusos.com>  Sun, 13 Jan 2013 13:06:35 +0000
+
+gnome3-emblems (0.1.0-2) unstable; urgency=low
+
+  * Turn this package into an arch:all
+  * Expand the long package description
+
+ -- Francois Marier <francois@debian.org>  Wed, 13 Jun 2012 20:45:26 +1200
+
+gnome3-emblems (0.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #675595)
+
+ -- Francois Marier <francois@debian.org>  Fri, 08 Jun 2012 14:31:14 +1200

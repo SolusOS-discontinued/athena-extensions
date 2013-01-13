@@ -1,0 +1,19 @@
+Source: gnome3-emblems
+Section: gnome
+Priority: extra
+Maintainer: Francois Marier <francois@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.3
+Homepage: http://github.com/agonzalezro/gnome3-emblems
+Vcs-Git: git://git.debian.org/collab-maint/gnome3-emblems.git
+Vcs-Browser: http://git.debian.org/?p=collab-maint/gnome3-emblems.git;a=summary
+
+Package: athena-emblems
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-athena
+Description: emblems property page for athena
+ This Athena extension restores the emblems funtionality that used to be in
+ GNOME 2 but is now missing in GNOME 3.
+ .
+ Small icons can be attached to any local file by opening its property page
+ and selecting the desired images.
