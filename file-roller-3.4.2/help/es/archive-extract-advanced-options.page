@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-extract-advanced-options" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <desc>Especifique sus preferencias para extraer archivadores.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Opciones avanzadas para extraer archivadores</title>
+
+  <p><app>File Roller</app> ofrece diferentes opciones para extraer un archivador. Puede ver estas opciones en el diálogo del selector de archivos que usa para elegir la ubicación de los archivos extraídos. En la parte inferior de este diálogo, puede decidir si quiere extraer:</p>
+  <terms>
+    <item>
+      <title><gui>Todos los archivos</gui></title>
+        <p>se extraerá todo el archivador</p>
+    </item>
+    <item>
+      <title><gui>Archivos seleccionados</gui></title>
+        <p><app>File Roller</app> extrae sólo los archivos seleccionados</p>
+          <note>
+          <p>Selecciónelos antes de pulsar <guiseq><gui style="menu">Archivador</gui><gui style="menuitem">Extraer…</gui></guiseq>. Puede hacerlo pulsando sobre el nombre del archivo. Pulse <key>Ctrl</key> o <key>Mayús</key>, para seleccionar más de un archivo.</p>
+          </note>
+    </item>
+    <item>
+      <title><gui>Archivos</gui></title>
+        <p>puede escribir los nombres de los archivos que quiere extraer</p>
+          <note>
+          <p>El nombre del archivo debe tener una extensión. Por ejemplo, puede extraer todos los archivos <file>.txt</file>  escribiendo <file>*.txt</file>.</p>
+          </note>
+    </item>
+  </terms>
+
+  <p>En el diálogo del selector de archivos puede elegir si quiere:</p>
+  <terms>
+    <item>
+      <title><gui>Recrear carpetas</gui></title>
+        <p>Marque esta opción si quiere mantener la estructura de carpetas, tal y como estaba en el archivador</p>
+    </item>
+    <item>
+      <title><gui>Sobreescribir archivos existentes</gui></title>
+        <p>Si su archivador contiene archivos con el mismo nombre que los de la carpeta de destino, <app>File Roller</app> los sobreescribirá durante la extracción si esta opción está activada</p>
+    </item>
+    <item>
+      <title><gui>No extraer archivos más antiguos</gui></title>
+        <p>Esta opción no sobreescribirá archivos existentes con el mismo nombre que tengan una fecha de modificación más reciente que la de los que están en el archivador.</p>
+    </item>
+  </terms>
+
+  <p>Estas <gui>Acciones</gui> se listan en la parte inferior del diálogo.</p>
+
+  <note style="advanced">
+    <p>La opción <gui>No extraer archivos más antiguos</gui> sólo está disponible cuando la opción <gui>Sobreescribir archivos existentes</gui> está activada.</p>
+  </note>
+
+</page>

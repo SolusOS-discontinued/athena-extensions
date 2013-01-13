@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-create" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Přidat soubory nebo složky do archivu.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Vytvoření archivu</title>
+
+  <p>Vytvořte nový archiv s aplikací <app>Sprváce archivů</app> podle následujících kroků:</p>
+
+  <steps>
+    <item>
+      <p>Klikněte na tlačítko <gui>Vytvořit nový archiv</gui> na panelu nástrojů nebo zvolte <guiseq><gui style="menu">Archiv</gui><gui style="menuitem">Nový</gui></guiseq></p>
+    </item>
+    <item>
+      <p>The file chooser will open. Use it to name your new archive file and
+      choose its location, and click <gui>Create</gui>.</p>
+      <note style="tip">
+        <p>In this dialog you may also choose the type of the file format that
+        you want to use, available extensions should be listed below. By
+        clicking <gui>Other options</gui> you can set a password, or split your
+        new archive into smaller parts. You should specify the size of the
+        volume in <gui>MB</gui>.</p>
+      </note>
+    </item>
+    <item>
+      <p>Přidejte vybrané soubory do vašeho archivu klepnutím na tlačítko <gui>Přidat soubory do archivu</gui> na panelu nástrojů nebo zvolte z nabídky <guiseq><gui style="menu">Upravit</gui> možnost <gui style="menuitem">Přidat soubory…</gui></guiseq>. <app>Správce archivů<app> vám také umožňuje přidat složky. Pro přidání složky klikněte na tlačítko <gui>Přidat složku do archivu</gui> na panelu nástrojů nebo z nabídky <guiseq><gui style="menu">Upravit</gui> zvolte možnost <gui style="menuitem">Přidat složku…</gui></guiseq></app></app></p>
+      <note style="tip">
+        <p>Když přidáte složku do vašeho archivu, budou vám nabídnuty možnosti:</p>
+        <list>
+          <item><p>Zahrnout podsložky</p></item>
+          <item><p>Vyberte, jaké soubory by měly být zahrnuty</p></item>
+          <item><p>Vyberte, které podsložky nebo soubory mají být vyřazeny</p></item>
+        </list>
+      </note>
+    </item>
+    <item>
+      <p>Jakmile dokončíte přidávání souborů, archiv bude dokončen.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-create" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Dodajanje datotek ali map v vaš nov arhiv.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>
+  </info>
+
+  <title>Ustvarjanje novega arhiva</title>
+
+  <p>Z <app>Upravljalnikom arhivov</app> lahko ustvarite nov arhiv s sledenjem tem korakom:</p>
+
+  <steps>
+    <item>
+      <p>Kliknite na gumb orodne vrstice <gui>Ustvari nov arhiv</gui> ali kliknite <guiseq><gui style="menu">Arhiv</gui><gui style="menuitem">Nov…</gui></guiseq></p>
+    </item>
+    <item>
+      <p>Odprl se bo izbirnik datotek. Uporabite ga za poimenovanje svoje datoteke arhiva in izberite njegovo mesto in kliknite <gui>Ustvari</gui>.</p>
+      <note style="tip">
+        <p>V tem pogovornem oknu lahko izberete vrsto datoteke, ki jo želite uporabite. Razpoložljive razširitve bi morale biti izpisane spodaj. S klikom na <gui>Druge možnosti</gui> lahko nastavite geslo ali razdelite nov arhiv v manjše datoteke. Velikost nosilca navedite v <gui>MB</gui>.</p>
+      </note>
+    </item>
+    <item>
+      <p>Dodajte želene datoteke v arhiv s klikom na gumb orodne vrstice <gui>Dodaj datoteke v arhiv</gui> ali s klikom na <guiseq><gui style="menu">Uredi</gui><gui style="menuitem">Dodaj datoteke …</gui></guiseq>. <app>Upravljalnik arhivov</app> vam omogoča tudi dodajanje celih map. Za to kliknite na gumb orodne vrstice <gui>Dodaj mapo v arhiv</gui> ali izberite <guiseq><gui style="menu">Uredi</gui><gui style="menuitem">Dodaj mapo …</gui></guiseq></p>
+      <note style="tip">
+        <p>Ko dodate mapo v arhiv, vam bodo ponujene nekatere možnosti:</p>
+        <list>
+          <item><p>Ali naj bodo podmape vključene ali ne</p></item>
+          <item><p>Izberite katere datoteke želite vključiti</p></item>
+          <item><p>Izberite katere podmape ali datoteke želite izključiti</p></item>
+        </list>
+      </note>
+    </item>
+    <item>
+      <p>Ko končate z dodajanjem datotek, je vaš arhiv pripravljen.</p>
+    </item>
+  </steps>
+
+</page>

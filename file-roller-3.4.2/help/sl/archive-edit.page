@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-edit" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <link type="seealso" xref="archive-create"/>
+    <desc>Spremeni vsebino vašega arhiva.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>
+  </info>
+
+  <title>Urejanje arhiva</title>
+
+  <p>Z <app>Upravljalnikom arhivov</app> lahko uredite obstoječi arhiv z dodajanjem novih datotek, odstranitvijo neželenih ali s spremembo njihovih imen. Z mapami lahko delate na enak način kot z datotekami.</p>
+
+  <terms>
+    <item>
+    <title><code>Dodajanje datotek</code></title>
+    <p>Obstoječemu arhivu lahko dodate datoteke tako da sledite navodilom na strani <link xref="archive-create"/>.</p>
+    </item>
+    <item>
+    <title><code>Odstranitev datotek</code></title>
+      <steps>
+        <item><p>Izbor datoteke.</p></item>
+        <item><p>Kliknite <guiseq><gui style="menu">Uredi</gui><gui style="menuitem">Izbriši</gui></guiseq> ali desno kliknite na izbrano datoteko in izberite <gui>Izbriši</gui>.</p></item>
+      </steps>
+    </item>
+    <item>
+    <title><code>Preimenovanje datotek</code></title>
+      <steps>
+        <item><p>Izbor datoteke.</p></item>
+        <item><p>Kliknite <guiseq><gui style="menu">Uredi</gui><gui style="menuitem">Preimenuj …</gui></guiseq> ali desno kliknite na izbrano datoteko in izberite <gui>Preimenuj …</gui>.</p></item>
+        <item><p>Odprlo se bo pogovorno okno. Vnesite novo ime datoteke v polje vnosa besedila.</p></item>
+        <item><p>Potrditev ime s klikom na <gui>Preimenuj</gui>.</p></item>
+      </steps>
+    </item>
+  </terms>
+
+</page>

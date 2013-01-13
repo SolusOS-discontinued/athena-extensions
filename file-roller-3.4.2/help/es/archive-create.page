@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-create" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Añadir archivos o carpetas al archivador nuevo.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Crear un archivador nuevo</title>
+
+  <p>Cree un archivador nuevo con <app>File Roller</app>, siguiendo estos pasos:</p>
+
+  <steps>
+    <item>
+      <p>Pulse en el icono <gui>Crear un archivador nuevo</gui> en la barra de herramientas, o seleccione <guiseq><gui style="menu">Archivador</gui><gui>Nuevo…</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Se abrirá el selector de archivos. Úselo para asignar un nombre al archivador, elija su ubicación y pulse <gui>Crear</gui>.</p>
+      <note style="tip">
+        <p>En este diálogo puede elegir el tipo de formato de archivo que quiere usar. Las extensiones disponibles se deben listar más abajo. Pulsando en <gui>Otras opciones</gui> puede establecer una contraseña, o dividir el archivador nuevo en partes más pequeñas. Debe especificar el tamaño del volumen en <gui>MB</gui>.</p>
+      </note>
+    </item>
+    <item>
+      <p>Añada los archivos que quiere al archivador pulsando en el botón <gui>Añadir archivos al archivador</gui>, o seleccionando <guiseq><gui style="menu">Editar</gui><gui style="menuitem">Añadir archivos…</gui></guiseq>. <app>File Roller</app> también le permite añadir carpetas completas. Para hacer esto, pulse el icono <gui>Añadir una carpeta al archivador</gui>, o seleccione <guiseq><gui style="menu">Editar</gui><gui style="menuitem">Añadir una carpeta…</gui></guiseq>.</p>
+      <note style="tip">
+        <p>Cuando añada una carpeta a un archivador, se le ofrecerán varias opciones:</p>
+        <list>
+          <item><p>indica si se deben incluir o no las subcarpetas</p></item>
+          <item><p>Elija los archivos que se deben incluir</p></item>
+          <item><p>Seleccione qué subcarpetas o archivos se deben excluir</p></item>
+        </list>
+      </note>
+    </item>
+    <item>
+      <p>Una vez que haya terminado de añadir archivos, el archivador estará listo.</p>
+    </item>
+  </steps>
+
+</page>

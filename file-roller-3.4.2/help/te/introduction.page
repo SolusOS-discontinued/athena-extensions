@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="introduction" xml:lang="te">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>సంగ్రహ నిర్వాహణ అనువర్తనం <app>ఫైల్ రోలర్</app> పరిచయం.</desc>
+    <credit type="author">
+      <name>మార్టా బొగ్డానోవిక్జ్</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>క్రియేటివ్ కామన్స్ షేర్ ఎలైక్ 3.0</p>
+    </license>
+  </info>
+
+  <title>పరిచయం</title>
+
+  <p><app>ఫైల్ రోలర్</app> అనేది సంగ్రహాలను నిర్వహించుటకు, సులభంగా వాడుటకు రూపొందించబడిన అనువర్తనం. ఇది సంగ్రహాలను సృష్టించుటకు, సవరించుటకు, సంగ్రహ అంశాలను పొందుటకు అవసరమైన అన్ని పనిముట్లను సమకూర్చుతుంది.</p>
+
+  <note style="advanced">
+    <p>An archive is composed of one or more files, along with metadata. It may
+    be encrypted in part or as a whole. By collecting multiple data files
+    together into a single one, archive files are useful for storing data and
+    transferring it between computers.</p>
+  </note>
+
+  <p><app>ఫైల్ రోలరు</app>తో మీరు:</p>
+  <list>
+    <item><p>ఫైళ్ళను లేదా సంచయాలను జతచేసుట ద్వారా కొత్త సంగ్రహాలను సృష్టించండి</p></item>
+    <item><p>ఉన్నటువంటి సంగ్రహములోని అంశాలను వీక్షించండి</p></item>
+    <item><p>సంగ్రహములో ఉన్న ఫైలును వీక్షించండి</p></item>
+    <item><p>ఉన్నటువంటి సంగ్రహాలను సవరించవచ్చును</p></item>
+    <item><p>సంగ్రహం నుండి ఫైళ్ళను పొందవచ్చును</p></item>
+  </list>
+
+  <figure>
+    <title><gui>File Roller</gui> main window</title>
+    <media type="image" mime="image/png" src="figures/file-roller-main-window.png">
+    <p>Screenshot of the <app>File Roller</app> main window.</p>
+    </media>
+  </figure>
+
+</page>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-edit" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <link type="seealso" xref="archive-create"/>
+    <desc>Den Inhalt Ihres Archivs ändern.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Ein Archiv bearbeiten</title>
+
+  <p>Der <app>Archivmanager</app> ermöglicht die Bearbeitung vorhandener Archive durch Hinzufügen und Entfernen von Dateien oder durch Ändern der Namen. Gehen Sie mit Ordnern genauso um wie mit Dateien.</p>
+
+  <terms>
+    <item>
+    <title><code>Dateien hinzufügen</code></title>
+    <p>Fügen Sie Dateien einem bestehenden Archiv hinzu, indem Sie den Anweisungen auf der Seite <link xref="archive-create"/> folgen.</p>
+    </item>
+    <item>
+    <title><code>Dateien entfernen</code></title>
+      <steps>
+        <item><p>Wählen Sie die Datei.</p></item>
+        <item><p>Wählen Sie <guiseq><gui style="menu">Bearbeiten</gui><gui style="menuitem">Löschen</gui></guiseq> oder klicken Sie mit der rechten Maustaste auf die gewählte Datei und wählen Sie <gui>Löschen</gui>.</p></item>
+      </steps>
+    </item>
+    <item>
+    <title><code>Dateien umbenennen</code></title>
+      <steps>
+        <item><p>Wählen Sie die Datei.</p></item>
+        <item><p>Wählen Sie <guiseq><gui style="menu">Bearbeiten</gui><gui style="menuitem">Umbenennen …</gui></guiseq> oder klicken Sie mit der rechten Maustaste auf die gewählte Datei und wählen Sie <gui>Umbenennen …</gui>.</p></item>
+        <item><p>Daraufhin öffnet sich ein Fenster. Geben Sie den Namen der neuen Datei in das Textfeld ein.</p></item>
+        <item><p>Bestätigen Sie den Namen durch einen Klick auf <gui>Umbenennen</gui>.</p></item>
+      </steps>
+    </item>
+  </terms>
+
+</page>

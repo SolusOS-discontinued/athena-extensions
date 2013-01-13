@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-view" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Ogled obstoječega arhiva in njegove vsebine.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>
+  </info>
+
+  <title>Ogled arhiva</title>
+
+  <p>Obstajata dva vrsta ogleda arhiva:</p>
+
+  <list>
+    <item>
+    <p>Ogled vseh datotek</p>
+      <p>Za uporabo tega pogleda kliknite <guiseq><gui style="menu">Pogled</gui><gui style="menuitem">Prikaži vse datoteke</gui></guiseq>. <app>Upravljalnik arhivov</app> bo izpisal vse datoteke v arhivu. Videli boste njihova imena, velikosti, vrste, datume zadnjih sprememb in mesta.</p>
+        <note style="tip">
+          <p>Uporabite lahko glave stolpcev omenjene zgoraj (ime, velikost ...) za razvrstitev datotek v arhivu. To storite s klikom na glave. S ponovnim klikom na glavo obrnete vrstni red.</p>
+        </note>
+    </item>
+    <item>
+    <p>Pogled kot mapa</p>
+      <p>Drevesni pogled prikazuje običajno strukturo map. Za uporabo tega kliknite <guiseq><gui style="menu">Pogled</gui><gui style="menuitem">Prikaži kot mapo</gui></guiseq>.</p>
+        <note style="tip">
+          <p>Medtem ko si ogledujete arhiv na ta način pritisnite <key>F9</key> ali kliknite možnost <guiseq><gui style="menu">Pogled</gui><gui style="menuitem">Mape</gui></guiseq>. V stranskem pladnju boste videli drevo map. Omogoča vam enostavno krmarjenje med mapami.</p>
+        </note>
+    </item>
+  </list>
+
+  <section id="file-open">
+    <title>Odpiranje datotek v arhivu</title>
+    <p>Odprite datoteke, ki so v arhivu, z dvoklikom na ime datoteke ali desnim klikom na ime datoteke in izbiro <gui>Odpri</gui>. <app>Upravljalnik datotek</app> bo odprl datoteko s privzetim programom za to vrsto datotek.</p>
+      <note>
+        <p>Odprite datoteko z različnim programom s sledenjem naslednjim korakom:</p>
+          <steps>
+            <item><p>Izberite datoteko</p></item>
+            <item><p>Desni klik</p></item>
+            <item><p>Kliknite <gui>Odpri z ...</gui>.</p></item>
+          </steps>
+      </note>
+  </section>
+
+
+</page>

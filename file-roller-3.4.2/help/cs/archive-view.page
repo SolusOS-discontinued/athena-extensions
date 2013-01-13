@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-view" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Zobrazit existující archiv a jeho obsah.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Prohlížení archivů</title>
+
+  <p>Existují dva způsoby zobrazení archivu:</p>
+
+  <list>
+    <item>
+    <p>Zobrazit všechny soubory</p>
+      <p>Pro použití tohoto zobrazení, zvolte <guiseq><gui style="menu">Zobrazit</gui><gui style="menuitem">Zobrazit všechny soubory</gui></guiseq>. <app>Správce balíků</app> vypíše všechny soubory v archivu. Uvidíte jejich názvy, velikost, typ, data poslední úpravy a umístění.</p>
+        <note style="tip">
+          <p>Můžete použít hlavičky sloupců zmíněné výše (název, velikost...) pro seřazení souborů v archivu. Učiníte tak klepnutím na hlavičku sloupce a opětovným klepnutím na ten samý pro seřazení v opačném pořadí.</p>
+        </note>
+    </item>
+    <item>
+    <p>Zobrazit jako složku</p>
+      <p>Toto zobrazení zobrazuje klasickou strukturu složky. Pro použití tohoto zobrazení vyberte <guiseq><gui style="menu">Zobrazit</gui><gui style="menuitem">Zobrazovat jako složku</gui></guiseq>.</p>
+        <note style="tip">
+          <p>Když zobrazujete váš archiv tímto způsobem, zmáčkněte klávesu <key>F9</key>, nebo zvolte <guiseq><gui style="menu">Zobrazit</gui><gui style="menuitem">Složky</gui></guiseq>. Uvidíte strom složek v postranním panelu, díky kterému můžete jednoduše procházet složky.</p>
+        </note>
+    </item>
+  </list>
+
+  <section id="file-open">
+    <title>Otevřít soubory ve vašem archivu</title>
+    <p>Otevřete soubory, které jsou v archivu pomocí dvojkliku na soubor nebo kliknutím pravého tlačítka myši na soubor a zvolte možnost <gui>Otevřít</gui>. Soubor bude otevřen výchozí aplikací pro daný typ souboru.</p>
+      <note>
+        <p>Otevřete soubor pomocí jiné aplikace podle následujících kroků:</p>
+          <steps>
+            <item><p>Vybrat soubor</p></item>
+            <item><p>Kliknutí pravým tlačítkem</p></item>
+            <item><p>Klikněte na <guibutton>Otevřít pomocí...</guibutton>.</p></item>
+          </steps>
+      </note>
+  </section>
+
+
+</page>

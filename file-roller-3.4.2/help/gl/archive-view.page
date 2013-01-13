@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-view" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Ver un arquivo existente e o seu contido.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Ver un arquivo</title>
+
+  <p>Hay dúas formas de ver un arquivo:</p>
+
+  <list>
+    <item>
+    <p>Ver todos os ficheiros</p>
+      <p>Para usar esta vista, prema <guiseq><gui style="menu">Ver</gui><gui style="menuitem">Ver todos os ficheiros</gui></guiseq>. <app>File Roller</app> mostrará todos os ficheiros do arquivo. Verá os seus nomes, tamaños, tipos, datas da última modificación e localizacións.</p>
+        <note style="tip">
+          <p>Pode usar as cabeceiras das columnas mencionadas (nome, tamaño) para ordenar os ficheiros do arquivador. Fágao premendo sobre elas, e premendo outra vez sobre a mesma para inverter a orde.</p>
+        </note>
+    </item>
+    <item>
+    <p>Ver como un cartafol</p>
+      <p>Esta vista mostra a estrutura clásica de cartafoles. Para usala, prema en <guiseq><gui style="menu">Ver</gui><gui style="menuitem">Ver como un cartafol</gui></guiseq>.</p>
+        <note style="tip">
+          <p>Mentres estea vendo o arquivo desta maneira, prema <key>F9</key>, ou prema na opción <guiseq><gui style="menu">Ver</gui><gui style="menuitem">Cartafoles</gui></guiseq>. Verá unha vista en árbore dos cartafoles no panel lateral. Isto permítelle navegar de forma doada entre os cartafoles.</p>
+        </note>
+    </item>
+  </list>
+
+  <section id="file-open">
+    <title>Abrir ficheiros no arquivo</title>
+    <p>Abra ficheiros que estean no seu arquivo premendo dúas veces sobre o nome do ficheiro, ou prema co botón dereito sobre o nome do ficheiro e escolla <gui>Abrir</gui>. <app>File roller</app> abrirá o ficheiro co aplicativo predeterminado para este tipo de ficheiro.</p>
+      <note>
+        <p>Abra o ficheiro con outro aplicativo seguinte estes pasos:</p>
+          <steps>
+            <item><p>Seleccione un ficheiro</p></item>
+            <item><p>Prema co botón dereito</p></item>
+            <item><p>prema en <gui>Abrir con…</gui></p></item>
+          </steps>
+      </note>
+  </section>
+
+
+</page>

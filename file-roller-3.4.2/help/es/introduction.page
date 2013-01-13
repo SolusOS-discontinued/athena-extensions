@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="introduction" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>Introducción a la aplicación de gestión de archivadores <app>File Roller</app>.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Introducción</title>
+
+  <p><app>File Roller</app> es una aplicación para gestionar archivadores, diseñada para ser fácil de usar. Proporciona todas las herramientas necesarias para crear, modificar y extraer archivadores.</p>
+
+  <note style="advanced">
+    <p>Un archivador se compone de uno o más archivos, junto con sus metadatos. Puede estar cifrado en parte o por completo. Al reunir varios archivos de datos en un único archivo, los archivadores son útiles para almacenar información y transferirla entre equipos.</p>
+  </note>
+
+  <p>Con <app>File Roller</app> puede:</p>
+  <list>
+    <item><p>Crear un archivador nuevo añadiendo archivos o carpetas</p></item>
+    <item><p>Ver el contenido de un archivador existente</p></item>
+    <item><p>Ver un archivo dentro de un archivador</p></item>
+    <item><p>Modificar archivadores existentes</p></item>
+    <item><p>Extrae archivos de un archivador</p></item>
+  </list>
+
+  <figure>
+    <title>Ventana principal de <gui>File Roller</gui></title>
+    <media type="image" mime="image/png" src="figures/file-roller-main-window.png">
+    <p>Captura de pantalla de la ventana principal de <app>File Roller</app>.</p>
+    </media>
+  </figure>
+
+</page>

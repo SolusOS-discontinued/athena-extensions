@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-open" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Abrir un arquivo existente.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Abrir un arquivo</title>
+
+  <p>Abra un arquivo existente con <app>File Roller</app> seguinte estes pasos:</p>
+
+  <list>
+    <item>
+      <p>Prema no botón <gui>Abrir</gui> da barar de ferramentas.</p>
+    </item>
+    <item>
+      <p>Prema en <guiseq><gui style="menu">Arquivo</gui><gui style="menuitem">Abrir…</gui></guiseq></p>
+    </item>
+  </list>
+
+  <p>Tamén pode usar a opción <gui>Abrir recente</gui> das seguintes maneiras:</p>
+
+  <list>
+    <item>
+      <p>Prema o botón <media type="image" mime="image/png" src="figures/file-roller-open-recent.png"> Abrir un arquivo usado recentemente</media> na barra de ferramentas e seleccione un ficheiro.</p>
+    </item>
+    <item>
+      <p>Prema <guiseq><gui style="menu">Arquivo</gui><gui style="menuitem">Abrir recente</gui></guiseq> para ver unha lista dos arquivos usados recentemente.</p>
+    </item>
+  </list>
+
+  <note><p>Se <app>File Roller</app> non pode abrir o seu arquivo usado recentemente, e mostra a mensaxe de erro <gui>O ficheiro non existe</gui>, pode deberse a que a localización do arquivo cambiou. Neste caso, pode usar a opción <gui>Abrir</gui> para buscalo.</p></note>
+
+</page>

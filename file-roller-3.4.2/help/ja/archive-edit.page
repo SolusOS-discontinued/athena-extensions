@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-edit" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <link type="seealso" xref="archive-create"/>
+    <desc>アーカイブの内容の変更</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>アーカイブの編集</title>
+
+  <p><app>File Roller</app> を使えば、新しいファイルの追加、不要なファイルの削除あるいはファイル名の変更によって既存のアーカイブを編集できます。フォルダーについてもファイルと同様に作業できます。</p>
+
+  <terms>
+    <item>
+    <title><code>ファイルの追加</code></title>
+    <p><link xref="archive-create"/>というページの指示に従って、既存のアーカイブにファイルを追加してください。</p>
+    </item>
+    <item>
+    <title><code>ファイルの削除</code></title>
+      <steps>
+        <item><p>ファイルを選択します。</p></item>
+        <item><p><guiseq><gui style="menu">編集</gui><gui style="menuitem">削除</gui></guiseq>をクリックするか、選択したファイル上を右クリックして<gui>削除</gui>を選択します。</p></item>
+      </steps>
+    </item>
+    <item>
+    <title><code>ファイル名の変更</code></title>
+      <steps>
+        <item><p>ファイルを選択します。</p></item>
+        <item><p><guiseq><gui style="menu">編集</gui><gui style="menuitem">名前の変更…</gui></guiseq>をクリックするか、選択したファイル上を右クリックして<gui>名前の変更…</gui>を選択します。</p></item>
+        <item><p>ダイアログが開きます。文字入力欄に新しいファイル名を入力します。</p></item>
+        <item><p><gui>名前の変更</gui>をクリックして、新しい名前を確定します。</p></item>
+      </steps>
+    </item>
+  </terms>
+
+</page>

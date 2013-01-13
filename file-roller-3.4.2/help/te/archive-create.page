@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-create" xml:lang="te">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>మీ కొత్త సంగ్రహానికి ఫైళ్ళు లేదా సంచయాలను జతచేయండి.</desc>
+    <credit type="author">
+      <name>మార్టా బొగ్డానోవిక్జ్</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>క్రియేటివ్ కామన్స్ షేర్ ఎలైక్ 3.0</p>
+    </license>
+  </info>
+
+  <title>ఒక కొత్త సంగ్రహాన్ని సృష్టించుట</title>
+
+  <p>
+  Create a new archive with <app>File Roller</app>, by following these steps:
+  </p>
+
+  <steps>
+    <item>
+      <p>Click the <gui>Create a new archive</gui> toolbar button, or click
+      <guiseq><gui style="menu">Archive</gui><gui style="menuitem">New…</gui></guiseq></p>
+    </item>
+    <item>
+      <p>The file chooser will open. Use it to name your new archive file and
+      choose its location, and click <gui>Create</gui>.</p>
+      <note style="tip">
+        <p>In this dialog you may also choose the type of the file format that
+        you want to use, available extensions should be listed below. By
+        clicking <gui>Other options</gui> you can set a password, or split your
+        new archive into smaller parts. You should specify the size of the
+        volume in <gui>MB</gui>.</p>
+      </note>
+    </item>
+    <item>
+      <p>Add the desired files to your archive by clicking the
+      <gui>Add files to the archive</gui> toolbar button, or by clicking
+      <guiseq><gui style="menu">Edit</gui>
+      <gui style="menuitem">Add files…</gui></guiseq>. <app>File Roller</app>
+      also allows you to add whole folders. To do this, click the
+      <gui>Add a folder to the archive</gui> toolbar button, or select
+      <guiseq><gui style="menu">Edit</gui>
+      <gui style="menuitem">Add a folder…</gui></guiseq></p>
+      <note style="tip">
+        <p>మీ సంగ్రహానికి ఒక సంచయాన్ని జతచేసినపుడు, మీకు కొన్ని ఐచ్ఛికాలు చూపించబడతాయి:</p>
+        <list>
+          <item><p>ఉపసంచయాలను </p></item>
+          <item><p>ఏ ఫైళ్ళు ఉంచాలో ఎంచుకోండి</p></item>
+          <item><p>ఏ ఉపసంచయాలను లేక ఫైళ్ళును మినహాయించాలో ఎంచుకోండి</p></item>
+        </list>
+      </note>
+    </item>
+    <item>
+      <p>ఫైళ్ళను జతచేయుట పూర్తయినట్టయితే, మీ సంగ్రహం సిద్ధంగా ఉంటుంది.</p>
+    </item>
+  </steps>
+
+</page>

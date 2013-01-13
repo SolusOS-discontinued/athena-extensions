@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="introduction" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>A <app>File Roller</app> archívumkezelő alkalmazás bemutatása.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Bevezetés</title>
+
+  <p>A <app>File Roller</app> egy archívumok kezelésére szolgáló, egyszerűen használható alkalmazás. Minden, az archívumok létrehozásához, módosításához vagy kibontásához szükséges eszközt biztosít.</p>
+
+  <note style="advanced">
+    <p>Az archívumok legalább egy fájlból és metaadatokból állnak, és részben vagy egészben titkosíthatók. Az archívumok több adatfájl egybegyúrásával az érintett adatok tárolásakor és számítógépek közti átvitelekor hasznosak.</p>
+  </note>
+
+  <p>A <app>File Roller</app> segítségével:</p>
+  <list>
+    <item><p>új archívumot hozhat létre fájlok vagy mappák hozzáadásával</p></item>
+    <item><p>megjelenítheti meglévő archívumok tartalmát</p></item>
+    <item><p>megjelenítheti az archívumban lévő fájlokat</p></item>
+    <item><p>módosíthatja a meglévő archívumokat</p></item>
+    <item><p>fájlokat bonthat ki az archívumból.</p></item>
+  </list>
+
+  <figure>
+    <title>A <gui>File Roller</gui> főablaka</title>
+    <media type="image" mime="image/png" src="figures/file-roller-main-window.png">
+    <p>Képernyőkép a <app>File Roller</app> főablakáról.</p>
+    </media>
+  </figure>
+
+</page>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-extract-advanced-options" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <desc>Einstellungen für das Entpacken von Archiven</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Fortgeschrittene Optionen zum Entpacken von Archiven</title>
+
+  <p>Der <app>Archivmanager</app> bietet verschiedene Optionen für das Entpacken eines Archivs. Sie sehen diese Optionen im Dateiauswahldialog, welcher für die Wahl des Ortes der entpackten Dateien verwendet wird. Am unteren Rand dieses Dialogs können Sie Folgendes auswählen:</p>
+  <terms>
+    <item>
+      <title><gui>Alle Dateien</gui></title>
+        <p>Das ganze Archiv wird entpackt</p>
+    </item>
+    <item>
+      <title><gui>Ausgewählte Dateien</gui></title>
+        <p>Der <app>Archivmanager</app> entpackt nur die gewählten Dateien</p>
+          <note>
+          <p>Wählen Sie die Dateien aus, bevor Sie <guiseq><gui style="menu">Archiv</gui><gui style="menuitem">Entpacken …</gui></guiseq> wählen. Klicken Sie hierzu auf den Dateinamen. Halten Sie die <key>Strg</key>-Taste oder die <key>Umschalttaste</key> gedrückt, um mehrere Dateien auszuwählen.</p>
+          </note>
+    </item>
+    <item>
+      <title><gui>Dateien</gui></title>
+        <p>Geben Sie die Namen der zu entpackenden Dateien ein</p>
+          <note>
+          <p>Dem Dateinamen muss eine Dateinamenerweiterung angehängt werden. Sie können zum Beispiel alle <file>.txt</file>-Dateien entpacken, indem Sie <file>*.txt</file> eingeben.</p>
+          </note>
+    </item>
+  </terms>
+
+  <p>Im Dateiwählerdialog können Sie Folgendes angeben:</p>
+  <terms>
+    <item>
+      <title><gui>Ordner neu anlegen</gui></title>
+        <p>Aktivieren Sie diese Option, wenn Sie die Ordnerstruktur erhalten wollen, so wie sie in Ihrem Archiv vorhanden ist</p>
+    </item>
+    <item>
+      <title><gui>Vorhandene Dateien ersetzen</gui></title>
+        <p>Falls Ihr Archiv Dateien enthält, deren Namen im Zielordner bereits vorhanden sind, dann überschreibt der <app>Archivmanager</app> diese Dateien beim entpacken, falls diese Option aktiviert ist</p>
+    </item>
+    <item>
+      <title><gui>Keine älteren Dateien entpacken</gui></title>
+        <p>Diese Option sorgt dafür, dass keine vorhandenen Dateien gleichen Namens überschrieben werden, die laut Änderungszeitpunkt neuer sind als jene im Archiv.</p>
+    </item>
+  </terms>
+
+  <p>Diese <gui>Aktionen</gui> werden am unteren Rand des Dialogs aufgelistet.</p>
+
+  <note style="advanced">
+    <p>Die Option <gui>Keine älteren Dateien entpacken</gui> ist nur verfügbar, wenn die Option <gui>Vorhandene Dateien ersetzen</gui> aktiviert ist.</p>
+  </note>
+
+</page>

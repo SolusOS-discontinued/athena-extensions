@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-create" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Dateien oder Ordner zu Ihrem neuen Archiv hinzufügen.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Ein neues Archiv erstellen</title>
+
+  <p>Erstellen Sie ein neues Archiv mit dem <app>Archivmanager</app> wie folgt:</p>
+
+  <steps>
+    <item>
+      <p>Klicken Sie auf das Symbol <gui>Ein neues Archiv anlegen</gui> in der Werkzeugleiste oder wählen Sie <guiseq><gui style="menu">Archiv</gui><gui style="menuitem">Neu …</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Der Dateiwählerdialog wird geöffnet. Geben Sie Ihrer neuen Archivdatei einen Namen, wählen Sie einen Speicherort und klicken Sie auf <gui>Anlegen</gui>.</p>
+      <note style="tip">
+        <p>In diesem Fenster können Sie auch das zu verwendende Dateiformat auswählen. Die verfügbaren Dateierweiterungen werden unten angezeigt. Klicken Sie auf <gui>Erweiterte Einstellungen</gui>, um ein Passwort festzulegen oder das Archiv in kleinere Abschnitte zu unterteilen. Geben Sie die Größe der Teile in <gui>MB</gui> an.</p>
+      </note>
+    </item>
+    <item>
+      <p>Fügen Sie die gewünschten Dateien zu Ihrem Archiv hinzu, indem Sie auf das Symbol <gui>Dateien zum Archiv hinzufügen</gui> in der Werkzeugleiste klicken, oder wählen Sie <guiseq><gui style="menu">Bearbeiten</gui><gui style="menu">Dateien hinzufügen …</gui></guiseq>. Der <app>Archivmanager</app> erlaubt auch das Hinzufügen ganzer Ordner. Klicken Sie hierzu in der Werkzeugleiste auf das Symbol <gui>Einen Ordner zum Archiv hinzufügen</gui> oder wählen Sie <guiseq><gui style="menu">Bearbeiten</gui><gui style="menu">Einen Ordner hinzufügen …</gui></guiseq>.</p>
+      <note style="tip">
+        <p>Beim Hinzufügen eines Ordners zu Ihrem Archiv stehen Ihnen folgende Optionen zur Verfügung:</p>
+        <list>
+          <item><p>Unterordner einschließen oder nicht</p></item>
+          <item><p>Wählen Sie, welche Dateien einbezogen werden sollen</p></item>
+          <item><p>Wählen Sie, welche Unterordner oder Dateien nicht einbezogen werden sollen</p></item>
+        </list>
+      </note>
+    </item>
+    <item>
+      <p>Sobald Sie mit dem Hinzufügen von Dateien fertig sind, ist Ihr Archiv bereit.</p>
+    </item>
+  </steps>
+
+</page>

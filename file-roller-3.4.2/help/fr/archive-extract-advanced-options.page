@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-extract-advanced-options" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <desc>Définir vos préférences pour l'extraction d'une archive.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  </info>
+
+  <title>Options avancées pour l'extraction d'archive</title>
+
+  <p><app>File Roller</app> met à votre disposition différentes options pour extraire une archive. Vous retrouvez ces options dans la fenêtre de sélection de fichiers que vous utilisez pour choisir l'emplacement d'extraction des fichiers. En bas de cette fenêtre de dialogue, vous pouvez décider d'extraire :</p>
+  <terms>
+    <item>
+      <title><gui>Tous les fichiers</gui></title>
+        <p>Toute l'archive va être extraite.</p>
+    </item>
+    <item>
+      <title><gui>Les fichiers sélectionnés</gui></title>
+        <p><app>File Roller</app> ne va extraire que les fichiers choisis.</p>
+          <note>
+          <p>Sélectionnez-les en cliquant sur leur nom avant de cliquer sur <guiseq><gui style="menu">Archive</gui><gui style="menuitem">Extraire…</gui></guiseq>. Maintenez les touches <key>Ctrl</key> ou <key>Maj</key> enfoncées pour sélectionner plus d'un fichier à la fois.</p>
+          </note>
+    </item>
+    <item>
+      <title><gui>Des fichiers</gui></title>
+        <p>Vous pouvez saisir le nom des fichiers à extraire.</p>
+          <note>
+          <p>Le nom de fichier doit être suivi d'une extension. Par exemple, vous pouvez extraire tous les fichiers <file>.txt</file> en saisissant <file>*.txt</file>.</p>
+          </note>
+    </item>
+  </terms>
+
+  <p>Dans la fenêtre du gestionnaire de fichiers, vous pouvez décider si vous souhaitez :</p>
+  <terms>
+    <item>
+      <title><gui>Recréer les dossiers</gui></title>
+        <p>Cochez cette option si vous voulez garder la même structure de dossiers qui existait dans votre archive.</p>
+    </item>
+    <item>
+      <title><gui>Écraser les fichiers existants</gui></title>
+        <p>Cochez cette option si vous voulez que <app>File Roller</app> écrase les fichiers existants dans le dossier de destination et qui portent le même nom que ceux contenus dans l'archive.</p>
+    </item>
+    <item>
+      <title><gui>Ne pas extraire les fichiers plus anciens</gui></title>
+        <p>Cochez cette option pour ne pas écraser les fichiers existants et qui portent le même nom, mais qui ont une date plus récente que celle des fichiers dans l'archive à extraire.</p>
+    </item>
+  </terms>
+
+  <p>Ces <gui>Actions</gui> se trouvent en bas de la fenêtre de dialogue.</p>
+
+  <note style="advanced">
+    <p>L'option <gui>Ne pas extraire les fichiers plus anciens</gui> n'est disponible que si la case <guilabel>Écraser les fichiers existants</guilabel> est cochée.</p>
+  </note>
+
+</page>

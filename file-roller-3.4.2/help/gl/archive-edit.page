@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-edit" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <link type="seealso" xref="archive-create"/>
+    <desc>Modificar o contido dun arquivo.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Editar un arquivo</title>
+
+  <p>Con <app>File Roller</app> pode editar un arquivo existente engadindo novos ficheiros, quitando os ficheiros que non queira ou cambiando o seu nome. Pode traballar cos cartafoles da mesma maneira que cos ficheiros.</p>
+
+  <terms>
+    <item>
+    <title><code>Engadir ficheiros</code></title>
+    <p>Engada ficheiros a un arquivo existente seguindo as instrucións da <link xref="archive-create"/>.</p>
+    </item>
+    <item>
+    <title><code>Quitar ficheiros</code></title>
+      <steps>
+        <item><p>Seleccione o ficheiro.</p></item>
+        <item><p>prema <guiseq><gui style="menu">Editar</gui><gui style="menuitem">Eliminar</gui></guiseq>, ou prema co botón dereito sobre o arquivo e seleccione <gui>Eliminar</gui>.</p></item>
+      </steps>
+    </item>
+    <item>
+    <title><code>Renomar ficheiros</code></title>
+      <steps>
+        <item><p>Seleccione o ficheiro.</p></item>
+        <item><p>Prema <guiseq><gui style="menu">Editar</gui><gui style="menuitem">Renomear…</gui></guiseq>, ou prema co botón dereito no ficheiro seleccionado e elixa <gui>Renomear…</gui>.</p></item>
+        <item><p>Abrirase un diálogo. Escriba o nome do arquivo novo no campo de entrada de texto.</p></item>
+        <item><p>Confirme o nome premendo <gui>Renomear</gui>.</p></item>
+      </steps>
+    </item>
+  </terms>
+
+</page>

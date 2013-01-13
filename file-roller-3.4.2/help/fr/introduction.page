@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="introduction" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>Introduction à l'application de gestion d'archives <app>File Roller</app>.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  </info>
+
+  <title>Introduction</title>
+
+  <p><app>File Roller</app> est une application de gestion d'archives dont la particularité est sa simplicité d'utilisation. Elle contient tous les outils nécessaires à la création, la modification et l'extraction d'archives.</p>
+
+  <note style="advanced">
+    <p>Une archive est constituée d'un ou plusieurs fichiers et contient des métadonnées. Elle peut être chiffrée en partie ou dans son ensemble. En regroupant de multiples fichiers de données dans un seul, les fichiers archives sont utiles pour le stockage et le transfert de données entre ordinateurs.</p>
+  </note>
+
+  <p>Avec <app>File Roller</app>, vous pouvez :</p>
+  <list>
+    <item><p>créer une nouvelle archive en y ajoutant des fichiers ou des dossiers,</p></item>
+    <item><p>afficher le contenu d'une archive existante,</p></item>
+    <item><p>afficher un fichier contenu dans une archive,</p></item>
+    <item><p>modifier des archives existantes,</p></item>
+    <item><p>extraire des fichiers de l'archive.</p></item>
+  </list>
+
+  <figure>
+    <title>Fenêtre principale de <app>File Roller</app></title>
+    <media type="image" mime="image/png" src="figures/file-roller-main-window.png">
+    <p>Capture d'écran de la fenêtre principale de <app>File Roller</app>.</p>
+    </media>
+  </figure>
+
+</page>

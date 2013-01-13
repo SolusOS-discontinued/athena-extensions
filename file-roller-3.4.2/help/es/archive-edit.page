@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-edit" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <link type="seealso" xref="archive-create"/>
+    <desc>Modificar el contenido de un archivador.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Editar un archivador</title>
+
+  <p>Con <app>File Roller</app> puede editar un archivador existente añadiendo archivos nuevos, quitando los archivos que no quiera o cambiando sus nombres. Puede trabajar con las carpetas de la misma manera que con los archivos.</p>
+
+  <terms>
+    <item>
+    <title><code>Añadir archivos</code></title>
+    <p>Añada archivos a un archivador existente siguiente las instrucciones de la <link xref="archive-create"/>.</p>
+    </item>
+    <item>
+    <title><code>Quitar archivos</code></title>
+      <steps>
+        <item><p>Seleccione el archivo.</p></item>
+        <item><p>Pulse <guiseq><gui style="menu">Editar</gui><gui style="menuitem">Eliminar</gui></guiseq>, o pulse con el botón derecho sobre el archivo y elija <gui>Eliminar</gui>.</p></item>
+      </steps>
+    </item>
+    <item>
+    <title><code>Renombrar archivos</code></title>
+      <steps>
+        <item><p>Seleccione el archivo.</p></item>
+        <item><p>Pulse <guiseq><gui style="menu">Editar</gui><gui style="menuitem">Renombrar…</gui></guiseq>, o pulse con el botón derecho en el archivo seleccionado y elija <gui>Renombrar…</gui>.</p></item>
+        <item><p>Se abrirá un diálogo. Escriba el nombre del archivo nuevo en el campo de entrada de texto.</p></item>
+        <item><p>Confirme el nombre pulsando <gui>Renombrar</gui>.</p></item>
+      </steps>
+    </item>
+  </terms>
+
+</page>

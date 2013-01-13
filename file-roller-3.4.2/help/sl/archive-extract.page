@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-extract" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <link type="seealso" xref="archive-open"/>
+<!--    <link type="seealso" xref="password-protection"/>-->
+    <link type="seealso" xref="archive-extract-advanced-options"/>
+    <desc>Razširitev datotek ali map iz arhiva</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>
+  </info>
+
+  <title>Razširi arhiv</title>
+
+  <p>Razširite datoteke iz arhiva z <app>Upravljalnikom arhivov</app> tako, da sledite tem korakom:</p>
+
+    <steps>
+      <item><p><link xref="archive-open">Odprite</link> arhiv.</p></item>
+      <item><p>Kliknite <guiseq><gui style="menu">Arhiv</gui><gui style="menuitem">Razširi …</gui></guiseq> ali kliknite na gumb orodne vrstice <gui>Razširi</gui>.</p></item>
+      <item><p>Izberite mesto v izbirniku datotek v katero naj bodo razširjene datoteke. To bo bila ciljna mapa.</p>
+      <note style="tip">
+        <p>V tem pogovornem oknu so dodatne možnosti. Oglejte si <link xref="archive-extract-advanced-options">napredne možnosti za razširjanje datotek</link>.</p>
+      </note>
+      </item>
+      <item><p>Kliknite <gui>Razširi</gui></p></item>
+      <item><p>Če je arhiv zaščite z geslom, ga bo <app>Upravljalnik arhivov</app> zahteval. Vnesite geslo in kliknite <gui>V redu</gui>.</p></item>
+      <item><p>Program vam bo v novem oknu pokazal vrstico napredka. Če je razširjanje uspešno boste imeli na voljo naslednje možnosti:</p>
+        <list>
+          <item><p><gui>Končaj</gui> - ta možnost zapre <app>Upravljalnik arhivov</app></p></item>
+          <item><p><gui>Pokaži datoteke</gui> - po kliku na ta gumb se bo ciljna mapa odprla v <app>Athenau</app></p></item>
+          <item><p><gui>Zapri</gui> - pogovorno okno se bo zaprlo in spet boste lahko videli svoj arhiv</p></item>
+        </list>
+      </item>
+    </steps>
+
+</page>

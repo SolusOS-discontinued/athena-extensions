@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-create" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>新しいアーカイブにファイルやフォルダーを追加</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>新しいアーカイブの作成</title>
+
+  <p>以下の手順で <app>File Roller</app> を使って新しいアーカイブを作成してください。</p>
+
+  <steps>
+    <item>
+      <p><gui>新しいアーカイブファイルを作成します</gui>というツールバーボタンをクリックするか、<guiseq><gui style="menu">アーカイブ</gui><gui style="menuitem">新規…</gui></guiseq>をクリックします。</p>
+    </item>
+    <item>
+      <p>ファイル選択ダイアログが開く。新しいアーカイブファイルの名前と場所を選択し、<gui>作成</gui>をクリックします。</p>
+      <note style="tip">
+        <p>このダイアログでは、利用したいファイル形式の種類も選択することができ、利用可能な拡張子を一覧表示できます。<gui>その他のオプション</gui>をクリックするとパスワードを設定できたり、新しいアーカイブをより小さな部品に分割することができます。分割する容量は、<gui>MB</gui> 単位で指定する必要があります。</p>
+      </note>
+    </item>
+    <item>
+      <p><gui>ファイルをアーカイブへ追加します</gui>というツールバーボタンをクリックするか、<guiseq><gui style="menu">編集</gui><gui style="menuitem">ファイルの追加…</gui></guiseq>をクリックすることにより、望みのファイルを追加します。<app>File Roller</app> を使えば、フォルダー全体を追加することもできます。これを行うには、<gui>フォルダーをアーカイブへ追加します</gui>というツールバーボタンをクリックするか、<guiseq><gui style="menu">編集</gui><gui style="menuitem">フォルダーの追加…</gui></guiseq>を選択します。</p>
+      <note style="tip">
+        <p>アーカイブにフォルダーを追加する際にいくつかのオプションを提示されます。</p>
+        <list>
+          <item><p>サブフォルダーも含めるかどうか</p></item>
+          <item><p>どのファイルを対象とするかの選択</p></item>
+          <item><p>どのサブフォルダーやファイルを除外するかの選択</p></item>
+        </list>
+      </note>
+    </item>
+    <item>
+      <p>ファイルの追加が完了すれば、アーカイブは準備完了です。</p>
+    </item>
+  </steps>
+
+</page>

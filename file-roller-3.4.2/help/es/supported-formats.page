@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="supported-formats" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc><app>File Roller</app> soporta varios formatos de archivo.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Formatos de archivo soportados</title>
+
+  <p>Los formatos soportados por <app>File Roller</app> incluyen:</p>
+
+  <list type="numbered">
+    <item><p>Solo archivadores</p>
+      <list type="disc">
+        <item><p>Archivador indexado pequeño AIX (<file>.ar</file>)</p></item>
+        <item><p>ISO-9660 Imagen de disco de CD [Modo solo-lectura] (<file>.iso</file>)</p></item>
+        <item><p>Archivador en cinta (<file>.tar</file>)</p></item>
+      </list>
+    </item>
+    <item><p>Archivador y compresión</p>
+      <list type="disc">
+        <item><p>Archivador Java (<file>.jar</file>)</p></item>
+        <item><p>Archivador comprimido con WinRAR (<file>.rar</file>)</p></item>
+        <item><p>Archivador en cinta comprimido con:</p>
+          <list type="circle">
+            <item><p>gzip (<file>.tar.gz</file>, <file>.tgz</file>)</p></item>
+            <item><p>bzip (<file>.tar.bz</file>, <file>.tbz</file>)</p></item>
+            <item><p>bzip2 (<file>.tar.bz2</file>, <file>.tbz2</file>)</p></item>
+            <item><p>lzop (<file>.tar.lzo</file>, <file>.tzo</file>)</p></item>
+            <item><p>7zip (<file>.tar.7z</file>)</p></item>
+            <item><p>xz (<file>.tar.xz</file>)</p></item>
+          </list>
+        </item>
+        <item><p>Archivo Cabinet (<file>.cab</file>)</p></item>
+        <item><p>Libro de cómic archivado en ZIP (<file>.cbz</file>)</p></item>
+        <item><p>Archivador ZIP (<file>.zip</file>)</p></item>
+        <item><p>Archivador ZOO comprimido (<file>.zoo</file>)</p></item>
+      </list>
+    </item>
+  </list>
+
+
+  <note>
+    <p>Para otros formatos de archivo, <app>File Roller</app> puede necesitar complementos adicionales.</p>
+  </note>
+
+</page>

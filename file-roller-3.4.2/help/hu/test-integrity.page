@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="test-integrity" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <desc>Archívum sértetlenségének ellenőrzése</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Sértetlenség ellenőrzése</title>
+
+  <p>A <app>File Roller</app> lehetővé teszi annak ellenőrzését, hogy egy archívum tömörített adatai megsérültek-e. Ehhez válassza ki az <guiseq><gui style="menu">Archívum</gui><gui style="menuitem">Sértetlenség ellenőrzése</gui></guiseq> menüpontot.</p>
+
+  <p>Megjelenik a <gui>Teszteredmény</gui> ablak. Ebben láthatja a tesztelt fájlok listáját, és az alján megjelenik egy összegzés is.</p>
+
+  <note style="advanced">
+    <p>A sértetlenség ellenőrzésével meggyőződhet arról, hogy az adatai nem sérültek meg.</p>
+  </note>
+
+</page>

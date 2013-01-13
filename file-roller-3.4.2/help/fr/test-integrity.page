@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="test-integrity" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <desc>Tester l'intégrité d'une archive</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  </info>
+
+  <title>Test de l'intégrité</title>
+
+  <p><app>File Roller</app> vous permet de vérifier si les données compressées d'une archive contiennent ou non des erreurs. Pour lancer le test, cliquez sur <guiseq><gui style="menu">Archive</gui><gui style="menuitem">Tester l'intégrité</gui></guiseq>.</p>
+
+  <p>La fenêtre <gui>Résultat du test</gui> apparaît. Elle affiche la liste des fichiers testés avec, en bas, le résumé du test.</p>
+
+  <note style="advanced">
+    <p>Le test d'intégrité vérifie que vos données ne sont pas corrompues.</p>
+  </note>
+
+</page>

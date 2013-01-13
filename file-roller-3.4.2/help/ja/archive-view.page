@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-view" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>既存のアーカイブとその内容の表示</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>アーカイブの表示</title>
+
+  <p>アーカイブを表示する 2 つの方法</p>
+
+  <list>
+    <item>
+    <p>全ファイルの一覧表示</p>
+      <p>この表示を利用するには、<guiseq><gui style="menu">表示</gui><gui style="menuitem">全ファイルの一覧表示</gui></guiseq>をクリックします。<app>File Roller</app> はアーカイブ内のすべてのファイルを一覧表示します。すべてのファイルの名前、サイズ、種類、更新日時および場所を確認できます。</p>
+        <note style="tip">
+          <p>(名前、サイズ…と書かれた)列見出しを使えば、アーカイブ内のファイルを並び替えることができます。列見出しをクリックすることで並び替えを行え、同じ列見出しを再度クリックすると逆順に並び替えることができます。</p>
+        </note>
+    </item>
+    <item>
+    <p>フォルダー形式で表示</p>
+      <p>この表示は、伝統的なディレクトリ構造で表示します。この表示を利用するには、<guiseq><gui style="menu">表示</gui><gui style="menuitem">フォルダー形式で表示</gui></guiseq>をクリックします。</p>
+        <note style="tip">
+          <p>この方法でアーカイブを表示している間に <key>F9</key> を押すか、<guiseq><gui style="menu">表示</gui><gui style="menuitem">フォルダー</gui></guiseq>を押してください。サイドペインにフォルダーがツリー表示されます。これにより、簡単にフォルダー間を移動できます。</p>
+        </note>
+    </item>
+  </list>
+
+  <section id="file-open">
+    <title>アーカイブ内のファイルを開く</title>
+    <p>アーカイブ内のファイル名をダブルクリックするか、ファイル名上を右クリックして<gui>開く</gui>を選択するとファイルが開きます。<app>File Roller</app> は、ファイルの種類に応じてデフォルトのアプリケーションでファイルを開きます。</p>
+      <note>
+        <p>以下の手順を踏むことで別のアプリケーションでファイルを開くことができます。</p>
+          <steps>
+            <item><p>ファイルを選択</p></item>
+            <item><p>右クリック</p></item>
+            <item><p><guibutton>別のアプリで開く…</guibutton>をクリック</p></item>
+          </steps>
+      </note>
+  </section>
+
+
+</page>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-extract-advanced-options" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <desc>Zvolte své preference pro rozbalení archivu.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Rozšířené možnosti rozbalování archivu</title>
+
+  <p><app>Správce archivů</app> nabízí různé možnosti při extrahování archivu. Tyto možnosti můžete vidět v dialogu procházení souborů, který používáte jako volbu cílového adresáře pro extrahované soubory.  Vespodu tohoto dialogu, můžete vybrat, zda chcete extrahovat:</p>
+  <terms>
+    <item>
+      <title><gui>Všechny soubory</gui></title>
+        <p>bude rozbalen celý archiv</p>
+    </item>
+    <item>
+      <title><gui>Vybrané soubory</gui></title>
+        <p><app>Správce archivů</app> rozbalí pouze vybrané soubory</p>
+          <note>
+          <p>Vyberte je před tím než kliknete na <guiseq><gui style="menu">Archiv</gui><gui style="menuitem">Rozbalit…</gui></guiseq>. Toto provedete klepnutím na název souboru. Zmačknutím klávesy <key>Ctrl</key> nebo <key>Shift</key> zvolíte více souborů.</p>
+          </note>
+    </item>
+    <item>
+      <title><gui>Soubory</gui></title>
+        <p>můžete napsat názvy souborů, které chcete rozbalit</p>
+          <note>
+          <p>Název souboru musí mít koncovku. Můžete například rozbalit všechny soubory <file>.txt</file> napsáním <file>*.txt</file>.</p>
+          </note>
+    </item>
+  </terms>
+
+  <p>V dialogu procházení souborů můžete zvolit, zda chcete:</p>
+  <terms>
+    <item>
+      <title><gui>Znovu vytvořit složky</gui></title>
+        <p>Zaškrtněte tuto možnost, jestliže chcete ponechat stejnou strukturu složek jako je v archivu</p>
+    </item>
+    <item>
+      <title><gui>Přepisovat existující soubory</gui></title>
+        <p>Pokud váš archiv obsahuje soubory se stejnými názvy souborů jako v cílovém adresáři, <app>Správce archivů</app> je při rozbalování přepíše, pokud je tato možnost zapnuta</p>
+    </item>
+    <item>
+      <title><gui>Do not extract older files</gui></title>
+        <p>Tato možnost nepřepíše již existující soubory se stejnými názvy, které mají čas poslední změny </p>
+    </item>
+  </terms>
+
+  <p>Tyto <gui>Akce</gui> jsou vypsány na konci dialogu.</p>
+
+  <note style="advanced">
+    <p>Volba <gui>Nerozbalovat starší soubory</gui> má význam pouze v případě, když je zapnuta volba <gui>Přepisovat existující soubory</gui>.</p>
+  </note>
+
+</page>

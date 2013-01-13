@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="introduction" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>Uvod v <app>Upravljalnik arhivov</app>.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>
+  </info>
+
+  <title>Uvod</title>
+
+  <p><app>Upravljalnik arhivov</app> je program za upravljanje arhivov, ki je bil zasnovan za enostavno uporabo. Zagotavlja vsa orodja, zahtevana za ustvarjanje, spreminjanje ali razširjaje arhivov.</p>
+
+  <note style="advanced">
+    <p>Arhiv je sestavljen iz ene ali več datotek skupaj z metapodatki. Morda je šifriran delno ali v celoti. Z zbiranjem več podatkovnih datotek skupaj v eno, so datoteke arhivov uporabne za shranjevanje podatkov in njihov prenos med računalniki.</p>
+  </note>
+
+  <p>Z <app>Upravljalnikom arhivov</app> lahko:</p>
+  <list>
+    <item><p>Ustvarjanje novega arhiva z dodajanjem datotek ali map</p></item>
+    <item><p>Ogled vsebine obstoječega arhiva</p></item>
+    <item><p>Ogled datoteke, ki je v arhivu</p></item>
+    <item><p>Spremeni obstoječe arhive</p></item>
+    <item><p>Razširi datoteke iz arhiva</p></item>
+  </list>
+
+  <figure>
+    <title>Glavno okno <gui>Upravljalnika arhivov</gui>.</title>
+    <media type="image" mime="image/png" src="figures/file-roller-main-window.png">
+    <p>Zaslonska slika glavnega okna <app>Upravljalnika datotek</app>.</p>
+    </media>
+  </figure>
+
+</page>

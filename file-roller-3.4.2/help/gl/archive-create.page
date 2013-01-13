@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-create" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Engadir ficheiros e cartafoles ao novo arquivo.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Crear un arquivo novo</title>
+
+  <p>Cree un arquivo novo con <app>File Roller</app>, seguinte estes pasos:</p>
+
+  <steps>
+    <item>
+      <p>Prema na icona <gui>Crear un arquivo novo</gui> na barra de ferramentas, ou seleccione <guiseq><gui style="menu">Arquivo</gui><gui style="menuitem">Novo…</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Abrirase o selector de ficheiros. Úseo para asignar un nome ao arquivador elixa a súa localización e prema <gui>Crear</gui>.</p>
+      <note style="tip">
+        <p>Neste diálogo pode escoller o tipo de formato de arquivo que quere usar. As extensións dispoñíbeis débense mostrar máis abaixo. Premendo en <gui>Outras opcións</gui> pode estabelecer un contrasinal, ou dividir o arquivador novo en partes máis pequenas. Debe especificar o tamaño do volume en <gui>MiB</gui>.</p>
+      </note>
+    </item>
+    <item>
+      <p>Engada os ficheiros que quere ao arquivo premendo no botón <gui>Engadir arquivos ao arquivador</gui>, ou seleccionando <guiseq><gui style="menu">Editar</gui><gui style="menuitem">Engadir arquivos…</gui></guiseq>. <app>File Roller</app> tamén lle permite engadir cartafoles completos. Para facer isto, prema a icona <gui>Engadir un cartafol ao arquivo</gui>, ou seleccione <guiseq><gui style="menu">Editar</gui><gui style="menuitem">Engadir un cartafol…</gui></guiseq>.</p>
+      <note style="tip">
+        <p>Cando engada un cartafol a un arquivador, ofreceránselle varias opcións:</p>
+        <list>
+          <item><p>Indica se se deben incluír ou non os subcartafoles</p></item>
+          <item><p>Escolla os ficheiros a incluir</p></item>
+          <item><p>Seleccione que cartafoles ou ficheiros se deben excluír</p></item>
+        </list>
+      </note>
+    </item>
+    <item>
+      <p>Cando teña rematado de engadir ficheiros, o arquivo estará listo.</p>
+    </item>
+  </steps>
+
+</page>

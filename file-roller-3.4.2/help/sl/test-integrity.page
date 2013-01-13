@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="test-integrity" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <desc>Preverjanje celovitosti podatkov v arhivu</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>
+  </info>
+
+  <title>Preveri celovitost</title>
+
+  <p><app>Upravljalnik datotek</app> vam omogoča preverjanje ali stisnjeni podatki v arhivu vsebujejo podatke. To storite s klikom na <guiseq><gui style="menu">Arhiv</gui><gui style="menuitem">Preizkusi celovitost</gui></guiseq>.</p>
+
+  <p>Pojavilo se bo pogovorno okno z <gui>rezultati preizkusa</gui>. Videli boste seznam preizkušenih datotek in na dnu bo tudi povzetek preizkusa.</p>
+
+  <note style="advanced">
+    <p>Preizkus celovitosti preveri, da vaši podatki niso okvarjeni.</p>
+  </note>
+
+</page>

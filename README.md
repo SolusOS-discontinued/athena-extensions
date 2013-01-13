@@ -14,4 +14,4 @@ Currently forked/implemented extensions
 
 athena-open-terminal (direct fork of nautilus-open-terminal 0.19)
 athena-dropbox (direct fork of nautilus-dropbox 1.4.0)
-
+file-roller (Just a patched file-roller to use Athena not Nautilus)

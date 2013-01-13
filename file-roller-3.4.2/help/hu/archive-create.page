@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-create" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Fájlok vagy mappák hozzáadása új archívumhoz.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Új archívum létrehozása</title>
+
+  <p>Tegye a következőket új archívum létrehozásához a <app>File Rollerrel</app>:</p>
+
+  <steps>
+    <item>
+      <p>Nyomja meg az <gui>Új archívum létrehozása</gui> eszköztárgombot, vagy válassza ki az <guiseq><gui style="menu">Archívum</gui><gui style="menuitem">Új</gui></guiseq> menüpontot.</p>
+    </item>
+    <item>
+      <p>Megnyílik a fájlválasztó. Ennek használatával nevezze el az új archívumfájlt, és válassza ki a helyét, majd kattintson a <gui>Létrehozás</gui> gombra.</p>
+      <note style="tip">
+        <p>Ebben az ablakban kiválaszthatja a kívánt fájlformátumot, az elérhető kiterjesztések listája alább látható. A <gui>További beállítások</gui> alatt beállíthat jelszót, vagy kisebb darabokra vághatja az új archívumot. A kötetek méretét <gui>MB</gui>-ban adhatja meg.</p>
+      </note>
+    </item>
+    <item>
+      <p>Vegye fel a kívánt fájlokat az archívumba a <gui>Fájlok hozzáadása az archívumhoz</gui> eszköztárgomb megnyomásával, vagy a <guiseq><gui style="menu">Szerkesztés</gui><gui style="menuitem">Fájlok hozzáadása</gui></guiseq> menüpont kiválasztásával. A <app>File Roller</app> lehetővé teszi teljes mappák hozzáadását is. Ehhez nyomja meg a <gui>Mappa hozzáadása az archívumhoz</gui> eszköztárgombot, vagy válassza ki a <guiseq><gui style="menu">Szerkesztés</gui><gui style="menuitem">Mappa hozzáadása</gui></guiseq> menüpontot. </p>
+      <note style="tip">
+        <p>Mappa hozzáadásakor elérhet néhány további beállítást:</p>
+        <list>
+          <item><p>Almappák hozzáadása</p></item>
+          <item><p>Felvenni kívánt fájlok</p></item>
+          <item><p>Kizárandó almappák vagy fájlok</p></item>
+        </list>
+      </note>
+    </item>
+    <item>
+      <p>A fájlok hozzáadásának befejezésekor az archívum elkészül.</p>
+    </item>
+  </steps>
+
+</page>

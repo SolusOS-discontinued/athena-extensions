@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-edit" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <link type="seealso" xref="archive-create"/>
+    <desc>Změna obsahu archivu.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Upravit archiv</title>
+
+  <p>S aplikací <app>Správce archivů</app> můžete upravovat již existující archivy přidáváním souborů, mazáním nepotřebných souborů nebo změnou názvů souborů. Se složkami můžete pracovat stejně jako se soubory.</p>
+
+  <terms>
+    <item>
+    <title><code>Přidat soubory</code></title>
+    <p>Přidejte soubory do existujícího archivu podle instrukcí na straně <link xref="archive-create"/>.</p>
+    </item>
+    <item>
+    <title><code>Odstranit soubory</code></title>
+      <steps>
+        <item><p>Vybrat soubor.</p></item>
+        <item><p>Z nabídky <guiseq><gui style="menu">Upravit</gui> klikněte na <gui style="menuitem">Smazat</gui></guiseq> nebo klikněte pravým tlačítkem myši na zvolený soubor a zvolte <gui>Smazat</gui>.</p></item>
+      </steps>
+    </item>
+    <item>
+    <title><code>Přejmenovat soubory</code></title>
+      <steps>
+        <item><p>Vybrat soubor.</p></item>
+        <item><p>Zvolte <guiseq><gui style="menu">Upravit<gui><gui style="menuitem">Přejmenovat…</gui>seq&gt;, nebo klepnP.</gui></gui></guiseq></p></item>
+        <item><p>Otevře se dialog. Zadejte nový název souboru do textového pole.</p></item>
+        <item><p>Potvrďte název kliknutím na <gui>Přejmenovat</gui>.</p></item>
+      </steps>
+    </item>
+  </terms>
+
+</page>

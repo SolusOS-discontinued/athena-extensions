@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-open" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Ouvrir une archive existante.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  </info>
+
+  <title>Ouverture d'une archive</title>
+
+  <p>Vous pouvez ouvrir une archive existante avec <app>File Roller</app> de différentes façons :</p>
+
+  <list>
+    <item>
+      <p>cliquez sur le bouton <gui>Ouvrir</gui> de la barre d'outils,</p>
+    </item>
+    <item>
+      <p>cliquez sur <guiseq><gui style="menu">Archive</gui><gui style="menuitem">Ouvrir…</gui></guiseq></p>
+    </item>
+  </list>
+
+  <p>Vous pouvez aussi utiliser l'option <gui>Récemment ouverts</gui> comme cela :</p>
+
+  <list>
+    <item>
+      <p>cliquez sur le bouton <media type="image" mime="image/png" src="figures/file-roller-open-recent.png"> Ouvre une archive récemment ouverte</media> de la barre d'outils et sélectionnez un fichier,</p>
+    </item>
+    <item>
+      <p>cliquez sur <guiseq><gui style="menu">Archive</gui><gui style="menuitem">Récemment ouverts</gui></guiseq> pour voir la liste des archives récemment utilisées.</p>
+    </item>
+  </list>
+
+  <note><p>Si <app>File Roller</app> n'arrive pas à ouvrir votre archive récemment utilisée et affiche le message d'erreur <gui>Le fichier n'existe pas</gui>, c'est sans doute que l'emplacement du fichier archive a été déplacé. Il vous faut alors utiliser l'option <gui>Ouvrir</gui> pour le retrouver.</p></note>
+
+</page>

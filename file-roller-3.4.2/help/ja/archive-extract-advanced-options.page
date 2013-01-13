@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-extract-advanced-options" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <desc>アーカイブ展開に関する好みを指定</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>アーカイブ展開に関する高度なオプション</title>
+
+  <p><app>File Roller</app> は、アーカイブを展開する際に様々なオプションを提示します。ファイル選択ダイアログ内に、ファイルを展開する場所を選択するのに利用できるオプションが表示されます。このダイアログの下部で展開する方法を決定できます。</p>
+  <terms>
+    <item>
+      <title><gui>すべてのファイル</gui></title>
+        <p>アーカイブのすべてが展開されます。</p>
+    </item>
+    <item>
+      <title><gui>選択したファイル</gui></title>
+        <p><app>File Roller</app> は、選択されたファイルのみを展開します。</p>
+          <note>
+          <p><guiseq><gui style="menu">アーカイブ</gui><gui style="menuitem">展開…</gui></guiseq>をクリックする前にファイルを選択してください。ファイル名をクリックすることでファイルを選択できます。<key>Ctrl</key> または <key>Shift</key> を押すと複数のファイルを選択できます。</p>
+          </note>
+    </item>
+    <item>
+      <title><gui>ファイル</gui></title>
+        <p>展開したいファイルの名前を入力できます</p>
+          <note>
+          <p>ファイル名には、ファイルの拡張子を続ける必要があります。例えば、<file>*.txt</file> と入力することにより、すべての <file>.txt</file> がついたファイルを展開できます。</p>
+          </note>
+    </item>
+  </terms>
+
+  <p>ファイル選択ダイアログ内で、次の設定が可能です</p>
+  <terms>
+    <item>
+      <title><gui>フォルダーを再作成する</gui></title>
+        <p>ディレクトリ構造をアーカイブと同様に維持する場合は、このオプションにチェックを入れてください。</p>
+    </item>
+    <item>
+      <title><gui>既存のファイルに上書きする</gui></title>
+        <p>展開先のフォルダーに存在するファイル名と同名のファイルがアーカイブ内に存在する場合、このオプションが有効になっていると <app>File Roller</app> は、展開中に既存のファイルを上書きします。</p>
+    </item>
+    <item>
+      <title><gui>古いファイルを展開しない</gui></title>
+        <p>このオプションを指定するとアーカイブ内の更新日時より新しい更新日時の同名ファイルを上書きしません。</p>
+    </item>
+  </terms>
+
+  <p>これらの<gui>アクション</gui>は、ダイアログの下部に一覧表示されています。</p>
+
+  <note style="advanced">
+    <p><gui>古いファイルを展開しない</gui>というオプションは、<gui>既存のファイルに上書きする</gui>というオプションが有効である場合にのみ利用可能です。</p>
+  </note>
+
+</page>

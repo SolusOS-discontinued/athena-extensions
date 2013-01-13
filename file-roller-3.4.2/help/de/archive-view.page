@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-view" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Ein bestehendes Archiv und dessen Inhalt einsehen.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Ein Archiv ansehen</title>
+
+  <p>Es gibt zwei Möglichkeiten, ein Archiv anzusehen:</p>
+
+  <list>
+    <item>
+    <p>Alle Dateien ansehen</p>
+      <p>Klicken Sie auf <guiseq><gui style="menu">Ansicht</gui><gui style="menuitem">Alle Dateien anzeigen</gui></guiseq>, um diese Ansicht zu verwenden. Der <app>Archivmanager</app> listet daraufhin alle Dateien des Archivs auf. Die Namen, Dateigrößen, Typen, letzten Änderungsdaten und Orte werden angezeigt.</p>
+        <note style="tip">
+          <p>Verwenden Sie die zuvor genannten Spaltenbeschriftungen (Name, Größe usw.), um die Dateien in Ihrem Archiv zu sortieren. Klicken Sie dazu auf die Beschriftung. Ein weiterer Mausklick sortiert in umgekehrter Reihenfolge.</p>
+        </note>
+    </item>
+    <item>
+    <p>Als Ordner betrachten</p>
+      <p>Diese Ansicht stellt die klassische Ordnerstruktur dar. Aktivieren Sie diese über <guiseq><gui style="menu">Ansicht</gui><gui style="menuitem">Als Ordner anzeigen</gui></guiseq>.</p>
+        <note style="tip">
+          <p>Drücken Sie beim Anzeigen Ihres Archivs <gui style="button">F9</gui> oder wählen Sie <guiseq><gui style="menu">Ansicht</gui><gui style="menuitem">Ordner</gui></guiseq>. Daraufhin wird eine Baumansicht der Ordner in der Seitenleiste eingeblendet. Nutzen Sie diese, um bequem zwischen Ordnern zu wechseln.</p>
+        </note>
+    </item>
+  </list>
+
+  <section id="file-open">
+    <title>Dateien in Ihrem Archiv öffnen</title>
+    <p>Öffnen Sie Dateien aus Ihrem Archiv, indem Sie zweimal auf den Dateinamen klicken, oder klicken Sie mit der rechten Maustaste auf den Dateinamen und wählen Sie <gui>Öffnen</gui>. Der <app>Archivmanager</app> öffnet daraufhin die Datei mit der voreingestellten Anwendung für diesen Dateityp.</p>
+      <note>
+        <p>Öffnen Sie die Datei mit verschiedenen Anwendungen wie folgt:</p>
+          <steps>
+            <item><p>Die Datei wählen</p></item>
+            <item><p>Klick mit der rechten Maustaste</p></item>
+            <item><p>Klicken Sie auf <gui>Öffnen mit …</gui></p></item>
+          </steps>
+      </note>
+  </section>
+
+
+</page>

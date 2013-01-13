@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="test-integrity" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <desc>Comprobar la integridad de un archivador</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Comprobar la integridad</title>
+
+  <p><app>File Roller</app> le permite comprobar si los datos comprimidos en un archivador tienen algún error. Puede hacerlo pulsando en <guiseq><gui style="menu">Archivador</gui><gui style="menuitem">Comprobar integridad</gui></guiseq>.</p>
+
+  <p>Aparecerá el diálogo con el <gui>Resultado de la comprobación</gui>. Verá la archiva de archivos comprobados y, en la parte inferior, estará el resumen de la comprobación.</p>
+
+  <note style="advanced">
+    <p>La comprobación de integridad verifica que sus datos no están corruptos.</p>
+  </note>
+
+</page>

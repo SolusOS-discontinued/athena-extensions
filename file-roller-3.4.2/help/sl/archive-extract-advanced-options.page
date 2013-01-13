@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-extract-advanced-options" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <desc>Določite svoje možnosti za razširitev arhivov.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>
+  </info>
+
+  <title>Napredne možnosti za razširjanje arhivov</title>
+
+  <p><app>Upravljalnik datotek</app> ponuja različne možnosti med razširjanjem arhiva. Te možnosti si lahko ogledate v pogovornem oknu izbirnika datotek, ki ga uporabite za izbiro mesta razširjenih datotek. Na dnu tega pogovornega okna se lahko odločite, če želite razširiti:</p>
+  <terms>
+    <item>
+      <title><gui>Vse datoteke</gui></title>
+        <p>celoten arhiv bo bil razširjen</p>
+    </item>
+    <item>
+      <title><gui>Izbrane datoteke</gui></title>
+        <p><app>Upravljalnik datotek</app> razširi le izbrane datoteke</p>
+          <note>
+          <p>Izberite jih preden kliknete <guiseq><gui style="menu">Arhiv</gui><gui style="menuitem">Razširi …</gui></guiseq>. To storite s klikom na ime datoteke. Pritisnite <key>Ctrl</key> ali <key>Shift</key> za izbiro več kot ene datoteke.</p>
+          </note>
+    </item>
+    <item>
+      <title><gui>Datoteke</gui></title>
+        <p>Vnesete lahko imena datotek, ki jih želite razširiti</p>
+          <note>
+          <p>Imenu datotek mora slediti pripona. Vse datoteke <file>.txt</file> lahko razširite z vnosom <file>*.txt</file>.</p>
+          </note>
+    </item>
+  </terms>
+
+  <p>V pogovornem oknu izbirnika datotek lahko določite kaj želite:</p>
+  <terms>
+    <item>
+      <title><gui>Ponovno ustvari mape</gui></title>
+        <p>Izberite to možnost, če želite obdržati strukturo map kot je bila v vašem arhivu</p>
+    </item>
+    <item>
+      <title><gui>Prepiši obstoječe datoteke</gui></title>
+        <p>Če vaš arhiv vsebuje datoteke z enakim imenom kot ciljna mapa, jih bo <app>Upravljalnik arhivov</app> med razširjanjem prepisal, če je ta možnost omogočena </p>
+    </item>
+    <item>
+      <title><gui>Ne odpakiraj starejših datotek</gui></title>
+        <p>Ta možnost ne bo prepisala obstoječih datotek z enakim imenom, ki imajo bolj nedaven datum spreminjanje, kot tiste v arhivu.</p>
+    </item>
+  </terms>
+
+  <p>Ta <gui>Dejanja</gui> so izpisana na dnu pogovornega okna.</p>
+
+  <note style="advanced">
+    <p>Možnost <gui>Ne razširi starejših datotek</gui> je na voljo le, ko je možnost <gui>Prepiši obstoječe datoteke</gui> bila omogočena.</p>
+  </note>
+
+</page>

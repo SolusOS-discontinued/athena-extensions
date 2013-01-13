@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-open" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Ein vorhandenes Archiv öffnen.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Ein Archiv öffnen</title>
+
+  <p>Öffnen Sie ein bestehendes Archiv mit dem <app>Archivmanager</app> wie folgt:</p>
+
+  <list>
+    <item>
+      <p>Klicken Sie auf den Knopf <gui>Öffnen</gui>.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <guiseq><gui style="menu">Archiv</gui><gui style="menuitem">Öffnen …</gui></guiseq></p>
+    </item>
+  </list>
+
+  <p>Sie können auch die Option <gui>Zuletzt geöffnet</gui> wie folgt verwenden:</p>
+
+  <list>
+    <item>
+      <p>Klicken Sie auf den Knopf <media type="image" mime="image/png" src="figures/file-roller-open-recent.png">Ein zuletzt geöffnetes Archiv öffnen</media> und wählen Sie eine Datei.</p>
+    </item>
+    <item>
+      <p>Wählen Sie <guiseq><gui style="menu">Archiv</gui><gui style="menuitem">Zuletzt geöffnet</gui></guiseq>, um die Liste zuletzt verwendeter Archive zu sehen.</p>
+    </item>
+  </list>
+
+  <note><p>Wenn der <app>Archivmanager</app> Ihre zuletzt geöffneten Archive nicht öffnen kann und die Fehlermeldung <gui>Die Datei ist nicht vorhanden</gui> ausgibt, so hat sich gegebenenfalls der Ort des Archivs geändert. Verwenden Sie dann <gui>Öffnen</gui>, um danach zu suchen.</p></note>
+
+</page>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-extract-advanced-options" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <desc>Az archívumkibontás beállításainak megadása.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Az archívumkibontás speciális beállításai</title>
+
+  <p>A <app>File Roller</app> különböző beállításokat kínál az archívumok kibontásához. Ezeket a beállításokat a fájlválasztó ablakban láthatja, amelyben a kibontott fájlok helyét választhatja ki. Az ablak alján kiválaszthatja, hogy mit szeretne kibontani:</p>
+  <terms>
+    <item>
+      <title><gui>Minden fájl</gui></title>
+        <p>a teljes archívum kibontásra kerül</p>
+    </item>
+    <item>
+      <title><gui>Kijelölt fájlok</gui></title>
+        <p>a <app>File Roller</app> csak a kiválasztott fájlokat bontja ki</p>
+          <note>
+          <p>A fájlokat az <guiseq><gui style="menu">Archívum</gui><gui style="menuitem">Kibontás</gui></guiseq> menüpont kiválasztása előtt jelölje ki a nevükre való kattintással. Több fájl kiválasztásához tartsa lenyomva a <key>Ctrl</key> vagy <key>Shift</key> billentyűt.</p>
+          </note>
+    </item>
+    <item>
+      <title><gui>Fájlok</gui></title>
+        <p>beírhatja a kibontani kívánt fájlok neveit</p>
+          <note>
+          <p>A fájlneveket a kiterjesztéssel együtt adja meg. Kibonthatja például az összes <file>.txt</file> fájlt a <file>*.txt</file> beírásával.</p>
+          </note>
+    </item>
+  </terms>
+
+  <p>Megadhatja a fájlválasztó ablakban, hogy szeretné-e a következőket:</p>
+  <terms>
+    <item>
+      <title><gui>Mappák újralétrehozása</gui></title>
+        <p>Jelölje be ezt a négyzetet az archívum könyvtárszerkezetének megtartásához</p>
+    </item>
+    <item>
+      <title><gui>Létező fájlok felülírása</gui></title>
+        <p>Ha az archívum olyan nevű fájlokat tartalmaz, amelyek már léteznek a célmappában, akkor a <app>File Roller</app> felülírja ezeket a kibontás során, ha ez a beállítás engedélyezett.</p>
+    </item>
+    <item>
+      <title><gui>Ne bontson ki régebbi fájlokat</gui></title>
+        <p>Ezt engedélyezve a kibontás során nem kerülnek felülírásra az archívumban lévőkkel azonos nevű, már létező fájlok, ha ezek utolsó módosítási dátuma későbbi az archívumban lévőkénél.</p>
+    </item>
+  </terms>
+
+  <p>Ezek a <gui>Műveletek</gui> az ablak alján jelennek meg.</p>
+
+  <note style="advanced">
+    <p>A <gui>Ne bontson ki régebbi fájlokat</gui> beállítás csak a <gui>Létező fájlok felülírása</gui> beállítás engedélyezése után érhető el.</p>
+  </note>
+
+</page>

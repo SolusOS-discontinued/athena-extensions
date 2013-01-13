@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="introduction" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>Introdución ao aplicativo de xestión de arquivos <app>File Roller</app>.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Introdución</title>
+
+  <p><app>File Roller</app> é un aplicativo para xestionar arquivos, deseñado para ser doado de usar. Fornece todas as ferramentas precisas para crear, modificar e extraer arquivos.</p>
+
+  <note style="advanced">
+    <p>Un arquivo componse de un ou máis arquivos, xunto cos seus metadatos. Pode estar cifrado en parte ou por completo. Ao reunir varios ficheiros de datos nun único arquivo, os arquivos son útiles para almacenar información e transferila entre computadores.</p>
+  </note>
+
+  <p>Con <app>File Roller</app> pode:</p>
+  <list>
+    <item><p>Crear un arquivador novo engadindo arquivos ou cartafoles</p></item>
+    <item><p>Ver o contido dun arquivador existente</p></item>
+    <item><p>Ver un arquivo dentro dun arquivador</p></item>
+    <item><p>Modificar arquivos existentes</p></item>
+    <item><p>Extrae ficheiros dun arquivo</p></item>
+  </list>
+
+  <figure>
+    <title>Xanela principal de <gui>File Roller</gui></title>
+    <media type="image" mime="image/png" src="figures/file-roller-main-window.png">
+    <p>Captura de pantalla da xanela principal e <app>File Roller</app>.</p>
+    </media>
+  </figure>
+
+</page>

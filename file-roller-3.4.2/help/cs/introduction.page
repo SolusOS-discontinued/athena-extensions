@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="introduction" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>Úvod k aplikaci <app>Správce balíků</app>.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Úvod</title>
+
+  <p><app>Správce archivů</app> je aplikace určená pro správu archivů, navržena tak, aby byla lehce použitelná. Poskytuje všechny potřebné nástroje pro vytváření, úpravu a rozbalování archivů.</p>
+
+  <note style="advanced">
+    <p>Archiv je tvořen jedním nebo více soubory, společně s metadaty. Mohou být z části nebo úplně zašifrované. Díky zabalení více souborů do jednoho jsou archivy užitečné pro ukládání dat a pro přenos mezi počítači.</p>
+  </note>
+
+  <p>S aplikaci <app>Správce archivů</app> můžete:</p>
+  <list>
+    <item><p>Vytvořit nový archiv přidáním souborů nebo složek</p></item>
+    <item><p>Zobrazení obsahu archivu</p></item>
+    <item><p>Zobrazení souboru z archivu</p></item>
+    <item><p>Změna souboru v archivu</p></item>
+    <item><p>Rozbalit soubory z archivu</p></item>
+  </list>
+
+  <figure>
+    <title>Hlavní okno aplikace <gui>Správce archivů</gui></title>
+    <media type="image" mime="image/png" src="figures/file-roller-main-window.png">
+    <p>Snímek obrazovky ukazující hlavní okno aplikace File Roller.</p>
+    </media>
+  </figure>
+
+</page>

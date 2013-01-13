@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-extract" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <link type="seealso" xref="archive-open"/>
+<!--    <link type="seealso" xref="password-protection"/>-->
+    <link type="seealso" xref="archive-extract-advanced-options"/>
+    <desc>Rozbalit soubory nebo složky z archivu</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Rozbalit archiv</title>
+
+  <p>Rozbalte soubory z archivů pomocí <app>Správce archivů</app> podle následujících kroků:</p>
+
+    <steps>
+      <item><p><link xref="archive-open">Otevřít</link> archiv.</p></item>
+      <item><p>Z nabídky <guiseq><gui style="menu">Archiv</gui> zvolte možnost <gui style="menuitem">Rozbalit…</gui> nebo klikněte na tlačítko <gui>Rozbalit</gui> na panelu nástrojů.</guiseq></p></item>
+      <item><p>Zvolte umístění pomocí okna výběru souboru, kam mají být soubory rozbaleny. Zvolené umístění bude cílová složka.</p>
+      <note style="tip">
+        <p>V dialogu je také několik dalších možností. Viz <link xref="archive-extract-advanced-options">rozšířené možnosti pro rozbalování archivů</link>.</p>
+      </note>
+      </item>
+      <item><p>Klikněte na <guibutton>Rozbalit</guibutton>.</p></item>
+      <item><p>Je-li archiv chráněn heslem, <app>File Roller</app> si jej vyžádá. Napište heslo a klikněte na <gui>Budiž</gui>.</p></item>
+      <item><p>Aplikace vám ukáže postup v novém dialogu. Pokud se rozbalení vydaří, budete dotázáni, zda chcete:</p>
+        <list>
+          <item><p><gui>Zavřít</gui> - tato volba zavře <app>Správce archivů</app></p></item>
+          <item><p>Po klepnutí na <gui>Zobrazit soubory</gui> bude otevřena cílová složka v <app>Prohlížeči souborů</app></p></item>
+          <item><p>Po klepnutí na <gui>Zavřít</gui> se dialog zavře a vy znovu uvidíte váš archiv.</p></item>
+        </list>
+      </item>
+    </steps>
+
+</page>

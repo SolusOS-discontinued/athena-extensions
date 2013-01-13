@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="introduction" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc><app>File Roller</app> アーカイブ管理アプリケーションの紹介</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>はじめに</title>
+
+  <p><app>File Roller</app> は、アーカイブを管理するためのアプリケーションです。簡単に使えるように設計されています。アーカイブを作成、修正あるいは展開するために必要なツールをすべて提供します。</p>
+
+  <note style="advanced">
+    <p>アーカイブは、メタデータとともに 1 つ以上のファイルから構成されます。一部あるいは全体が暗号化されていることもあります。複数のファイルを 1 つのファイルにまとめることにより、アーカイブファイルはデータの保存やコンピューター間での転送に役立ちます。</p>
+  </note>
+
+  <p><app>File Roller</app> でできること</p>
+  <list>
+    <item><p>ファイルやフォルダーを追加して新しいアーカイブを作成</p></item>
+    <item><p>既存アーカイブの内容を表示</p></item>
+    <item><p>アーカイブ内に含まれるファイルを表示</p></item>
+    <item><p>既存アーカイブの修正</p></item>
+    <item><p>アーカイブからファイルを抽出</p></item>
+  </list>
+
+  <figure>
+    <title>File Roller のメインウィンドウ</title>
+    <media type="image" mime="image/png" src="figures/file-roller-main-window.png">
+    <p>File Roller のメインウィンドウのスクリーンショット</p>
+    </media>
+  </figure>
+
+</page>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-open" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Odprite obstoječi arhiv.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>
+  </info>
+
+  <title>Odpri arhiv</title>
+
+  <p>Obstoječi arhiv lahko z <app>Upravljalnikom arhivov</app> odprete na naslednje načine:</p>
+
+  <list>
+    <item>
+      <p>Kliknite na gumb orodne vrstice <gui>Odpri</gui>.</p>
+    </item>
+    <item>
+      <p>Kliknite <guiseq><gui style="menu">Arhiv</gui><gui style="menuitem">Odpri …</gui></guiseq></p>
+    </item>
+  </list>
+
+  <p>Možnost <gui>Odpri nedavno</gui> lahko uporabite na naslednje načine:</p>
+
+  <list>
+    <item>
+      <p>Kliknite gumb orodne vrstice <media type="image" mime="image/png" src="figures/file-roller-open-recent.png">Odpri nedavno uporabljen arhiv</media> in izberite datoteko.</p>
+    </item>
+    <item>
+      <p>Kliknite <guiseq><gui style="menu">Ahiv</gui><gui style="menuitem">Odpri nedavno</gui></guiseq> za ogled seznama nedavno uporabljenih arhivov.</p>
+    </item>
+  </list>
+
+  <note><p>Če <app>Upravljalnik datotek</app> ne more odpreti vašega nedavno uporabljenega arhiva in pokaže sporočilo o napaki <gui>Datoteka ne obstaja</gui>, se je morda mesto datoteke arhiva spremenilo. Za njeno iskanje lahko uporabite možnost <gui>Odpri</gui>.</p></note>
+
+</page>

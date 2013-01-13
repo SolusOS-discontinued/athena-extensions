@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="supported-formats" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>Der <app>Archivmanager</app> beherrscht verschiedene Dateiformate.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Unterstützte Dateiformate</title>
+
+  <p>Die vom <app>Archivmanager</app> unterstützten Formate sind u.a.:</p>
+
+  <list type="numbered">
+    <item><p>Nur archivieren</p>
+      <list type="disc">
+        <item><p>AIX Small Indexed-Archiv (<file>.ar</file>)</p></item>
+        <item><p>ISO-9660 CD-Abbild [Nur-Lesen-Modus] (<file>.iso</file>)</p></item>
+        <item><p>Tar-Archiv (<file>.tar</file>)</p></item>
+      </list>
+    </item>
+    <item><p>Archiv und Komprimierung</p>
+      <list type="disc">
+        <item><p>Java-Archiv (<file>.jar</file>)</p></item>
+        <item><p>Mit WinRAR komprimiertes Archiv (<file>.rar</file>)</p></item>
+        <item><p>Tar-Archiv komprimiert mit:</p>
+          <list type="circle">
+            <item><p>gzip (<file>.tar.gz</file>, <file>.tgz</file>)</p></item>
+            <item><p>bzip (<file>.tar.bz</file>, <file>.tbz</file>)</p></item>
+            <item><p>bzip2 (<file>.tar.bz2</file>, <file>.tbz2</file>)</p></item>
+            <item><p>lzop (<file>.tar.lzo</file>, <file>.tzo</file>)</p></item>
+            <item><p>7zip (<file>.tar.7z</file>)</p></item>
+            <item><p>xz (<file>.tar.xz</file>)</p></item>
+          </list>
+        </item>
+        <item><p>Cabinet-Datei (<file>.cab</file>)</p></item>
+        <item><p>Mit ZIP archiviertes Comic Book (<file>.cbz</file>)</p></item>
+        <item><p>ZIP-Archiv (<file>.zip</file>)</p></item>
+        <item><p>Mit ZOO komprimierte Archivdatei (<file>.zoo</file>)</p></item>
+      </list>
+    </item>
+  </list>
+
+
+  <note>
+    <p>Für einige Dateiformate benötigt der <app>Archivmanager</app> gegebenenfalls zusätzliche Plugins.</p>
+  </note>
+
+</page>

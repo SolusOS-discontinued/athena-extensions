@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="introduction" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>Введение в <app>File Roller</app>, приложение управления архивами </desc>
+    <credit type="author">
+      <name>Марта Богданович (Marta Bogdanowicz)</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Введение</title>
+
+  <p><app>File Roller</app> — это простое в использовании приложение для управления архивами. Оно предоставляет все необходимые инструменты для создания, изменения архивов, а также извлечения из них данных.</p>
+
+  <note style="advanced">
+    <p>Архив состоит из одного или нескольких файлов, а также из метаданных. Архив может быть частично или полностью зашифрован. Файлы архивов полезны для хранения данных, а также при передаче между компьютерами, т. к. один архив может включать в себя множество файлов.</p>
+  </note>
+
+  <p>С помощью <app>File Roller</app> можно:</p>
+  <list>
+    <item><p>Создавать новые архивые, добавляя в них файлы и папки</p></item>
+    <item><p>Просматривать содержимое существующего архива</p></item>
+    <item><p>Просматривать файлы, содержащиеся в архиве</p></item>
+    <item><p>Измененять существующие архивов</p></item>
+    <item><p>Извлекать файлы из архива</p></item>
+  </list>
+
+  <figure>
+    <title><gui>File Roller</gui> main window</title>
+    <media type="image" mime="image/png" src="figures/file-roller-main-window.png">
+    <p>Screenshot of the <app>File Roller</app> main window.</p>
+    </media>
+  </figure>
+
+</page>

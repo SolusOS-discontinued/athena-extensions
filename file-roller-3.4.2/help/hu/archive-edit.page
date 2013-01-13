@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-edit" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <link type="seealso" xref="archive-create"/>
+    <desc>Archívum tartalmának módosítása.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Archívum szerkesztése</title>
+
+  <p>A <app>File Roller</app> segítségével módosíthatja a meglévő archívumokat: fájlokat adhat hozzájuk, eltávolíthatja a fölöslegeseket vagy átnevezheti azokat. A mappákat a fájlokkal azonos módon kezelheti.</p>
+
+  <terms>
+    <item>
+    <title><code>Fájlok hozzáadása</code></title>
+    <p>A meglévő archívumhoz fájlokat adhat az <link xref="archive-create"/> oldal utasításait követve.</p>
+    </item>
+    <item>
+    <title><code>Fájlok eltávolítása</code></title>
+      <steps>
+        <item><p>Válassza ki a fájlt.</p></item>
+        <item><p>Válassza ki a <guiseq><gui style="menu">Szerkesztés</gui><gui style="menuitem">Törlés</gui></guiseq> menüpontot, vagy a fájl helyi menüjének <gui>Törlés</gui> pontját.</p></item>
+      </steps>
+    </item>
+    <item>
+    <title><code>Fájlok átnevezése</code></title>
+      <steps>
+        <item><p>Válassza ki a fájlt.</p></item>
+        <item><p>Válassza ki a <guiseq><gui style="menu">Szerkesztés</gui><gui style="menuitem">Átnevezés</gui></guiseq> menüpontot, vagy a fájl helyi menüjének <gui>Átnevezés</gui> pontját</p></item>
+        <item><p>Megnyílik egy ablak. Adja meg az új fájlnevet a szövegmezőben.</p></item>
+        <item><p>Erősítse meg a nevet az <gui>Átnevezés</gui> gomb megnyomásával.</p></item>
+      </steps>
+    </item>
+  </terms>
+
+</page>

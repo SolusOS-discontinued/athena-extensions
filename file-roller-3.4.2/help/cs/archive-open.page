@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-open" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Otevření archivu.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Otevření archivu</title>
+
+  <p>Aplikaci <application>Správce archivů</application> můžete spustit následujícími způsoby:</p>
+
+  <list>
+    <item>
+      <p>Klikněte na <guibutton>Otevřít</guibutton>.</p>
+    </item>
+    <item>
+      <p>Zvolte <menuchoice><guimenu>Archiv</guimenu><guimenuitem>Otevřít</guimenuitem></menuchoice>.</p>
+    </item>
+  </list>
+
+  <p>Také můžete použít volbu <gui>Otevřít nedávný</gui> následujícími způsoby:</p>
+
+  <list>
+    <item>
+      <p>Klikněte na <media type="image" mime="image/png" src="figures/file-roller-open-recent.png">Otevřít nedávno používaný archiv</media> toolbar button and select a file.</p>
+    </item>
+    <item>
+      <p>Pro zobrazení seznamu nedávno použitých archivů zvolte z nabídky <guiseq><gui style="menu">Archiv</gui><gui style="menuitem">Otevřít nedávný</gui>.</guiseq></p>
+    </item>
+  </list>
+
+  <note><p>Pokud se <app>Správci archivů</app> nepodaří otevřít nedávno používaný archiv a zobrazuje se chybová zpráva <gui>Soubor nenalezen</gui>, může to znamenat, že umístění archivu se změnilo. Pokud se tak stane, můžete použít <gui>Otevřít</gui> pro nalezení daného souboru.</p></note>
+
+</page>

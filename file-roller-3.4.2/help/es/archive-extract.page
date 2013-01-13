@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-extract" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <link type="seealso" xref="archive-open"/>
+<!--    <link type="seealso" xref="password-protection"/>-->
+    <link type="seealso" xref="archive-extract-advanced-options"/>
+    <desc>Extraer archivos o carpetas de un archivador</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Extraer un archivador</title>
+
+  <p>Puede extraer archivos de un archivador usando <app>File Roller</app> siguiendo estos pasos:</p>
+
+    <steps>
+      <item><p><link xref="archive-open">Abrir</link> un archivador.</p></item>
+      <item><p>Pulse <guiseq><gui style="menu">Archivador</gui><gui style="menuitem">Extraer…</gui></guiseq> o pulse el botón <gui>Extraer</gui> en la barra de herramientas.</p></item>
+      <item><p>En el gestor de archivos, elija la ubicación en la que se deberán extraer los archivos. Esta será la carpeta de destino.</p>
+      <note style="tip">
+        <p>Hay opciones adicionales en este diálogo. Consulte las <link xref="archive-extract-advanced-options">opciones avanzadas para extraer archivos</link>.</p>
+      </note>
+      </item>
+      <item><p>Pulse <gui>Extraer</gui>.</p></item>
+      <item><p>Si un archivador está protegido con contraseña, <app>File Roller</app> se la pedirá. Escriba la contraseña y pulse <gui>Aceptar</gui>.</p></item>
+      <item><p>La aplicación mostrará la barra de progreso en el diálogo nuevo. Si la extracción termina correctamente, se le preguntará si quiere:</p>
+        <list>
+          <item><p><gui>Salir</gui>: esta opción cierra <app>File Roller</app></p></item>
+          <item><p><gui>Mostrar los archivos</gui>: al pulsar esto, la carpeta de destino se abrirá en <app>Athena</app></p></item>
+          <item><p><gui>Cerrar</gui>: el diálogo se cerrará y verá su archivador de nuevo</p></item>
+        </list>
+      </item>
+    </steps>
+
+</page>

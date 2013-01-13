@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-create" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Ajouter des fichiers ou des dossiers à votre nouvelle archive.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  </info>
+
+  <title>Création d'une nouvelle archive</title>
+
+  <p>Créez une nouvelle archive avec <app>File Roller</app> en suivant ces étapes :</p>
+
+  <steps>
+    <item>
+      <p>Cliquez sur le bouton <gui>Crée une nouvelle archive</gui> de la barre d'outils ou cliquez sur <guiseq><gui style="menu">Archive</gui><gui style="menuitem">Nouveau…</gui></guiseq> dans le menu.</p>
+    </item>
+    <item>
+      <p>La fenêtre de sélection de fichiers s'ouvre. Utilisez-la pour donner un nom à votre nouvelle archive, choisissez son emplacement et cliquez sur <gui>Créer</gui>.</p>
+      <note style="tip">
+        <p>Dans cette boîte de dialogue, vous pouvez choisir le type de format de fichier que vous souhaitez utiliser, les extensions disponibles se trouvent dans la liste en dessous. En cliquant sur <gui>Autres options</gui>, vous pouvez définir un mot de passe ou découper votre nouvelle archive en plus petits volumes. Vous devez spécifier la taille de chaque volume en <gui>Mio</gui>.</p>
+      </note>
+    </item>
+    <item>
+      <p>Ajoutez les fichiers que vous voulez à votre archive avec le bouton <gui>Ajoute des fichiers à l'archive</gui> de la barre d'outils, ou en cliquant sur <guiseq><gui style="menu">Édition</gui><gui style="menuitem">Ajouter des fichiers…</gui></guiseq> dans le menu. <app>File Roller</app> vous permet aussi d'ajouter des dossiers complets en cliquant sur <gui>Ajoute un dossier à l'archive</gui> de la barre d'outils, ou en cliquant sur <guiseq><gui style="menu">Édition</gui><gui style="menuitem">Ajouter un dossier…</gui></guiseq> dans le menu.</p>
+      <note style="tip">
+        <p>Quand vous ajoutez un dossier à votre archive, vous avez à votre disposition quelques options :</p>
+        <list>
+          <item><p>Inclure ou non les sous-dossiers</p></item>
+          <item><p>Choisir les fichiers à inclure</p></item>
+          <item><p>Sélectionner les sous-dossiers et les fichiers à exclure</p></item>
+        </list>
+      </note>
+    </item>
+    <item>
+      <p>Quand vous avez fini d'ajouter des fichiers, votre archive est prête.</p>
+    </item>
+  </steps>
+
+</page>

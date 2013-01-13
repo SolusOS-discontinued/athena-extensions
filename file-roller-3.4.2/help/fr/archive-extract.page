@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-extract" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <link type="seealso" xref="archive-open"/>
+<!--    <link type="seealso" xref="password-protection"/>-->
+    <link type="seealso" xref="archive-extract-advanced-options"/>
+    <desc>Extraire des fichiers ou des dossiers de votre archive</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  </info>
+
+  <title>Extraction d'une archive</title>
+
+  <p>Pour extraire des fichiers d'une archive avec <app>File Roller</app>, suivez ces étapes :</p>
+
+    <steps>
+      <item><p><link xref="archive-open">Ouvrir</link> une archive.</p></item>
+      <item><p>Cliquez sur <guiseq><gui style="menu">Archive</gui><gui style="menuitem">Extraire…</gui></guiseq> ou cliquez sur le bouton <gui>Extraire</gui> dans la barre d'outils.</p></item>
+      <item><p>Choisissez l'endroit où extraire les fichiers dans la fenêtre du navigateur de fichiers. Ce sera le dossier de destination.</p>
+      <note style="tip">
+        <p>Il y a des options supplémentaires dans cette fenêtre de dialogue. Consultez les <link xref="archive-extract-advanced-options">options avancées pour extraire des archives</link>.</p>
+      </note>
+      </item>
+      <item><p>Cliquez sur <gui>Extraire</gui>.</p></item>
+      <item><p>Si une archive est protégée par mot de passe, <app>File Roller</app> le demande. Saisissez le mot de passe et cliquez sur <gui>Valider</gui>.</p></item>
+      <item><p>L'application affiche une barre de progression dans une nouvelle boîte de dialogue. Si l'extraction se termine correctement, il vous est alors demandé si vous voulez :</p>
+        <list>
+          <item><p><gui>Quitter</gui> - cette option ferme <app>File Roller</app>.</p></item>
+          <item><p><gui>Afficher les fichiers</gui> - si vous cliquez sur ce bouton, le dossier de destination s'ouvre dans <app>Athena</app>.</p></item>
+          <item><p><gui>Fermer</gui> - la boîte de dialogue se ferme et vous voyez à nouveau le contenu de votre archive.</p></item>
+        </list>
+      </item>
+    </steps>
+
+</page>

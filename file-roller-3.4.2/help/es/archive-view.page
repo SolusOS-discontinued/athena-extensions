@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-view" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <desc>Ver un archivo existente y su contenido</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Ver como un archivador</title>
+
+  <p>Hay dos maneras de ver un archivador:</p>
+
+  <list>
+    <item>
+    <p>Ver todos los archivos</p>
+      <p>Para usar esta vista, pulse <guiseq><gui style="menu">Ver</gui><gui style="menuitem">Ver todos los archivos</gui></guiseq>. <app>File Roller</app> listará todos los archivos del archivador. Verá sus nombres, tamaños, tipos, fechas de la última modificación y ubicaciones.</p>
+        <note style="tip">
+          <p>Puede usar las cabeceras de las columnas mencionadas (nombre, tamaño) para ordenar los archivos del archivador. Hágalo pulsando sobre ellas, y pulsando otra vez sobre la misma para invertir el orden.</p>
+        </note>
+    </item>
+    <item>
+    <p>Ver como una carpeta</p>
+      <p>Esta vista muestra la estructura clásica de carpetas. Para usarla, pulse en <guiseq><gui style="menu">Ver</gui><gui style="menuitem">Ver como una carpeta</gui></guiseq>.</p>
+        <note style="tip">
+          <p>Mientras está viendo el archivador de esta manera, pulse <key>F9</key>, o pulse en la opción <guiseq><gui style="menu">Ver</gui><gui style="menuitem">Carpetas</gui></guiseq>. Verá una vista en árbol de las carpetas en el panel lateral. Esto le permite navegar fácilmente entre las carpetas.</p>
+        </note>
+    </item>
+  </list>
+
+  <section id="file-open">
+    <title>Abrir archivos en el archivador</title>
+    <p>Abra archivos que estén en su archivador pulsando dos veces sobre el nombre del archivo, o pulse con el botón derecho sobre el nombre del archivo y elija <gui>Abrir</gui>. <app>File Roller</app> abrirá el archivo con la aplicación predeterminada para ese tipo de archivo.</p>
+      <note>
+        <p>Abra el archivo con otra aplicación siguiendo estos pasos:</p>
+          <steps>
+            <item><p>Seleccione el archivo</p></item>
+            <item><p>Pulse con el botón derecho</p></item>
+            <item><p>Pulse en <gui>Abrir con...</gui></p></item>
+          </steps>
+      </note>
+  </section>
+
+
+</page>

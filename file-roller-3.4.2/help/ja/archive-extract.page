@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-extract" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#managing-archives"/>
+    <link type="seealso" xref="archive-open"/>
+<!--    <link type="seealso" xref="password-protection"/>-->
+    <link type="seealso" xref="archive-extract-advanced-options"/>
+    <desc>アーカイブからファイルまたはフォルダーを展開</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>アーカイブの展開</title>
+
+  <p>以下の手順で <app>File Roller</app> を利用してアーカイブからファイルを展開します。</p>
+
+    <steps>
+      <item><p>任意のアーカイブを<link xref="archive-open">開きます</link>。</p></item>
+      <item><p><guiseq><gui style="menu">アーカイブ</gui><gui style="menuitem">展開…</gui></guiseq>をクリックするか、<gui>展開</gui>というツールバーボタンをクリックします。</p></item>
+      <item><p>ファイル選択ダイアログでファイルを展開する場所を選択します。これが、展開先フォルダーとなります。</p>
+      <note style="tip">
+        <p>このダイアログには、追加のオプションが存在します。<link xref="archive-extract-advanced-options">アーカイブ展開に関する高度なオプション</link>を参照してください。</p>
+      </note>
+      </item>
+      <item><p><gui>展開</gui>をクリックする。</p></item>
+      <item><p>アーカイブがパスワードにより保護されている場合、<app>File Roller</app> がパスワードを要求します。パスワードを入力し、<gui>OK</gui> をクリックします。</p></item>
+      <item><p>アプリケーションは、新しいダイアログでプログレスバーを表示します。展開が成功すれば、次にどうするか以下のオプションから選択するよう尋ねられます。</p>
+        <list>
+          <item><p><gui>終了</gui> - このオプションは、<app>File Roller</app> を閉じます。</p></item>
+          <item><p><gui>ファイルを表示する</gui> - これをクリックすると <app>Athena</app> で展開先のフォルダーを開きます。</p></item>
+          <item><p><gui>閉じる</gui> - このダイアログを閉じます。再び、アーカイブを閲覧できます。</p></item>
+        </list>
+      </item>
+    </steps>
+
+</page>

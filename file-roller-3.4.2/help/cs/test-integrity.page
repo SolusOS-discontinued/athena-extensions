@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="test-integrity" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <desc>Test integrity archivu</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Test integrity</title>
+
+  <p><app>Správce archivů</app> vám umožňuje zkontrolovat, zda jsou zkomprimovaná data v archivu v pořádku. Toto můžete provést kliknutím na <guiseq><gui style="menu">Archiv</gui><gui style="menuitem">Otestovat integritu</gui></guiseq>.</p>
+
+  <p>Zobrazí se dialog s <gui>Výsledkem testu</gui>. Uvidíte seznam testovaných souborů a na konci dialogu také shrnutí testu.</p>
+
+  <note style="advanced">
+    <p>Test integrity zjistil, že vaše data jsou v pořádku.</p>
+  </note>
+
+</page>

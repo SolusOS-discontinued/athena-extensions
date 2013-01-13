@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="introduction" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <desc>Einführung in die Anwendung <app>Archivmanager</app>.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Einführung</title>
+
+  <p>Der <app>Archivmanager</app> ist eine Anwendung für die Verwaltung von Archiven und ist für eine einfache Bedienung ausgelegt. Ihnen stehen sämtliche zum Erstellen, Ändern oder Entpacken von Archiven notwendigen Werkzeuge zur Verfügung.</p>
+
+  <note style="advanced">
+    <p>Ein Archiv besteht aus einer oder mehreren Dateien sowie Metadaten. Es kann teilweise oder als Ganzes verschlüsselt werden. Durch Zusammenfassen von mehreren Dateien in einer einzigen Datei können solche Archivdateien die Datenspeicherung und -übertragung zwischen Rechnern vereinfachen.</p>
+  </note>
+
+  <p>Mit dem <app>Archivmanager</app> können Sie:</p>
+  <list>
+    <item><p>Ein neues Archiv durch Zusammenstellen von Dateien oder Ordnern erstellen</p></item>
+    <item><p>Den Inhalt eines vorhandenen Archivs anzeigen</p></item>
+    <item><p>Eine Datei aus einem Archiv anzeigen</p></item>
+    <item><p>Vorhandene Archive verändern</p></item>
+    <item><p>Dateien aus einem Archiv entpacken</p></item>
+  </list>
+
+  <figure>
+    <title>Das Hauptfenster des <gui>Archivmanagers</gui></title>
+    <media type="image" mime="image/png" src="figures/file-roller-main-window.png">
+    <p>Bildschirmfoto des <app>Archivmanagers</app></p>
+    </media>
+  </figure>
+
+</page>

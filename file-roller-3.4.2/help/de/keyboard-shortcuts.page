@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="keyboard-shortcuts" xml:lang="de">
+
+<info>
+  <link type="guide" xref="index#advanced-options"/>
+  <desc>Eine Liste der Tastenkombinationen des <app>Archivmanagers</app>.</desc>
+  <credit type="author">
+    <name>Marta Bogdanowicz</name>
+    <email>majus85@gmail.com</email>
+  </credit>
+  <license>
+    <p>Creative Commons Share Alike 3.0</p>
+  </license>
+</info>
+
+  <title>Tastenkombinationen</title>
+
+  <p>Mit Tastenkombinationen können Sie Ihre Arbeitsabläufe beschleunigen. In der nachfolgenden Tabelle werden Tastenkombinationen aufgelistet, die Sie im <app>Archivmanager</app> verwenden können.</p>
+
+  <table frame="all" shade="rows">
+    <tr>
+      <td><p>Ein neues Archiv erstellen</p></td>
+      <td><p><keyseq><key>Strg</key><key>N</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Ein Archiv öffnen</p></td>
+      <td><p><keyseq><key>Strg</key><key>O</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Ein Archiv entpacken</p></td>
+      <td><p><keyseq><key>Strg</key><key>E</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Die Archiveigenschaften anzeigen</p></td>
+      <td><p><keyseq><key>Alt</key><key>Eingabetaste</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Schließen</p></td>
+      <td><p><keyseq><key>Strg</key><key>W</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Ausschneiden</p></td>
+      <td><p><keyseq><key>Strg</key><key>X</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Kopieren</p></td>
+      <td><p><keyseq><key>Strg</key><key>C</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Einfügen</p></td>
+      <td><p><keyseq><key>Strg</key><key>V</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Dateien oder Ordner in einem Archiv umbenennen</p></td>
+      <td><p><key>F2</key></p></td>
+    </tr>
+    <tr>
+      <td><p>Alles auswählen</p></td>
+      <td><p><keyseq><key>Strg</key><key>A</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Auswahl aufheben</p></td>
+      <td><p><keyseq><key>Umschalttaste</key><key>Strg</key><key>A</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Suchen</p></td>
+      <td><p><keyseq><key>Strg</key><key>F</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Dateien oder Ordner aus einem Archiv löschen</p></td>
+      <td><p><key>Löschen</key></p></td>
+    </tr>
+    <tr>
+      <td><p>In der Seitenleiste die Ordner in einer Baumansicht anzeigen</p></td>
+      <td><p><key>F9</key></p></td>
+    </tr>
+    <tr>
+      <td><p>Den Inhalt eines Archivs als Dateiliste anzeigen</p></td>
+      <td><p><keyseq><key>Strg</key><key>1</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Den Inhalt eines Archivs als Ordnerstruktur anzeigen</p></td>
+      <td><p><keyseq><key>Strg</key><key>2</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Den Vorgang abbrechen</p></td>
+      <td><p><key>Esc</key></p></td>
+    </tr>
+    <tr>
+      <td><p>Aktualisieren</p></td>
+      <td><p><keyseq><key>Strg</key><key>R</key></keyseq></p></td>
+    </tr>
+    <tr>
+      <td><p>Den Inhalt der Hilfe anzeigen</p></td>
+      <td><p><key>F1</key></p></td>
+    </tr>
+  </table>
+
+</page>

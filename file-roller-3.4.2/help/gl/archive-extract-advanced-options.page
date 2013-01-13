@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="archive-extract-advanced-options" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <desc>Especifique as súas preferencias para extraer arquivos.</desc>
+    <credit type="author">
+      <name>Marta Bogdanowicz</name>
+      <email>majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  </info>
+
+  <title>Opcións avanzadas para extraer arquivos</title>
+
+  <p><app>File Roller</app> ofrece diferentes opcións para extraer un arquivo. Pode ver estas opcións no diálogo do selector de ficheiros que usa para escoller a localización dos ficheiros extraídos. Na parte inferior deste diálogo, pode decidir se quere extraer:</p>
+  <terms>
+    <item>
+      <title><gui>Todos os ficheiros</gui></title>
+        <p>extraerase todo o arquivo</p>
+    </item>
+    <item>
+      <title><gui>Ficheiros seleccionados</gui></title>
+        <p><app>File Roller</app> extrae só os ficheiros seleccionados</p>
+          <note>
+          <p>Seleccióneos antes de premer <guiseq><gui style="menu">Arquivo</gui><gui style="menuitem">Extraer…</gui></guiseq>. Pode facelo premendo sobre o nome do arquivo. Prema <key>Ctrl</key> ou <key>Maiús</key>, para seleccionar máis dun arquivo.</p>
+          </note>
+    </item>
+    <item>
+      <title><gui>Ficheiros</gui></title>
+        <p>pode escribir os nomes dos ficheiros que quere extraer</p>
+          <note>
+          <p>O nome de ficheiro debe ter unha extensión. Por exemplo, pode extraer todoso os ficheiros <file>.txt</file> escribindo <file>*.txt</file>.</p>
+          </note>
+    </item>
+  </terms>
+
+  <p>No diálogo do selector de ficheiros pode escoller se quere:</p>
+  <terms>
+    <item>
+      <title><gui>Recrear cartafoles</gui></title>
+        <p>Marque esta opción se quere manter a estrutura de cartafoles, tal e como estaba no arquivador</p>
+    </item>
+    <item>
+      <title><gui>Sobrescribir ficheiros existentes</gui></title>
+        <p>Se o seu arquivo contén ficheiros co mesmo nome que os do cartafol de destino, <app>File Roller</app> sobrescribiraos durante a extracción se esta opción está activada</p>
+    </item>
+    <item>
+      <title><gui>Do not extract older files</gui></title>
+        <p>Esta opción non sobrescribirá ficheiros existentes co mesmo nome que teñan unha data de modificación máis recente que a dos que están no arquivo.</p>
+    </item>
+  </terms>
+
+  <p>Estas <gui>Accións</gui> móstranse na parte inferior do diálogo.</p>
+
+  <note style="advanced">
+    <p>A opcións <gui>Non extraer arquivos máis antigos</gui> só está dispoñíbel cando a opción <gui>Sobrescribir ficheiros existentes</gui> está activada.</p>
+  </note>
+
+</page>
